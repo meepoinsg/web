@@ -1,0 +1,109 @@
+[
+  {
+    "id": "restaurant-01",
+    "type": "restaurant",
+    "name": "Jumbo Seafood (East Coast)",
+    "nameCn": "珍宝海鲜 (东海岸店)",
+    "area": "East Coast",
+    "postalCode": "449881",
+    "coordinates": [
+      1.3031,
+      103.9317
+    ],
+    "tags": [
+      "商务宴请",
+      "海景",
+      "辣椒螃蟹",
+      "适合多人"
+    ],
+    "rating": 4.6,
+    "description": "新加坡老牌海鲜餐厅，招牌辣椒螃蟹配炸馒头，紧邻海边，适合晚餐。",
+    "address": "1206 East Coast Parkway, Singapore 449881",
+    "mapLink": "https://maps.google.com/?q=Jumbo+Seafood+East+Coast+Singapore",
+    "bookingUrl": "https://www.jumboseafood.com.sg/reservations",
+    "openingHours": "11:30 AM - 11:00 PM",
+    "suggestedDuration": "1.5 小时",
+    "photos": [],
+    "menuPhotos": []
+  },
+  {
+    "id": "restaurant-02",
+    "type": "restaurant",
+    "name": "Maxwell Food Centre",
+    "nameCn": "麦士威熟食中心",
+    "area": "Chinatown",
+    "postalCode": "069184",
+    "coordinates": [
+      1.2802,
+      103.8447
+    ],
+    "tags": [
+      "平价",
+      "本地小吃",
+      "海南鸡饭"
+    ],
+    "rating": 4.4,
+    "description": "本地知名小贩中心，天天海南鸡饭排队常客，适合体验新加坡日常饮食文化。",
+    "address": "1 Kadayanallur St, Singapore 069184",
+    "mapLink": "https://maps.google.com/?q=Maxwell+Food+Centre+Singapore",
+    "bookingUrl": "",
+    "openingHours": "8:00 AM - 10:00 PM（各摊位略有不同）",
+    "suggestedDuration": "1 小时",
+    "photos": [],
+    "menuPhotos": []
+  },
+  {
+    "id": "attraction-01",
+    "type": "attraction",
+    "name": "Gardens by the Bay",
+    "nameCn": "滨海湾花园",
+    "area": "Marina Bay",
+    "postalCode": "018953",
+    "coordinates": [
+      1.2816,
+      103.8636
+    ],
+    "tags": [
+      "网红",
+      "夜景",
+      "免费",
+      "室内避雨"
+    ],
+    "rating": 4.8,
+    "description": "新加坡地标级景点，超级树、云雾林、花穹三大看点，傍晚灯光秀室外免费观看。",
+    "address": "18 Marina Gardens Dr, Singapore 018953",
+    "mapLink": "https://maps.google.com/?q=Gardens+by+the+Bay+Singapore",
+    "bookingUrl": "https://www.gardensbythebay.com.sg/en/tickets.html",
+    "openingHours": "5:00 AM - 2:00 AM",
+    "suggestedDuration": "2-3 小时",
+    "photos": [],
+    "menuPhotos": []
+  },
+  {
+    "id": "attraction-02",
+    "type": "attraction",
+    "name": "East Coast Park",
+    "nameCn": "东海岸公园",
+    "area": "East Coast",
+    "postalCode": "449876",
+    "coordinates": [
+      1.308,
+      103.912
+    ],
+    "tags": [
+      "小众",
+      "亲子",
+      "免费",
+      "骑行"
+    ],
+    "rating": 4.5,
+    "description": "本地人周末骑车、烧烤、看海的地方，沿海骑行道很长，适合租自行车逛一圈。",
+    "address": "East Coast Park, Singapore",
+    "mapLink": "https://maps.google.com/?q=East+Coast+Park+Singapore",
+    "bookingUrl": "",
+    "openingHours": "全天开放",
+    "suggestedDuration": "2 小时",
+    "photos": [],
+    "menuPhotos": []
+  }
+]
