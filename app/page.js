@@ -8,6 +8,7 @@ import TagFilter from "../components/TagFilter";
 import ViewToggle from "../components/ViewToggle";
 import PlaceCard from "../components/PlaceCard";
 import PlaceModal from "../components/PlaceModal";
+import { allCategoryLabels, categoryKeyByLabel } from "../lib/categories";
 
 // Leaflet 依赖 window/document，必须禁用SSR，只在浏览器端加载
 const MapView = dynamic(() => import("../components/MapView"), {
@@ -21,21 +22,22 @@ export default function Home() {
   const [view, setView] = useState("list");
   const [activeFilter, setActiveFilter] = useState("全部");
   const [keyword, setKeyword] = useState("");
-  const [modal, setModal] = useState(null); // { place, tab }
+  const [openPlace, setOpenPlace] = useState(null);
 
   const filterOptions = useMemo(() => {
     const tagSet = new Set();
     places.forEach((p) => (p.tags || []).forEach((t) => tagSet.add(t)));
-    return ["全部", "餐厅", "景点", ...Array.from(tagSet)];
+    return ["全部", ...allCategoryLabels(), ...Array.from(tagSet)];
   }, []);
 
   const filtered = useMemo(() => {
     const kw = keyword.trim().toLowerCase();
+    const filterType = categoryKeyByLabel(activeFilter);
     return places.filter((p) => {
       let filterOk = true;
-      if (activeFilter === "餐厅") filterOk = p.type === "restaurant";
-      else if (activeFilter === "景点") filterOk = p.type === "attraction";
-      else if (activeFilter !== "全部") filterOk = (p.tags || []).includes(activeFilter);
+      if (activeFilter !== "全部") {
+        filterOk = filterType ? p.type === filterType : (p.tags || []).includes(activeFilter);
+      }
 
       const kwOk =
         !kw ||
@@ -79,28 +81,15 @@ export default function Home() {
         {view === "list" && filtered.length > 0 && (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {filtered.map((p) => (
-              <PlaceCard
-                key={p.id}
-                place={p}
-                onOpen={(place) => setModal({ place, tab: "info" })}
-                onOpenMenu={(place) => setModal({ place, tab: "menu" })}
-              />
+              <PlaceCard key={p.id} place={p} onOpen={setOpenPlace} />
             ))}
           </div>
         )}
 
-        {view === "map" && (
-          <MapView places={filtered} onOpen={(place) => setModal({ place, tab: "info" })} />
-        )}
+        {view === "map" && <MapView places={filtered} onOpen={setOpenPlace} />}
       </div>
 
-      {modal && (
-        <PlaceModal
-          place={modal.place}
-          initialTab={modal.tab}
-          onClose={() => setModal(null)}
-        />
-      )}
+      {openPlace && <PlaceModal place={openPlace} onClose={() => setOpenPlace(null)} />}
     </main>
   );
 }

@@ -1,7 +1,21 @@
 "use client";
 
-export default function PlaceCard({ place, onOpen, onOpenMenu }) {
+import { getCategory } from "../lib/categories";
+
+function priceLine(place) {
+  const f = place.restaurantFeatures;
+  if (!f) return null;
+  if (f.avgSpendSGD) return `人均 S$${f.avgSpendSGD}`;
+  if (f.avgSpendMinSGD && f.avgSpendMaxSGD) {
+    return `人均 S$${f.avgSpendMinSGD}-${f.avgSpendMaxSGD}`;
+  }
+  return null;
+}
+
+export default function PlaceCard({ place, onOpen }) {
+  const cat = getCategory(place.type);
   const cover = place.photos && place.photos[0];
+  const price = priceLine(place);
 
   return (
     <div className="bg-white rounded-2xl border border-[var(--line)] overflow-hidden">
@@ -17,14 +31,11 @@ export default function PlaceCard({ place, onOpen, onOpenMenu }) {
             className="w-full h-full object-cover"
             onError={(e) => {
               e.currentTarget.style.display = "none";
-              e.currentTarget.parentElement.innerText =
-                place.type === "restaurant" ? "🍽️" : "📍";
+              e.currentTarget.parentElement.innerText = cat.icon;
             }}
           />
-        ) : place.type === "restaurant" ? (
-          "🍽️"
         ) : (
-          "📍"
+          cat.icon
         )}
       </div>
 
@@ -32,8 +43,9 @@ export default function PlaceCard({ place, onOpen, onOpenMenu }) {
         <h3 className="font-semibold text-base m-0">{place.nameCn || place.name}</h3>
         <p className="text-xs text-gray-500 m-0 mt-0.5">{place.name}</p>
         <div className="text-xs text-gray-500 mt-1.5">
-          {place.area}
+          {cat.label} · {place.area}
           {place.rating ? ` · ⭐ ${place.rating}` : ""}
+          {price ? ` · ${price}` : ""}
           {place.suggestedDuration ? ` · ${place.suggestedDuration}` : ""}
         </div>
         <p className="text-sm text-gray-600 mt-2 line-clamp-2">{place.description}</p>
@@ -50,27 +62,27 @@ export default function PlaceCard({ place, onOpen, onOpenMenu }) {
       </div>
 
       <div className="flex gap-2 px-4 pb-4">
-        {place.bookingUrl ? (
+        {place.mapLink ? (
           <a
-            href={place.bookingUrl}
+            href={place.mapLink}
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 text-center text-sm bg-accent text-white rounded-lg py-2"
             onClick={(e) => e.stopPropagation()}
           >
-            立即预订
+            地图
           </a>
         ) : null}
-        {place.menuPhotos && place.menuPhotos.length > 0 ? (
-          <button
+        {place.bookingUrl ? (
+          <a
+            href={place.bookingUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex-1 text-center text-sm border border-[var(--line)] rounded-lg py-2"
-            onClick={(e) => {
-              e.stopPropagation();
-              onOpenMenu(place);
-            }}
+            onClick={(e) => e.stopPropagation()}
           >
-            查看菜单/图片
-          </button>
+            预订
+          </a>
         ) : null}
       </div>
     </div>

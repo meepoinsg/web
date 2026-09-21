@@ -3,14 +3,14 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { getCategory } from "../lib/categories";
 
 const SINGAPORE_CENTER = [1.3521, 103.8198];
 
 function makeIcon(type) {
-  const color = type === "restaurant" ? "#e0562f" : "#2563eb";
-  const emoji = type === "restaurant" ? "🍽️" : "📍";
+  const cat = getCategory(type);
   return L.divIcon({
-    html: `<div style="background:${color};width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.35);">${emoji}</div>`,
+    html: `<div style="background:${cat.color};width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,.35);">${cat.icon}</div>`,
     className: "",
     iconSize: [28, 28],
     iconAnchor: [14, 14],
@@ -28,32 +28,35 @@ export default function MapView({ places, onOpen }) {
         />
         {places
           .filter((p) => Array.isArray(p.coordinates) && p.coordinates.length === 2)
-          .map((p) => (
-            <Marker key={p.id} position={p.coordinates} icon={makeIcon(p.type)}>
-              <Popup>
-                <div style={{ width: 160 }}>
-                  <strong>{p.nameCn || p.name}</strong>
-                  <div style={{ fontSize: 12, color: "#6b7280", margin: "4px 0" }}>
-                    {p.area}
-                    {p.rating ? ` · ⭐${p.rating}` : ""}
+          .map((p) => {
+            const cat = getCategory(p.type);
+            return (
+              <Marker key={p.id} position={p.coordinates} icon={makeIcon(p.type)}>
+                <Popup>
+                  <div style={{ width: 160 }}>
+                    <strong>{p.nameCn || p.name}</strong>
+                    <div style={{ fontSize: 12, color: "#6b7280", margin: "4px 0" }}>
+                      {cat.label} · {p.area}
+                      {p.rating ? ` · ⭐${p.rating}` : ""}
+                    </div>
+                    <button
+                      style={{
+                        fontSize: 13,
+                        color: "#e0562f",
+                        background: "none",
+                        border: "none",
+                        padding: 0,
+                        cursor: "pointer",
+                      }}
+                      onClick={() => onOpen(p)}
+                    >
+                      查看详情 →
+                    </button>
                   </div>
-                  <button
-                    style={{
-                      fontSize: 13,
-                      color: "#e0562f",
-                      background: "none",
-                      border: "none",
-                      padding: 0,
-                      cursor: "pointer",
-                    }}
-                    onClick={() => onOpen(p)}
-                  >
-                    查看详情 →
-                  </button>
-                </div>
-              </Popup>
-            </Marker>
-          ))}
+                </Popup>
+              </Marker>
+            );
+          })}
       </MapContainer>
     </div>
   );
