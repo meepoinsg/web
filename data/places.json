@@ -109,6 +109,61 @@
     }
   },
   {
+    "id": "attraction-03_sentosa_yatch",
+    "type": "attraction",
+    "name": "Sentosa Yacht Charter (Infinity Sails)",
+    "nameCn": "圣淘沙游艇俱乐部--游艇出海",
+    "area": "Sentosa",
+    "postalCode": "098537",
+    "coordinates": [
+      1.2427,
+      103.8417
+    ],
+    "tags": [
+      "游艇出海",
+      "海上BBQ",
+      "团队聚会",
+      "拉扎鲁斯岛",
+      "水上活动"
+    ],
+    "rating": 4.8,
+    "description": "由 Infinity Sails 提供的 46 英尺双体动力游艇（MY Escapade）出海体验，最大承载约 30-32 人。航线自圣淘沙升涛湾出发前往南部岛屿（如 Lazarus Island），船上配备飞桥区、空调休息室、KTV 音响及 BBQ 烧烤设施，非常适合团体出海与水上娱乐。",
+    "address": "1 Cove Ave, #02-12 Sentosa Cove Arrival Plaza, Singapore 098537",
+    "mapLink": "https://maps.google.com/?q=1+Cove+Ave,+Singapore+098537",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "预订制（典型出海时段如 10:00 - 15:00，共 5 小时）需找到对应船只中介的Whatsapp号码预定",
+    "suggestedDuration": "4-5 小时",
+    "attractionFeatures": {
+      "subCategory": "海上游艇/水上体验",
+      "bestTimeVisit": "白天出航（如 10:00 - 15:00，适合水上活动与海上 BBQ），傍晚出航（16:00-20:00，更加凉爽且拥有无遮挡夜景）",
+      "weatherAdaptability": "mixed",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "包船租赁按套餐与人数计费（参考：包船约 S$1,320/10人，随后S$70/人；BBQ 食材需额外采购，配送到码头）",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "46英尺动力双体游艇（MY Escapade），行驶稳定且空间宽敞",
+        "新加坡南部岛屿巡航（Lazarus Island / Eagle Bay 停泊游玩）",
+        "配备飞桥活动区、空调Saloon休息室、KTV音响与海上BBQ设施"
+      ],
+      "suitableFor": [
+        "团队聚会",
+        "公司团建",
+        "亲子家庭",
+        "朋友派对"
+      ],
+      "facilities": [
+        "室内空调休息区",
+        "船上KTV/音响系统",
+        "BBQ烧烤设施",
+        "冰箱/冷藏柜",
+        "淋浴与卫生间",
+        "客舱更衣室"
+      ]
+    },
+    "photos": []
+  },
+  {
     "id": "restaurant-01",
     "type": "restaurant",
     "name": "Jumbo Seafood (East Coast)",
