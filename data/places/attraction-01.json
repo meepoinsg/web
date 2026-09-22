@@ -1,0 +1,39 @@
+{
+  "id": "attraction-01",
+  "type": "attraction",
+  "name": "Gardens by the Bay",
+  "nameCn": "滨海湾花园",
+  "area": "Marina Bay",
+  "postalCode": "018953",
+  "coordinates": [1.2816, 103.8636],
+  "tags": ["网红", "夜景", "免费", "室内避雨"],
+  "rating": 4.8,
+  "description": "新加坡地标级景点，超级树、云雾林、花穹三大看点，傍晚灯光秀室外免费观看。建议下午16点后再去，避开正午暴晒，顺便看晚上的灯光秀。",
+  "address": "18 Marina Gardens Dr, Singapore 018953",
+  "mapLink": "https://maps.google.com/?q=Gardens+by+the+Bay+Singapore",
+  "bookingUrl": "https://www.gardensbythebay.com.sg/en/tickets.html",
+  "guideUrl": "",
+  "openingHours": "5:00 AM - 2:00 AM（云雾林/花穹 9:00 AM - 9:00 PM）",
+  "suggestedDuration": "2-3 小时",
+  "photos": [
+    "https://picsum.photos/seed/gardens1/900/700",
+    "https://picsum.photos/seed/gardens2/900/700",
+    "https://picsum.photos/seed/gardens3/900/700",
+    "https://picsum.photos/seed/gardens4/900/700"
+  ],
+  "attractionFeatures": {
+    "subCategory": "自然风光/主题公园",
+    "bestTimeVisit": "16:00 后（避开正午暴晒，顺便看 19:45 灯光秀）",
+    "weatherAdaptability": "mixed",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "户外区域免费；云雾林/花穹成人约 S$32-53",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "云雾林 (Cloud Forest) 35米高室内瀑布",
+      "超级树灯光秀 (Garden Rhapsody, 每日 19:45 / 20:45)",
+      "OCBC Skyway 空中走廊"
+    ],
+    "suitableFor": ["亲子家庭", "情侣约会", "摄影爱好者", "带长辈"],
+    "facilities": ["无障碍轮椅通道", "婴儿车友好", "行李寄存"]
+  }
+}

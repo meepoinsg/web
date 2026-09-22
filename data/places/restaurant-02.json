@@ -1,0 +1,39 @@
+{
+  "id": "restaurant-02",
+  "type": "restaurant",
+  "name": "Maxwell Food Centre",
+  "nameCn": "麦士威熟食中心",
+  "area": "Chinatown",
+  "postalCode": "069184",
+  "coordinates": [1.2802, 103.8447],
+  "tags": ["平价", "本地小吃", "海南鸡饭"],
+  "rating": 4.4,
+  "description": "本地知名小贩中心，天天海南鸡饭排队常客，适合体验新加坡日常饮食文化。摊位很多，可以几个人分开点几样一起吃，人均很便宜。",
+  "address": "1 Kadayanallur St, Singapore 069184",
+  "mapLink": "https://maps.google.com/?q=Maxwell+Food+Centre+Singapore",
+  "bookingUrl": "",
+  "guideUrl": "",
+  "openingHours": "8:00 AM - 10:00 PM（各摊位略有不同）",
+  "suggestedDuration": "1 小时",
+  "photos": [
+    "https://picsum.photos/seed/maxwell1/900/700",
+    "https://picsum.photos/seed/maxwell2/900/700"
+  ],
+  "restaurantFeatures": {
+    "cuisine": ["本地小吃", "海南鸡饭", "中式"],
+    "priceLevel": "$",
+    "avgSpendSGD": 8,
+    "avgSpendMinSGD": 5,
+    "avgSpendMaxSGD": 15,
+    "signatureDishes": ["天天海南鸡饭", "老伴豆花水"],
+    "atmosphere": ["市井日常", "朋友聚会"],
+    "dressCode": "",
+    "seatingOptions": ["室外风扇区"],
+    "dietaryIsHalal": false,
+    "dietaryHasVegetarian": true,
+    "dietaryPorkFree": false,
+    "reservationRequired": false,
+    "reservationDifficulty": "",
+    "reservationPlatform": ""
+  }
+}

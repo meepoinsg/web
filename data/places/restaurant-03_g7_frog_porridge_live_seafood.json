@@ -1,0 +1,63 @@
+{
+  "id": "restaurant-03_g7_frog_porridge_live_seafood",
+  "type": "restaurant",
+  "name": "G7 Frog Porridge & Live Seafood",
+  "nameCn": "G7新马活海鲜田鸡粥",
+  "area": "Geylang",
+  "postalCode": "389239",
+  "coordinates": [
+    1.311598,
+    103.874555
+  ],
+  "tags": [
+    "田鸡粥",
+    "宵夜",
+    "海鲜",
+    "煮炒",
+    "网红"
+  ],
+  "rating": 4.6,
+  "description": "芽笼知名的老牌海鲜与田鸡粥餐厅，招牌宫保田鸡和姜葱田鸡肉质鲜嫩，酱汁浓郁，搭配绵密的砂煲白粥是绝佳的宵夜选择，同时也提供辣椒螃蟹等丰富的本地特色煮炒海鲜。",
+  "address": "161, 163 Geylang Road, Lorong 3 Geylang, Singapore 389239",
+  "mapLink": "https://maps.app.goo.gl/DxgL6oRMb5SpYkbJ8",
+  "bookingUrl": "https://g7liveseafood.com.sg/",
+  "guideUrl": "",
+  "openingHours": "3:00 PM - 3:00 AM",
+  "suggestedDuration": "1 - 1.5 小时",
+  "restaurantFeatures": {
+    "cuisine": [
+      "新加坡菜",
+      "海鲜",
+      "煮炒",
+      "田鸡粥"
+    ],
+    "priceLevel": "$$",
+    "avgSpendSGD": 30,
+    "avgSpendMinSGD": 20,
+    "avgSpendMaxSGD": 50,
+    "signatureDishes": [
+      "宫保砂煲田鸡",
+      "姜葱砂煲田鸡",
+      "砂煲白粥",
+      "咸蛋炸鱼皮",
+      "辣椒螃蟹"
+    ],
+    "atmosphere": [
+      "宵夜档",
+      "烟火气",
+      "家庭聚餐",
+      "大排档"
+    ],
+    "dressCode": "Casual",
+    "seatingOptions": [
+      "室内空调",
+      "室外露天"
+    ],
+    "dietaryIsHalal": false,
+    "dietaryHasVegetarian": true,
+    "dietaryPorkFree": false,
+    "reservationRequired": false,
+    "reservationDifficulty": "高峰期或多人聚餐建议提前预订，平时可直接前往",
+    "reservationPlatform": ""
+  }
+}

@@ -1,92 +1,21 @@
 [
   {
-    "id": "restaurant-01",
-    "type": "restaurant",
-    "name": "Jumbo Seafood (East Coast)",
-    "nameCn": "珍宝海鲜 (东海岸店)",
-    "area": "East Coast",
-    "postalCode": "449881",
-    "coordinates": [1.3031, 103.9317],
-    "tags": ["商务宴请", "海景", "辣椒螃蟹", "适合多人"],
-    "rating": 4.6,
-    "description": "新加坡老牌海鲜餐厅，招牌辣椒螃蟹配炸馒头，紧邻海边，适合晚餐。落地窗能看到东海岸的海景，晚上过去氛围更好，适合朋友聚会或者带客户吃饭。",
-    "address": "1206 East Coast Parkway, Singapore 449881",
-    "mapLink": "https://maps.google.com/?q=Jumbo+Seafood+East+Coast+Singapore",
-    "bookingUrl": "https://www.jumboseafood.com.sg/reservations",
-    "guideUrl": "",
-    "openingHours": "11:30 AM - 11:00 PM",
-    "suggestedDuration": "1.5 小时",
-    "photos": [
-      "https://picsum.photos/seed/jumbo1/900/700",
-      "https://picsum.photos/seed/jumbo2/900/700",
-      "https://picsum.photos/seed/jumbo3/900/700"
-    ],
-    "restaurantFeatures": {
-      "cuisine": ["新加坡菜", "海鲜", "中式"],
-      "priceLevel": "$$$",
-      "avgSpendSGD": 80,
-      "avgSpendMinSGD": 60,
-      "avgSpendMaxSGD": 100,
-      "signatureDishes": ["招牌辣椒蟹配炸馒头", "招牌黑胡椒蟹", "翡翠豆腐", "咸蛋黄虾球"],
-      "atmosphere": ["商务宴请", "家庭聚餐", "海景观景", "朋友聚会"],
-      "dressCode": "Casual（休闲即可，禁止泳装）",
-      "seatingOptions": ["室内空调", "室外露天"],
-      "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
-      "dietaryPorkFree": false,
-      "reservationRequired": true,
-      "reservationDifficulty": "建议提前 3-7 天预订",
-      "reservationPlatform": "Chope"
-    }
-  },
-  {
-    "id": "restaurant-02",
-    "type": "restaurant",
-    "name": "Maxwell Food Centre",
-    "nameCn": "麦士威熟食中心",
-    "area": "Chinatown",
-    "postalCode": "069184",
-    "coordinates": [1.2802, 103.8447],
-    "tags": ["平价", "本地小吃", "海南鸡饭"],
-    "rating": 4.4,
-    "description": "本地知名小贩中心，天天海南鸡饭排队常客，适合体验新加坡日常饮食文化。摊位很多，可以几个人分开点几样一起吃，人均很便宜。",
-    "address": "1 Kadayanallur St, Singapore 069184",
-    "mapLink": "https://maps.google.com/?q=Maxwell+Food+Centre+Singapore",
-    "bookingUrl": "",
-    "guideUrl": "",
-    "openingHours": "8:00 AM - 10:00 PM（各摊位略有不同）",
-    "suggestedDuration": "1 小时",
-    "photos": [
-      "https://picsum.photos/seed/maxwell1/900/700",
-      "https://picsum.photos/seed/maxwell2/900/700"
-    ],
-    "restaurantFeatures": {
-      "cuisine": ["本地小吃", "海南鸡饭", "中式"],
-      "priceLevel": "$",
-      "avgSpendSGD": 8,
-      "avgSpendMinSGD": 5,
-      "avgSpendMaxSGD": 15,
-      "signatureDishes": ["天天海南鸡饭", "老伴豆花水"],
-      "atmosphere": ["市井日常", "朋友聚会"],
-      "dressCode": "",
-      "seatingOptions": ["室外风扇区"],
-      "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
-      "dietaryPorkFree": false,
-      "reservationRequired": false,
-      "reservationDifficulty": "",
-      "reservationPlatform": ""
-    }
-  },
-  {
     "id": "attraction-01",
     "type": "attraction",
     "name": "Gardens by the Bay",
     "nameCn": "滨海湾花园",
     "area": "Marina Bay",
     "postalCode": "018953",
-    "coordinates": [1.2816, 103.8636],
-    "tags": ["网红", "夜景", "免费", "室内避雨"],
+    "coordinates": [
+      1.2816,
+      103.8636
+    ],
+    "tags": [
+      "网红",
+      "夜景",
+      "免费",
+      "室内避雨"
+    ],
     "rating": 4.8,
     "description": "新加坡地标级景点，超级树、云雾林、花穹三大看点，傍晚灯光秀室外免费观看。建议下午16点后再去，避开正午暴晒，顺便看晚上的灯光秀。",
     "address": "18 Marina Gardens Dr, Singapore 018953",
@@ -113,8 +42,17 @@
         "超级树灯光秀 (Garden Rhapsody, 每日 19:45 / 20:45)",
         "OCBC Skyway 空中走廊"
       ],
-      "suitableFor": ["亲子家庭", "情侣约会", "摄影爱好者", "带长辈"],
-      "facilities": ["无障碍轮椅通道", "婴儿车友好", "行李寄存"]
+      "suitableFor": [
+        "亲子家庭",
+        "情侣约会",
+        "摄影爱好者",
+        "带长辈"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "行李寄存"
+      ]
     }
   },
   {
@@ -124,8 +62,16 @@
     "nameCn": "东海岸公园",
     "area": "East Coast",
     "postalCode": "449876",
-    "coordinates": [1.308, 103.912],
-    "tags": ["小众", "亲子", "免费", "骑行"],
+    "coordinates": [
+      1.308,
+      103.912
+    ],
+    "tags": [
+      "小众",
+      "亲子",
+      "免费",
+      "骑行"
+    ],
     "rating": 4.5,
     "description": "本地人周末骑车、烧烤、看海的地方，沿海骑行道很长，适合租自行车逛一圈，傍晚风大很舒服。",
     "address": "East Coast Park, Singapore",
@@ -145,9 +91,208 @@
       "ticketIsFree": true,
       "ticketPriceDesc": "免费开放，自行车租赁另计费",
       "ticketBookingRequired": false,
-      "highlights": ["沿海骑行道", "烧烤场地", "水上运动中心"],
-      "suitableFor": ["亲子家庭", "运动爱好者", "情侣约会"],
-      "facilities": ["自行车租赁", "公共厕所", "烧烤场地租借"]
+      "highlights": [
+        "沿海骑行道",
+        "烧烤场地",
+        "水上运动中心"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "运动爱好者",
+        "情侣约会"
+      ],
+      "facilities": [
+        "自行车租赁",
+        "公共厕所",
+        "烧烤场地租借"
+      ]
     }
+  },
+  {
+    "id": "restaurant-01",
+    "type": "restaurant",
+    "name": "Jumbo Seafood (East Coast)",
+    "nameCn": "珍宝海鲜 (东海岸店)",
+    "area": "East Coast",
+    "postalCode": "449881",
+    "coordinates": [
+      1.3031,
+      103.9317
+    ],
+    "tags": [
+      "商务宴请",
+      "海景",
+      "辣椒螃蟹",
+      "适合多人"
+    ],
+    "rating": 4.6,
+    "description": "新加坡老牌海鲜餐厅，招牌辣椒螃蟹配炸馒头，紧邻海边，适合晚餐。落地窗能看到东海岸的海景，晚上过去氛围更好，适合朋友聚会或者带客户吃饭。",
+    "address": "1206 East Coast Parkway, Singapore 449881",
+    "mapLink": "https://maps.google.com/?q=Jumbo+Seafood+East+Coast+Singapore",
+    "bookingUrl": "https://www.jumboseafood.com.sg/reservations",
+    "guideUrl": "",
+    "openingHours": "11:30 AM - 11:00 PM",
+    "suggestedDuration": "1.5 小时",
+    "photos": [
+      "https://picsum.photos/seed/jumbo1/900/700",
+      "https://picsum.photos/seed/jumbo2/900/700",
+      "https://picsum.photos/seed/jumbo3/900/700"
+    ],
+    "restaurantFeatures": {
+      "cuisine": [
+        "新加坡菜",
+        "海鲜",
+        "中式"
+      ],
+      "priceLevel": "$$$",
+      "avgSpendSGD": 80,
+      "avgSpendMinSGD": 60,
+      "avgSpendMaxSGD": 100,
+      "signatureDishes": [
+        "招牌辣椒蟹配炸馒头",
+        "招牌黑胡椒蟹",
+        "翡翠豆腐",
+        "咸蛋黄虾球"
+      ],
+      "atmosphere": [
+        "商务宴请",
+        "家庭聚餐",
+        "海景观景",
+        "朋友聚会"
+      ],
+      "dressCode": "Casual（休闲即可，禁止泳装）",
+      "seatingOptions": [
+        "室内空调",
+        "室外露天"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryHasVegetarian": true,
+      "dietaryPorkFree": false,
+      "reservationRequired": true,
+      "reservationDifficulty": "建议提前 3-7 天预订",
+      "reservationPlatform": "Chope"
+    }
+  },
+  {
+    "id": "restaurant-02",
+    "type": "restaurant",
+    "name": "Maxwell Food Centre",
+    "nameCn": "麦士威熟食中心",
+    "area": "Chinatown",
+    "postalCode": "069184",
+    "coordinates": [
+      1.2802,
+      103.8447
+    ],
+    "tags": [
+      "平价",
+      "本地小吃",
+      "海南鸡饭"
+    ],
+    "rating": 4.4,
+    "description": "本地知名小贩中心，天天海南鸡饭排队常客，适合体验新加坡日常饮食文化。摊位很多，可以几个人分开点几样一起吃，人均很便宜。",
+    "address": "1 Kadayanallur St, Singapore 069184",
+    "mapLink": "https://maps.google.com/?q=Maxwell+Food+Centre+Singapore",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "8:00 AM - 10:00 PM（各摊位略有不同）",
+    "suggestedDuration": "1 小时",
+    "photos": [
+      "https://picsum.photos/seed/maxwell1/900/700",
+      "https://picsum.photos/seed/maxwell2/900/700"
+    ],
+    "restaurantFeatures": {
+      "cuisine": [
+        "本地小吃",
+        "海南鸡饭",
+        "中式"
+      ],
+      "priceLevel": "$",
+      "avgSpendSGD": 8,
+      "avgSpendMinSGD": 5,
+      "avgSpendMaxSGD": 15,
+      "signatureDishes": [
+        "天天海南鸡饭",
+        "老伴豆花水"
+      ],
+      "atmosphere": [
+        "市井日常",
+        "朋友聚会"
+      ],
+      "dressCode": "",
+      "seatingOptions": [
+        "室外风扇区"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryHasVegetarian": true,
+      "dietaryPorkFree": false,
+      "reservationRequired": false,
+      "reservationDifficulty": "",
+      "reservationPlatform": ""
+    }
+  },
+  {
+    "id": "restaurant-03_g7_frog_porridge_live_seafood",
+    "type": "restaurant",
+    "name": "G7 Frog Porridge & Live Seafood",
+    "nameCn": "G7新马活海鲜田鸡粥",
+    "area": "Geylang",
+    "postalCode": "389239",
+    "coordinates": [
+      1.311598,
+      103.874555
+    ],
+    "tags": [
+      "田鸡粥",
+      "宵夜",
+      "海鲜",
+      "煮炒",
+      "网红"
+    ],
+    "rating": 4.6,
+    "description": "芽笼知名的老牌海鲜与田鸡粥餐厅，招牌宫保田鸡和姜葱田鸡肉质鲜嫩，酱汁浓郁，搭配绵密的砂煲白粥是绝佳的宵夜选择，同时也提供辣椒螃蟹等丰富的本地特色煮炒海鲜。",
+    "address": "161, 163 Geylang Road, Lorong 3 Geylang, Singapore 389239",
+    "mapLink": "https://maps.app.goo.gl/DxgL6oRMb5SpYkbJ8",
+    "bookingUrl": "https://g7liveseafood.com.sg/",
+    "guideUrl": "",
+    "openingHours": "3:00 PM - 3:00 AM",
+    "suggestedDuration": "1 - 1.5 小时",
+    "restaurantFeatures": {
+      "cuisine": [
+        "新加坡菜",
+        "海鲜",
+        "煮炒",
+        "田鸡粥"
+      ],
+      "priceLevel": "$$",
+      "avgSpendSGD": 30,
+      "avgSpendMinSGD": 20,
+      "avgSpendMaxSGD": 50,
+      "signatureDishes": [
+        "宫保砂煲田鸡",
+        "姜葱砂煲田鸡",
+        "砂煲白粥",
+        "咸蛋炸鱼皮",
+        "辣椒螃蟹"
+      ],
+      "atmosphere": [
+        "宵夜档",
+        "烟火气",
+        "家庭聚餐",
+        "大排档"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "室内空调",
+        "室外露天"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryHasVegetarian": true,
+      "dietaryPorkFree": false,
+      "reservationRequired": false,
+      "reservationDifficulty": "高峰期或多人聚餐建议提前预订，平时可直接前往",
+      "reservationPlatform": ""
+    },
+    "photos": []
   }
 ]

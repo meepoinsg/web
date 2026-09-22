@@ -1,0 +1,33 @@
+{
+  "id": "attraction-02",
+  "type": "attraction",
+  "name": "East Coast Park",
+  "nameCn": "东海岸公园",
+  "area": "East Coast",
+  "postalCode": "449876",
+  "coordinates": [1.308, 103.912],
+  "tags": ["小众", "亲子", "免费", "骑行"],
+  "rating": 4.5,
+  "description": "本地人周末骑车、烧烤、看海的地方，沿海骑行道很长，适合租自行车逛一圈，傍晚风大很舒服。",
+  "address": "East Coast Park, Singapore",
+  "mapLink": "https://maps.google.com/?q=East+Coast+Park+Singapore",
+  "bookingUrl": "",
+  "guideUrl": "",
+  "openingHours": "全天开放",
+  "suggestedDuration": "2 小时",
+  "photos": [
+    "https://picsum.photos/seed/eastcoast1/900/700",
+    "https://picsum.photos/seed/eastcoast2/900/700"
+  ],
+  "attractionFeatures": {
+    "subCategory": "公园/户外运动",
+    "bestTimeVisit": "傍晚 17:00 后（更凉爽，能看日落）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": true,
+    "ticketPriceDesc": "免费开放，自行车租赁另计费",
+    "ticketBookingRequired": false,
+    "highlights": ["沿海骑行道", "烧烤场地", "水上运动中心"],
+    "suitableFor": ["亲子家庭", "运动爱好者", "情侣约会"],
+    "facilities": ["自行车租赁", "公共厕所", "烧烤场地租借"]
+  }
+}
