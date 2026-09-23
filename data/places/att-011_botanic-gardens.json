@@ -1,0 +1,44 @@
+{
+  "id": "att-011_botanic-gardens",
+  "type": "attraction",
+  "name": "Singapore Botanic Gardens",
+  "nameCn": "新加坡植物园",
+  "area": "Tanglin",
+  "postalCode": "259569",
+  "coordinates": [1.3138, 103.8159],
+  "tags": ["世界文化遗产", "自然风光", "免费", "亲子"],
+  "rating": 4.8,
+  "description": "拥有逾160年历史的新加坡首个联合国教科文组织世界文化遗产。园内不仅有丰富的热带珍稀植物和举世闻名的国家兰花园，还汇聚了多间优质餐厅。搭乘地铁至植物园站（Botanic Gardens MRT）即可轻松直达，交通极其便利。",
+  "address": "1 Cluny Rd, Singapore 259569",
+  "mapLink": "https://maps.google.com/?q=Singapore+Botanic+Gardens",
+  "bookingUrl": "https://www.nparks.gov.sg/sbg/visit-us/national-orchid-garden",
+  "guideUrl": "",
+  "openingHours": "5:00 AM - 12:00 AM (国家兰花园 8:30 AM - 7:00 PM)",
+  "suggestedDuration": "2-3 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/公园",
+    "bestTimeVisit": "07:00 - 10:00 或 16:00 后（避开正午高温）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": true,
+    "ticketPriceDesc": "全园免费入场；国家兰花园需购票（成人 S$15，本地居民及优惠人群有折扣）",
+    "ticketBookingRequired": false,
+    "highlights": [
+      "国家兰花园 (National Orchid Garden) 赏千余种胡姬花",
+      "感受160余年历史的世界文化遗产底蕴",
+      "探索热带雨林区及百年珍稀植物",
+      "体验园内特色餐饮（如米其林餐厅Corner House、Botanico等）"
+    ],
+    "suitableFor": [
+      "亲子家庭",
+      "情侣约会",
+      "自然/摄影爱好者",
+      "晨跑与徒步者"
+    ],
+    "facilities": [
+      "无障碍轮椅通道",
+      "婴儿车友好",
+      "直达地铁站 (Botanic Gardens MRT)",
+      "园内洗手间与直饮水设施"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "att-010_clarke-quay-jetty",
+  "type": "attraction",
+  "name": "Clarke Quay Jetty (Singapore River Cruise)",
+  "nameCn": "克拉码头 (新加坡河游船)",
+  "area": "Clarke Quay",
+  "postalCode": "058282",
+  "coordinates": [1.2905, 103.8463],
+  "tags": ["夜景", "特色体验", "情侣约会", "亲子家庭"],
+  "rating": 4.4,
+  "description": "新加坡河经典的游船体验起点。单场游船时长约40分钟，游船路径自克拉码头出发，途径驳船码头（Boat Quay），前往滨海湾（Marina Bay）欣赏地标后折返。强烈推荐夜晚乘船，可饱览绚丽的城市天际线与金沙灯光秀。请注意，晚间热门时段乘船预计需排队 30-45 分钟。",
+  "address": "3 River Valley Rd, Clarke Quay Jetty, Singapore 058282",
+  "mapLink": "https://maps.google.com/?q=Clarke+Quay+Jetty+Singapore",
+  "bookingUrl": "https://rivercruise.com.sg/",
+  "guideUrl": "",
+  "openingHours": "10:00 AM - 10:30 PM",
+  "suggestedDuration": "1.5 小时 (含排队)",
+  "attractionFeatures": {
+    "subCategory": "游船/观光",
+    "bestTimeVisit": "19:00 - 21:00（强烈推荐夜晚乘船，赏夜景及金沙灯光秀）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "成人约 S$28，儿童约 S$18",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "单场游玩时长：约 40 分钟",
+      "游船路径：克拉码头 -> 驳船码头 -> 滨海湾 -> 原路折返",
+      "热门时段预计排队时间：30-45 分钟",
+      "绝佳水上视角欣赏鱼尾狮、滨海湾金沙等地标夜景"
+    ],
+    "suitableFor": [
+      "亲子家庭",
+      "情侣约会",
+      "长辈同行",
+      "摄影爱好者"
+    ],
+    "facilities": [
+      "婴儿车需折叠上船",
+      "无障碍轮椅通道（部分船型支持，建议提前联系确认）"
+    ]
+  }
+}

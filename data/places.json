@@ -480,6 +480,110 @@
     "photos": []
   },
   {
+    "id": "att-010_clarke-quay-jetty",
+    "type": "attraction",
+    "name": "Clarke Quay Jetty (Singapore River Cruise)",
+    "nameCn": "克拉码头 (新加坡河游船)",
+    "area": "Clarke Quay",
+    "postalCode": "058282",
+    "coordinates": [
+      1.2905,
+      103.8463
+    ],
+    "tags": [
+      "夜景",
+      "特色体验",
+      "情侣约会",
+      "亲子家庭"
+    ],
+    "rating": 4.4,
+    "description": "新加坡河经典的游船体验起点。单场游船时长约40分钟，游船路径自克拉码头出发，途径驳船码头（Boat Quay），前往滨海湾（Marina Bay）欣赏地标后折返。强烈推荐夜晚乘船，可饱览绚丽的城市天际线与金沙灯光秀。请注意，晚间热门时段乘船预计需排队 30-45 分钟。",
+    "address": "3 River Valley Rd, Clarke Quay Jetty, Singapore 058282",
+    "mapLink": "https://maps.google.com/?q=Clarke+Quay+Jetty+Singapore",
+    "bookingUrl": "https://rivercruise.com.sg/",
+    "guideUrl": "",
+    "openingHours": "10:00 AM - 10:30 PM",
+    "suggestedDuration": "1.5 小时 (含排队)",
+    "attractionFeatures": {
+      "subCategory": "游船/观光",
+      "bestTimeVisit": "19:00 - 21:00（强烈推荐夜晚乘船，赏夜景及金沙灯光秀）",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$28，儿童约 S$18",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "单场游玩时长：约 40 分钟",
+        "游船路径：克拉码头 -> 驳船码头 -> 滨海湾 -> 原路折返",
+        "热门时段预计排队时间：30-45 分钟",
+        "绝佳水上视角欣赏鱼尾狮、滨海湾金沙等地标夜景"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "情侣约会",
+        "长辈同行",
+        "摄影爱好者"
+      ],
+      "facilities": [
+        "婴儿车需折叠上船",
+        "无障碍轮椅通道（部分船型支持，建议提前联系确认）"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-011_botanic-gardens",
+    "type": "attraction",
+    "name": "Singapore Botanic Gardens",
+    "nameCn": "新加坡植物园",
+    "area": "Tanglin",
+    "postalCode": "259569",
+    "coordinates": [
+      1.3138,
+      103.8159
+    ],
+    "tags": [
+      "世界文化遗产",
+      "自然风光",
+      "免费",
+      "亲子"
+    ],
+    "rating": 4.8,
+    "description": "拥有逾160年历史的新加坡首个联合国教科文组织世界文化遗产。园内不仅有丰富的热带珍稀植物和举世闻名的国家兰花园，还汇聚了多间优质餐厅。搭乘地铁至植物园站（Botanic Gardens MRT）即可轻松直达，交通极其便利。",
+    "address": "1 Cluny Rd, Singapore 259569",
+    "mapLink": "https://maps.google.com/?q=Singapore+Botanic+Gardens",
+    "bookingUrl": "https://www.nparks.gov.sg/sbg/visit-us/national-orchid-garden",
+    "guideUrl": "",
+    "openingHours": "5:00 AM - 12:00 AM (国家兰花园 8:30 AM - 7:00 PM)",
+    "suggestedDuration": "2-3 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/公园",
+      "bestTimeVisit": "07:00 - 10:00 或 16:00 后（避开正午高温）",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": true,
+      "ticketPriceDesc": "全园免费入场；国家兰花园需购票（成人 S$15，本地居民及优惠人群有折扣）",
+      "ticketBookingRequired": false,
+      "highlights": [
+        "国家兰花园 (National Orchid Garden) 赏千余种胡姬花",
+        "感受160余年历史的世界文化遗产底蕴",
+        "探索热带雨林区及百年珍稀植物",
+        "体验园内特色餐饮（如米其林餐厅Corner House、Botanico等）"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "情侣约会",
+        "自然/摄影爱好者",
+        "晨跑与徒步者"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "直达地铁站 (Botanic Gardens MRT)",
+        "园内洗手间与直饮水设施"
+      ]
+    },
+    "photos": []
+  },
+  {
     "id": "rst-001_nam-kee-chicken",
     "type": "restaurant",
     "name": "Nam Kee Chicken Rice Restaurant",
@@ -628,6 +732,7 @@
     "guideUrl": "",
     "openingHours": "3:00 PM - 3:00 AM",
     "suggestedDuration": "1 - 1.5 小时",
+    "recommendNote": "冲着田鸡粥来的老饕别只顾着吃田鸡，红烧鳄鱼尾也是这里的隐藏王牌——皮糯肉嫩，酱汁浓香入味，胆子大的一定要试试。",
     "restaurantFeatures": {
       "cuisine": [
         "新加坡菜",
@@ -642,6 +747,7 @@
       "signatureDishes": [
         "宫保砂煲田鸡",
         "姜葱砂煲田鸡",
+        "红烧鳄鱼尾",
         "砂煲白粥",
         "咸蛋炸鱼皮",
         "辣椒螃蟹"
@@ -850,6 +956,66 @@
       "reservationRequired": true,
       "reservationDifficulty": "强烈建议提前1-2周预订，节假日有最低消费政策",
       "reservationPlatform": "官网 / SevenRooms"
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-007_mellben-seafood",
+    "type": "restaurant",
+    "name": "Mellben Seafood",
+    "nameCn": "龙海鲜螃蟹王 (Mellben Seafood)",
+    "area": "Ang Mo Kio",
+    "postalCode": "560232",
+    "coordinates": [
+      1.3683,
+      103.8373
+    ],
+    "tags": [
+      "海鲜",
+      "螃蟹",
+      "老字号",
+      "网红"
+    ],
+    "rating": 4.5,
+    "description": "位于宏茂桥的知名老牌海鲜煮炒店，以螃蟹料理闻名全岛。其镇店之宝“砂煲螃蟹米粉”有着浓郁鲜甜的奶白色高汤，吸满海鲜精华的米粉搭配肥美的螃蟹，是每桌必点的招牌佳肴。",
+    "address": "232 Ang Mo Kio Ave 3, #01-1222, Singapore 560232",
+    "mapLink": "https://maps.google.com/?q=Mellben+Seafood+232+Ang+Mo+Kio+Ave+3",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "5:00 PM - 10:30 PM",
+    "suggestedDuration": "1.5 - 2 小时",
+    "restaurantFeatures": {
+      "cuisine": [
+        "新加坡菜",
+        "海鲜",
+        "煮炒"
+      ],
+      "priceLevel": "$$$",
+      "avgSpendSGD": 70,
+      "avgSpendMinSGD": 50,
+      "avgSpendMaxSGD": 100,
+      "signatureDishes": [
+        "砂煲螃蟹米粉",
+        "辣椒螃蟹",
+        "黑胡椒蟹",
+        "牛油螃蟹"
+      ],
+      "atmosphere": [
+        "家庭聚餐",
+        "朋友聚会",
+        "市井烟火气"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "室内空调",
+        "室外露天"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryHasVegetarian": true,
+      "dietaryPorkFree": false,
+      "reservationRequired": true,
+      "reservationDifficulty": "建议提前预订，周末往往需要排队",
+      "reservationPlatform": "电话预订"
     },
     "photos": []
   }
