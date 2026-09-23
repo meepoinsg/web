@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import places from "../data/places.json";
-import WeatherBar from "../components/WeatherBar";
 import TagFilter from "../components/TagFilter";
 import ViewToggle from "../components/ViewToggle";
 import PlaceCard from "../components/PlaceCard";
@@ -18,11 +17,16 @@ const MapView = dynamic(() => import("../components/MapView"), {
   ),
 });
 
+const WeatherMapModal = dynamic(() => import("../components/WeatherMapModal"), {
+  ssr: false,
+});
+
 export default function Home() {
   const [view, setView] = useState("list");
   const [activeFilter, setActiveFilter] = useState("全部");
   const [keyword, setKeyword] = useState("");
   const [openPlace, setOpenPlace] = useState(null);
+  const [showWeather, setShowWeather] = useState(false);
 
   const filterOptions = useMemo(() => {
     const tagSet = new Set();
@@ -52,10 +56,14 @@ export default function Home() {
   return (
     <main className="max-w-3xl mx-auto pb-10">
       <div className="sticky top-0 bg-[var(--bg)] z-10 px-4 pt-4 pb-2 border-b border-[var(--line)]">
-        <h1 className="text-xl font-semibold m-0 mb-3">🇸🇬 新加坡本地游指南</h1>
-
-        <div className="mb-3">
-          <WeatherBar />
+        <div className="flex items-center justify-between gap-2 mb-3">
+          <h1 className="text-xl font-semibold m-0">🇸🇬 新加坡本地游指南</h1>
+          <button
+            onClick={() => setShowWeather(true)}
+            className="flex-shrink-0 text-xs bg-white border border-[var(--line)] rounded-full px-3 py-1.5 flex items-center gap-1"
+          >
+            🌤️ 实时天气
+          </button>
         </div>
 
         <input
@@ -90,6 +98,7 @@ export default function Home() {
       </div>
 
       {openPlace && <PlaceModal place={openPlace} onClose={() => setOpenPlace(null)} />}
+      {showWeather && <WeatherMapModal onClose={() => setShowWeather(false)} />}
     </main>
   );
 }
