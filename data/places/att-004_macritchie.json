@@ -1,0 +1,35 @@
+{
+  "id": "att-004_macritchie",
+  "type": "attraction",
+  "name": "MacRitchie Reservoir Hiking Trail (South Entrance)",
+  "nameCn": "麦里芝水库徒步路线（南部公交站进出）",
+  "area": "Central",
+  "postalCode": "298717",
+  "coordinates": [1.3343, 103.8348],
+  "tags": ["徒步", "自然", "免费", "户外", "野生动物"],
+  "rating": 4.7,
+  "description": "新加坡经典的徒步胜地，环湖总长约11公里。沿途可欣赏热带雨林并偶遇野生动物。建议行前做好防蚊措施；切勿手提塑料袋或喂食猴子。林间土路段休息区较少，请量力而行。",
+  "address": "MacRitchie Reservoir Park, Singapore 298717",
+  "mapLink": "https://maps.google.com/?q=MacRitchie+Reservoir+Park",
+  "bookingUrl": "",
+  "guideUrl": "",
+  "openingHours": "7:00 AM - 7:00 PM",
+  "suggestedDuration": "3-5 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/徒步",
+    "bestTimeVisit": "07:00 - 09:00 或 16:00 后（避开正午暴晒）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": true,
+    "ticketPriceDesc": "全天免费开放",
+    "ticketBookingRequired": false,
+    "highlights": [
+      "路线全长：完整大环线约11公里，亦有3-5公里的短途折返路线，可根据体力自由选择",
+      "补给与洗手间：南部入口（起终点）及中途护林员站设有厕所和直饮水机，其余纯土路段无补给点，务必提前带足饮用水",
+      "防猴指南：绝对不要喂食！切勿手提塑料袋或边走边吃，避免与猴群对视，保持安全距离安静通过即可",
+      "野生动物防范：林区蚊虫较多，建议喷涂防蚊液；偶遇蛇或巨蜥属正常生态现象，保持冷静不惊扰、不靠近并绕行",
+      "休息区分布：入口公园、湖畔木栈道及护林员站设有较多长椅和凉亭，进入林间原始土路后休息点稀少"
+    ],
+    "suitableFor": ["户外运动爱好者", "亲子家庭(大龄儿童)", "摄影爱好者"],
+    "facilities": ["洗手间", "直饮水机", "储物柜(南部入口处)", "淋浴间(南部入口处)"]
+  }
+}
