@@ -1,0 +1,33 @@
+{
+  "id": "att-006_night-safari",
+  "type": "attraction",
+  "name": "Night Safari",
+  "nameCn": "夜间野生动物园",
+  "area": "Mandai",
+  "postalCode": "729826",
+  "coordinates": [1.4022, 103.7880],
+  "tags": ["夜间活动", "亲子家庭", "动物园", "特色体验"],
+  "rating": 4.6,
+  "description": "全球首个专为夜间动物设立的野生动物园。游客可乘坐游园车穿梭于不同地理区域观察夜行动物的真实状态，或漫步于步行小径近距离探索，是极具特色的夜间体验。",
+  "address": "80 Mandai Lake Rd, Singapore 729826",
+  "mapLink": "https://maps.google.com/?q=Night+Safari+Singapore",
+  "bookingUrl": "https://www.mandai.com/en/night-safari.html",
+  "guideUrl": "",
+  "openingHours": "7:15 PM - 12:00 AM",
+  "suggestedDuration": "3-4 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/主题公园",
+    "bestTimeVisit": "19:15 入园（建议提前预订最早的入园场次，预留时间观看表演）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "成人约 S$55，儿童约 S$38",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "游园车 (Guided Tram Ride)：约40分钟，配有英文或多语言语音导览",
+      "夜晚的精灵动物表演 (Creatures of the Night Show)",
+      "四条独特的步行小径 (Walking Trails)：如渔猫小径、花豹小径等"
+    ],
+    "suitableFor": ["亲子家庭", "情侣约会", "自然爱好者"],
+    "facilities": ["无障碍轮椅通道", "婴儿车友好", "免费游园车", "餐饮设施"]
+  }
+}

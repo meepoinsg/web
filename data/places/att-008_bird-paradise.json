@@ -1,0 +1,44 @@
+{
+  "id": "att-008_bird-paradise",
+  "type": "attraction",
+  "name": "Bird Paradise",
+  "nameCn": "飞禽公园 (万态飞禽公园)",
+  "area": "Mandai",
+  "postalCode": "729825",
+  "coordinates": [1.4045, 103.7876],
+  "tags": ["亲子家庭", "自然风光", "动物园", "特色体验"],
+  "rating": 4.7,
+  "description": "亚洲最大的飞禽公园，全新迁至万态野生动物世界。园区拥有八大沉浸式大型步入式鸟舍，展示全球多种珍稀飞禽。必看精彩的飞禽表演以及设有冷气设施的室内企鹅湾。",
+  "address": "20 Mandai Lake Rd, Singapore 729825",
+  "mapLink": "https://maps.google.com/?q=Bird+Paradise+Singapore",
+  "bookingUrl": "https://www.mandai.com/en/bird-paradise.html",
+  "guideUrl": "",
+  "openingHours": "9:00 AM - 6:00 PM",
+  "suggestedDuration": "3-4 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/主题公园",
+    "bestTimeVisit": "上午 9:00 或下午（避开正午暴晒，合理安排观看两场主打飞禽表演的时间）",
+    "weatherAdaptability": "mixed",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "八大沉浸式步入式鸟舍 (Walk-in Aviaries)",
+      "企鹅湾 (Penguin Cove)：室内冷气环境，可观赏多种企鹅及水下动态",
+      "精彩飞禽表演：展翅高飞表演 (Wings of the World) 等",
+      "交通便利：园区内提供免费游园车接驳"
+    ],
+    "suitableFor": [
+      "亲子家庭",
+      "自然爱好者",
+      "摄影爱好者"
+    ],
+    "facilities": [
+      "无障碍轮椅通道",
+      "婴儿车友好",
+      "免费游园车",
+      "餐饮设施",
+      "室内避暑区域"
+    ]
+  }
+}

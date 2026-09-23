@@ -1,0 +1,34 @@
+{
+  "id": "att-005_singapore-zoo",
+  "type": "attraction",
+  "name": "Singapore Zoo",
+  "nameCn": "新加坡动物园",
+  "area": "Mandai",
+  "postalCode": "729826",
+  "coordinates": [1.4043, 103.7930],
+  "tags": ["亲子家庭", "自然风光", "动物园", "环保设施"],
+  "rating": 4.7,
+  "description": "屡获殊荣的全开放式动物园。园内有精彩的《海洋动物表演》等特色演出，并设有阿明餐厅(Ah Meng Restaurant)等多家内部餐饮。园区提供免费游园摆渡车轻松代步，且到处都有直饮水机，强烈建议自带水壶接水。",
+  "address": "80 Mandai Lake Rd, Singapore 729826",
+  "mapLink": "https://maps.google.com/?q=Singapore+Zoo",
+  "bookingUrl": "https://www.mandai.com/en/singapore-zoo.html",
+  "guideUrl": "",
+  "openingHours": "8:30 AM - 6:00 PM",
+  "suggestedDuration": "3-4 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/主题公园",
+    "bestTimeVisit": "上午 8:30 或下午（避开正午暴晒，合理安排看表演的时间）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "特色表演：海洋动物表演 (Splash Safari)、动物之友等",
+      "内部餐厅：阿明餐厅 (提供本地及西式餐饮)、KFC等",
+      "交通便利：提供免费摆渡车 (游园车) 环游园区",
+      "环保设施：园区到处可以接水，带水壶即可免费饮用"
+    ],
+    "suitableFor": ["亲子家庭", "自然爱好者", "摄影爱好者"],
+    "facilities": ["无障碍轮椅通道", "婴儿车友好", "免费游园车", "免费直饮水机", "内部餐厅"]
+  }
+}

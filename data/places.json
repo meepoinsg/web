@@ -218,119 +218,380 @@
     "photos": []
   },
   {
-    "id": "rst-001_jumbo-seafood",
-    "type": "restaurant",
-    "name": "Jumbo Seafood (East Coast)",
-    "nameCn": "珍宝海鲜 (东海岸店)",
-    "area": "East Coast",
-    "postalCode": "449881",
+    "id": "att-005_singapore-zoo",
+    "type": "attraction",
+    "name": "Singapore Zoo",
+    "nameCn": "新加坡动物园",
+    "area": "Mandai",
+    "postalCode": "729826",
     "coordinates": [
-      1.3031,
-      103.9317
+      1.4043,
+      103.793
     ],
     "tags": [
-      "商务宴请",
-      "海景",
-      "辣椒螃蟹",
-      "适合多人"
+      "亲子家庭",
+      "自然风光",
+      "动物园",
+      "环保设施"
+    ],
+    "rating": 4.7,
+    "description": "屡获殊荣的全开放式动物园。园内有精彩的《海洋动物表演》等特色演出，并设有阿明餐厅(Ah Meng Restaurant)等多家内部餐饮。园区提供免费游园摆渡车轻松代步，且到处都有直饮水机，强烈建议自带水壶接水。",
+    "address": "80 Mandai Lake Rd, Singapore 729826",
+    "mapLink": "https://maps.google.com/?q=Singapore+Zoo",
+    "bookingUrl": "https://www.mandai.com/en/singapore-zoo.html",
+    "guideUrl": "",
+    "openingHours": "8:30 AM - 6:00 PM",
+    "suggestedDuration": "3-4 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/主题公园",
+      "bestTimeVisit": "上午 8:30 或下午（避开正午暴晒，合理安排看表演的时间）",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "特色表演：海洋动物表演 (Splash Safari)、动物之友等",
+        "内部餐厅：阿明餐厅 (提供本地及西式餐饮)、KFC等",
+        "交通便利：提供免费摆渡车 (游园车) 环游园区",
+        "环保设施：园区到处可以接水，带水壶即可免费饮用"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "自然爱好者",
+        "摄影爱好者"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "免费游园车",
+        "免费直饮水机",
+        "内部餐厅"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-006_night-safari",
+    "type": "attraction",
+    "name": "Night Safari",
+    "nameCn": "夜间野生动物园",
+    "area": "Mandai",
+    "postalCode": "729826",
+    "coordinates": [
+      1.4022,
+      103.788
+    ],
+    "tags": [
+      "夜间活动",
+      "亲子家庭",
+      "动物园",
+      "特色体验"
     ],
     "rating": 4.6,
-    "description": "新加坡老牌海鲜餐厅，招牌辣椒螃蟹配炸馒头，紧邻海边，适合晚餐。落地窗能看到东海岸的海景，晚上过去氛围更好，适合朋友聚会或者带客户吃饭。",
-    "address": "1206 East Coast Parkway, Singapore 449881",
-    "mapLink": "https://maps.google.com/?q=Jumbo+Seafood+East+Coast+Singapore",
-    "bookingUrl": "https://www.jumboseafood.com.sg/reservations",
+    "description": "全球首个专为夜间动物设立的野生动物园。游客可乘坐游园车穿梭于不同地理区域观察夜行动物的真实状态，或漫步于步行小径近距离探索，是极具特色的夜间体验。",
+    "address": "80 Mandai Lake Rd, Singapore 729826",
+    "mapLink": "https://maps.google.com/?q=Night+Safari+Singapore",
+    "bookingUrl": "https://www.mandai.com/en/night-safari.html",
     "guideUrl": "",
-    "openingHours": "11:30 AM - 11:00 PM",
-    "suggestedDuration": "1.5 小时",
-    "photos": [
-      "https://picsum.photos/seed/jumbo1/900/700",
-      "https://picsum.photos/seed/jumbo2/900/700",
-      "https://picsum.photos/seed/jumbo3/900/700"
+    "openingHours": "7:15 PM - 12:00 AM",
+    "suggestedDuration": "3-4 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/主题公园",
+      "bestTimeVisit": "19:15 入园（建议提前预订最早的入园场次，预留时间观看表演）",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$55，儿童约 S$38",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "游园车 (Guided Tram Ride)：约40分钟，配有英文或多语言语音导览",
+        "夜晚的精灵动物表演 (Creatures of the Night Show)",
+        "四条独特的步行小径 (Walking Trails)：如渔猫小径、花豹小径等"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "情侣约会",
+        "自然爱好者"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "免费游园车",
+        "餐饮设施"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-007_river-wonders",
+    "type": "attraction",
+    "name": "River Wonders",
+    "nameCn": "河川生态园 (河川动物园)",
+    "area": "Mandai",
+    "postalCode": "729826",
+    "coordinates": [
+      1.4044,
+      103.7906
     ],
+    "tags": [
+      "亲子家庭",
+      "室内避雨",
+      "动物园",
+      "特色体验"
+    ],
+    "rating": 4.6,
+    "description": "亚洲首个也是唯一一个以河川为主题的野生动物园。园区设有大量带顶棚的步道，不受日晒雨淋影响。必体验亚马逊河探索游船，并在大熊猫竹林探访大熊猫，以及在巨型水族馆观赏海牛。",
+    "address": "80 Mandai Lake Rd, Singapore 729826",
+    "mapLink": "https://maps.google.com/?q=River+Wonders+Singapore",
+    "bookingUrl": "https://www.mandai.com/en/river-wonders.html",
+    "guideUrl": "",
+    "openingHours": "10:00 AM - 7:00 PM",
+    "suggestedDuration": "2-3 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/主题公园",
+      "bestTimeVisit": "全天皆可（有大量带顶棚区域，是雨天避雨或晴天避暑的好去处）",
+      "weatherAdaptability": "mixed",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$42，儿童约 S$30",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "亚马逊河探索游船 (Amazon River Quest)：乘船沉浸式观赏野生动物",
+        "大熊猫竹林 (Giant Panda Forest)：探访大熊猫",
+        "亚马逊洪溢林 (Amazon Flooded Forest)：在巨型水族馆观赏海牛"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "情侣约会",
+        "自然爱好者"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "带顶棚步道",
+        "餐饮设施"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-008_bird-paradise",
+    "type": "attraction",
+    "name": "Bird Paradise",
+    "nameCn": "飞禽公园 (万态飞禽公园)",
+    "area": "Mandai",
+    "postalCode": "729825",
+    "coordinates": [
+      1.4045,
+      103.7876
+    ],
+    "tags": [
+      "亲子家庭",
+      "自然风光",
+      "动物园",
+      "特色体验"
+    ],
+    "rating": 4.7,
+    "description": "亚洲最大的飞禽公园，全新迁至万态野生动物世界。园区拥有八大沉浸式大型步入式鸟舍，展示全球多种珍稀飞禽。必看精彩的飞禽表演以及设有冷气设施的室内企鹅湾。",
+    "address": "20 Mandai Lake Rd, Singapore 729825",
+    "mapLink": "https://maps.google.com/?q=Bird+Paradise+Singapore",
+    "bookingUrl": "https://www.mandai.com/en/bird-paradise.html",
+    "guideUrl": "",
+    "openingHours": "9:00 AM - 6:00 PM",
+    "suggestedDuration": "3-4 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/主题公园",
+      "bestTimeVisit": "上午 9:00 或下午（避开正午暴晒，合理安排观看两场主打飞禽表演的时间）",
+      "weatherAdaptability": "mixed",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "八大沉浸式步入式鸟舍 (Walk-in Aviaries)",
+        "企鹅湾 (Penguin Cove)：室内冷气环境，可观赏多种企鹅及水下动态",
+        "精彩飞禽表演：展翅高飞表演 (Wings of the World) 等",
+        "交通便利：园区内提供免费游园车接驳"
+      ],
+      "suitableFor": [
+        "亲子家庭",
+        "自然爱好者",
+        "摄影爱好者"
+      ],
+      "facilities": [
+        "无障碍轮椅通道",
+        "婴儿车友好",
+        "免费游园车",
+        "餐饮设施",
+        "室内避暑区域"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-009_rainforest-wild",
+    "type": "attraction",
+    "name": "Rainforest Wild Adventure",
+    "nameCn": "热带雨林园 (西区/东区)",
+    "area": "Mandai",
+    "postalCode": "729825",
+    "coordinates": [
+      1.4045,
+      103.7876
+    ],
+    "tags": [
+      "户外探险",
+      "自然风光",
+      "动物园",
+      "特色体验",
+      "最新开幕"
+    ],
+    "rating": 4.6,
+    "description": "亚洲首个以探险为核心的野生动物园，分为西区(亚洲)和东区(非洲)两大区域。巧妙结合了丛林徒步、空中步道、模拟探洞与野生动物观赏(如马来亚虎、㺢㹢狓等)，带来独一无二的沉浸式热带雨林探险体验。",
+    "address": "20 Mandai Lake Rd, Singapore 729825",
+    "mapLink": "https://maps.google.com/?q=Rainforest+Wild+Adventure+Singapore",
+    "bookingUrl": "https://www.mandai.com/en/rainforest-wild.html",
+    "guideUrl": "",
+    "openingHours": "9:00 AM - 6:00 PM",
+    "suggestedDuration": "3-5 小时",
+    "attractionFeatures": {
+      "subCategory": "自然风光/主题公园",
+      "bestTimeVisit": "上午 9:00（由于包含体力消耗较大的户外探险项目，建议趁早晨天气相对凉爽时前往）",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": false,
+      "ticketPriceDesc": "成人约 S$43，儿童约 S$31（一票通玩东西两区，部分进阶探险项目如树冠滑翔需符合身高要求）",
+      "ticketBookingRequired": true,
+      "highlights": [
+        "丛林探险体验：体验树冠滑翔 (Canopy Glider) 和树冠攀爬 (Treetop Traverse)",
+        "特色洞穴探险 (Wild Cavern Adventure)：在布满钟乳石的洞穴内体验黑暗中探索的乐趣",
+        "野生动物寻踪：西区观赏马来亚虎和马来貘，东区寻找首次亮相东南亚的㺢㹢狓 (Okapi)",
+        "沉浸式观景：穿行于高空栈道 (Elevated Walkways) 和悬索桥，多视角俯瞰雨林"
+      ],
+      "suitableFor": [
+        "亲子家庭 (适合大龄儿童)",
+        "自然爱好者",
+        "户外探险爱好者"
+      ],
+      "facilities": [
+        "无障碍通道 (部分基础步道)",
+        "免费游园接驳车 (连接东西两区)",
+        "探险装备安全设施",
+        "餐饮设施 (如 Watering Hole Cafe)",
+        "储物柜"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-001_nam-kee-chicken",
+    "type": "restaurant",
+    "name": "Nam Kee Chicken Rice Restaurant",
+    "nameCn": "南记鸡饭餐室",
+    "area": "Upper Thomson",
+    "postalCode": "574343",
+    "coordinates": [
+      1.351867,
+      103.835161
+    ],
+    "tags": [
+      "海南鸡饭",
+      "古早味",
+      "平价",
+      "老字号",
+      "近地铁"
+    ],
+    "rating": 4.1,
+    "description": "创立于1968年的家族经营老字号，至今已传承三代。主打传统正宗的海南鸡饭，保留了古早味的怀旧装潢，是深受当地居民喜爱的平价食堂。位置便利，位于麦里芝水库东出入口附近，近CC16和TE8地铁站。",
+    "address": "201 Upper Thomson Rd, Singapore 574343",
+    "mapLink": "https://maps.google.com/?q=Nam+Kee+Chicken+Rice+Restaurant+201+Upper+Thomson+Rd",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "10:45 AM - 8:30 PM",
+    "suggestedDuration": "45 分钟",
+    "restaurantFeatures": {
+      "cuisine": [
+        "新加坡菜",
+        "中式",
+        "海南鸡饭"
+      ],
+      "priceLevel": "$",
+      "avgSpendSGD": 15,
+      "avgSpendMinSGD": 10,
+      "avgSpendMaxSGD": 25,
+      "signatureDishes": [
+        "海南白切鸡",
+        "海南烧鸡",
+        "炸虾酱鸡"
+      ],
+      "atmosphere": [
+        "怀旧复古",
+        "家庭聚餐",
+        "日常简餐"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "室内空调"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryHasVegetarian": false,
+      "dietaryPorkFree": false,
+      "reservationRequired": false,
+      "reservationDifficulty": "",
+      "reservationPlatform": ""
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-002_east-coast-lagoon",
+    "type": "restaurant",
+    "name": "East Coast Lagoon Food Village",
+    "nameCn": "东海岸人工湖美食村",
+    "area": "East Coast",
+    "postalCode": "468960",
+    "coordinates": [
+      1.307,
+      103.9347
+    ],
+    "tags": [
+      "小贩中心",
+      "海景",
+      "烧烤海鲜",
+      "沙嗲",
+      "平价美食"
+    ],
+    "rating": 4.2,
+    "description": "新加坡唯一位于海滩旁的小贩中心，吹着海风品尝地道的沙嗲、烤魔鬼鱼和烤鸡全翅。紧邻东海岸公园，是本地人周末家庭聚餐和骑行后的宵夜圣地。",
+    "address": "1220 East Coast Parkway, Singapore 468960",
+    "mapLink": "https://maps.google.com/?q=East+Coast+Lagoon+Food+Village",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "周一至周四及周日 11:00 AM - 10:00 PM, 周五至周六 11:00 AM - 12:00 AM (各摊位时间略有不同)",
+    "suggestedDuration": "1 - 2 小时",
     "restaurantFeatures": {
       "cuisine": [
         "新加坡菜",
         "海鲜",
-        "中式"
-      ],
-      "priceLevel": "$$$",
-      "avgSpendSGD": 80,
-      "avgSpendMinSGD": 60,
-      "avgSpendMaxSGD": 100,
-      "signatureDishes": [
-        "招牌辣椒蟹配炸馒头",
-        "招牌黑胡椒蟹",
-        "翡翠豆腐",
-        "咸蛋黄虾球"
-      ],
-      "atmosphere": [
-        "商务宴请",
-        "家庭聚餐",
-        "海景观景",
-        "朋友聚会"
-      ],
-      "dressCode": "Casual（休闲即可，禁止泳装）",
-      "seatingOptions": [
-        "室内空调",
-        "室外露天"
-      ],
-      "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
-      "dietaryPorkFree": false,
-      "reservationRequired": true,
-      "reservationDifficulty": "建议提前 3-7 天预订",
-      "reservationPlatform": "Chope"
-    }
-  },
-  {
-    "id": "rst-002_maxwell-food",
-    "type": "restaurant",
-    "name": "Maxwell Food Centre",
-    "nameCn": "麦士威熟食中心",
-    "area": "Chinatown",
-    "postalCode": "069184",
-    "coordinates": [
-      1.2802,
-      103.8447
-    ],
-    "tags": [
-      "平价",
-      "本地小吃",
-      "海南鸡饭"
-    ],
-    "rating": 4.4,
-    "description": "本地知名小贩中心，天天海南鸡饭排队常客，适合体验新加坡日常饮食文化。摊位很多，可以几个人分开点几样一起吃，人均很便宜。",
-    "address": "1 Kadayanallur St, Singapore 069184",
-    "mapLink": "https://maps.google.com/?q=Maxwell+Food+Centre+Singapore",
-    "bookingUrl": "",
-    "guideUrl": "",
-    "openingHours": "8:00 AM - 10:00 PM（各摊位略有不同）",
-    "suggestedDuration": "1 小时",
-    "photos": [
-      "https://picsum.photos/seed/maxwell1/900/700",
-      "https://picsum.photos/seed/maxwell2/900/700"
-    ],
-    "restaurantFeatures": {
-      "cuisine": [
-        "本地小吃",
-        "海南鸡饭",
-        "中式"
+        "小贩美食",
+        "烧烤"
       ],
       "priceLevel": "$",
-      "avgSpendSGD": 8,
-      "avgSpendMinSGD": 5,
-      "avgSpendMaxSGD": 15,
+      "avgSpendSGD": 15,
+      "avgSpendMinSGD": 10,
+      "avgSpendMaxSGD": 30,
       "signatureDishes": [
-        "天天海南鸡饭",
-        "老伴豆花水"
+        "烤沙嗲",
+        "参巴烤魔鬼鱼",
+        "炒福建面",
+        "鲜榨甘蔗汁",
+        "烤鸡全翅"
       ],
       "atmosphere": [
-        "市井日常",
-        "朋友聚会"
+        "海景露天",
+        "休闲放松",
+        "烟火气",
+        "家庭聚餐"
       ],
-      "dressCode": "",
+      "dressCode": "Casual",
       "seatingOptions": [
-        "室外风扇区"
+        "室外露天",
+        "带顶棚室外座位"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
@@ -338,7 +599,8 @@
       "reservationRequired": false,
       "reservationDifficulty": "",
       "reservationPlatform": ""
-    }
+    },
+    "photos": []
   },
   {
     "id": "rst-003_g7-frog-porridge",

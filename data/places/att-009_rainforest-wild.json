@@ -1,0 +1,44 @@
+{
+  "id": "att-009_rainforest-wild",
+  "type": "attraction",
+  "name": "Rainforest Wild Adventure",
+  "nameCn": "热带雨林园 (西区/东区)",
+  "area": "Mandai",
+  "postalCode": "729825",
+  "coordinates": [1.4045, 103.7876],
+  "tags": ["户外探险", "自然风光", "动物园", "特色体验", "最新开幕"],
+  "rating": 4.6,
+  "description": "亚洲首个以探险为核心的野生动物园，分为西区(亚洲)和东区(非洲)两大区域。巧妙结合了丛林徒步、空中步道、模拟探洞与野生动物观赏(如马来亚虎、㺢㹢狓等)，带来独一无二的沉浸式热带雨林探险体验。",
+  "address": "20 Mandai Lake Rd, Singapore 729825",
+  "mapLink": "https://maps.google.com/?q=Rainforest+Wild+Adventure+Singapore",
+  "bookingUrl": "https://www.mandai.com/en/rainforest-wild.html",
+  "guideUrl": "",
+  "openingHours": "9:00 AM - 6:00 PM",
+  "suggestedDuration": "3-5 小时",
+  "attractionFeatures": {
+    "subCategory": "自然风光/主题公园",
+    "bestTimeVisit": "上午 9:00（由于包含体力消耗较大的户外探险项目，建议趁早晨天气相对凉爽时前往）",
+    "weatherAdaptability": "outdoor",
+    "ticketIsFree": false,
+    "ticketPriceDesc": "成人约 S$43，儿童约 S$31（一票通玩东西两区，部分进阶探险项目如树冠滑翔需符合身高要求）",
+    "ticketBookingRequired": true,
+    "highlights": [
+      "丛林探险体验：体验树冠滑翔 (Canopy Glider) 和树冠攀爬 (Treetop Traverse)",
+      "特色洞穴探险 (Wild Cavern Adventure)：在布满钟乳石的洞穴内体验黑暗中探索的乐趣",
+      "野生动物寻踪：西区观赏马来亚虎和马来貘，东区寻找首次亮相东南亚的㺢㹢狓 (Okapi)",
+      "沉浸式观景：穿行于高空栈道 (Elevated Walkways) 和悬索桥，多视角俯瞰雨林"
+    ],
+    "suitableFor": [
+      "亲子家庭 (适合大龄儿童)",
+      "自然爱好者",
+      "户外探险爱好者"
+    ],
+    "facilities": [
+      "无障碍通道 (部分基础步道)",
+      "免费游园接驳车 (连接东西两区)",
+      "探险装备安全设施",
+      "餐饮设施 (如 Watering Hole Cafe)",
+      "储物柜"
+    ]
+  }
+}
