@@ -24,12 +24,6 @@
     "guideUrl": "",
     "openingHours": "5:00 AM - 2:00 AM（云雾林/花穹 9:00 AM - 9:00 PM）",
     "suggestedDuration": "2-3 小时",
-    "photos": [
-      "https://picsum.photos/seed/gardens1/900/700",
-      "https://picsum.photos/seed/gardens2/900/700",
-      "https://picsum.photos/seed/gardens3/900/700",
-      "https://picsum.photos/seed/gardens4/900/700"
-    ],
     "attractionFeatures": {
       "subCategory": "自然风光/主题公园",
       "bestTimeVisit": "16:00 后（避开正午暴晒，顺便看 19:45 灯光秀）",
@@ -53,7 +47,12 @@
         "婴儿车友好",
         "行李寄存"
       ]
-    }
+    },
+    "photos": [
+      "/images/att-001_gardens-by-bay/att-001-001.png",
+      "/images/att-001_gardens-by-bay/att-001-002.png",
+      "/images/att-001_gardens-by-bay/att-001-003.png"
+    ]
   },
   {
     "id": "att-002_east-coast-park",
@@ -80,10 +79,6 @@
     "guideUrl": "",
     "openingHours": "全天开放",
     "suggestedDuration": "2 小时",
-    "photos": [
-      "https://picsum.photos/seed/eastcoast1/900/700",
-      "https://picsum.photos/seed/eastcoast2/900/700"
-    ],
     "attractionFeatures": {
       "subCategory": "公园/户外运动",
       "bestTimeVisit": "傍晚 17:00 后（更凉爽，能看日落）",
@@ -106,7 +101,8 @@
         "公共厕所",
         "烧烤场地租借"
       ]
-    }
+    },
+    "photos": []
   },
   {
     "id": "att-003_sentosa-yacht",
