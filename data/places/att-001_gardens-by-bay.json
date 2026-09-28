@@ -6,28 +6,38 @@
   "area": "Marina Bay",
   "postalCode": "018953",
   "coordinates": [1.2816, 103.8636],
-  "tags": ["网红", "夜景", "免费", "室内避雨"],
+  "tags": ["trending", "night-view", "free", "indoor-shelter"],
   "rating": 4.8,
   "description": "新加坡地标级景点，超级树、云雾林、花穹三大看点，傍晚灯光秀室外免费观看。建议下午16点后再去，避开正午暴晒，顺便看晚上的灯光秀。",
+  "descriptionEn": "Singapore's landmark attraction, famous for the Supertree Grove, Cloud Forest, and Flower Dome. The outdoor light show in the evening is free to watch. Best visited after 4pm to avoid the midday heat and catch the night light show.",
   "address": "18 Marina Gardens Dr, Singapore 018953",
   "mapLink": "https://maps.google.com/?q=Gardens+by+the+Bay+Singapore",
   "bookingUrl": "https://www.gardensbythebay.com.sg/en/tickets.html",
   "guideUrl": "",
   "openingHours": "5:00 AM - 2:00 AM（云雾林/花穹 9:00 AM - 9:00 PM）",
+  "openingHoursEn": "5:00 AM - 2:00 AM (Cloud Forest / Flower Dome: 9:00 AM - 9:00 PM)",
   "suggestedDuration": "2-3 小时",
+  "suggestedDurationEn": "2-3 hours",
   "attractionFeatures": {
-    "subCategory": "自然风光/主题公园",
+    "subCategory": "nature-theme-park",
     "bestTimeVisit": "16:00 后（避开正午暴晒，顺便看 19:45 灯光秀）",
+    "bestTimeVisitEn": "After 4:00 PM (avoids midday heat, catch the 7:45 PM light show)",
     "weatherAdaptability": "mixed",
     "ticketIsFree": false,
     "ticketPriceDesc": "户外区域免费；云雾林/花穹成人约 S$32-53",
+    "ticketPriceDescEn": "Outdoor areas free; Cloud Forest/Flower Dome approx. S$32-53 for adults",
     "ticketBookingRequired": true,
     "highlights": [
       "云雾林 (Cloud Forest) 35米高室内瀑布",
       "超级树灯光秀 (Garden Rhapsody, 每日 19:45 / 20:45)",
       "OCBC Skyway 空中走廊"
     ],
-    "suitableFor": ["亲子家庭", "情侣约会", "摄影爱好者", "带长辈"],
-    "facilities": ["无障碍轮椅通道", "婴儿车友好", "行李寄存"]
+    "highlightsEn": [
+      "Cloud Forest: 35m indoor waterfall",
+      "Supertree light show (Garden Rhapsody, daily 7:45 PM / 8:45 PM)",
+      "OCBC Skyway aerial walkway"
+    ],
+    "suitableFor": ["family", "couples", "photographers", "seniors"],
+    "facilities": ["wheelchair-access", "stroller-friendly", "luggage-storage"]
   }
 }

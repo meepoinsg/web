@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { X } from "lucide-react";
+import { t } from "../lib/i18n";
 
 // data.gov.sg 2小时天气预报接口的area名字 -> 中文地名。
 // 只翻译了游客/本地人比较熟悉的区域，不确定的生僻区域（工业区、军事区等）
@@ -85,7 +86,7 @@ function weatherIcon(emoji) {
   });
 }
 
-export default function WeatherMapModal({ onClose }) {
+export default function WeatherMapModal({ onClose, lang = "zh" }) {
   const [state, setState] = useState({ status: "loading", points: [] });
 
   useEffect(() => {
@@ -132,9 +133,11 @@ export default function WeatherMapModal({ onClose }) {
       <div className="bg-white w-full sm:max-w-2xl sm:rounded-2xl rounded-t-2xl max-h-[92vh] overflow-hidden relative flex flex-col">
         <div className="flex items-center justify-between px-4 pt-4 pb-2 border-b border-[var(--line)]">
           <div>
-            <h2 className="text-base font-semibold m-0">🇸🇬 新加坡全岛实时天气</h2>
+            <h2 className="text-base font-semibold m-0">{t(lang, "weatherModalTitle")}</h2>
             <p className="text-xs text-gray-500 m-0 mt-0.5">
-              {state.status === "ok" && state.updated ? `预报时段：${state.updated}` : "data.gov.sg 2小时天气预报"}
+              {state.status === "ok" && state.updated
+                ? `${t(lang, "weatherModalPeriodPrefix")}${state.updated}`
+                : t(lang, "weatherModalSubtitleFallback")}
             </p>
           </div>
           <button
@@ -148,12 +151,12 @@ export default function WeatherMapModal({ onClose }) {
         <div className="flex-1 min-h-[60vh]">
           {state.status === "loading" && (
             <div className="h-full min-h-[60vh] flex items-center justify-center text-sm text-gray-400">
-              加载天气数据中...
+              {t(lang, "weatherLoading")}
             </div>
           )}
           {state.status === "error" && (
             <div className="h-full min-h-[60vh] flex items-center justify-center text-sm text-gray-400 px-8 text-center">
-              天气数据暂时加载失败，请稍后再试
+              {t(lang, "weatherError")}
             </div>
           )}
           {state.status === "ok" && (
@@ -175,12 +178,14 @@ export default function WeatherMapModal({ onClose }) {
                 <Marker key={p.name} position={[p.lat, p.lng]} icon={weatherIcon(p.icon)}>
                   <Popup>
                     <div style={{ fontSize: 13 }}>
-                      <strong>{p.nameCn || p.name}</strong>
+                      <strong>{lang === "en" ? p.name : p.nameCn || p.name}</strong>
                       {p.nameCn && (
-                        <div style={{ fontSize: 11, color: "#6b7280" }}>{p.name}</div>
+                        <div style={{ fontSize: 11, color: "#6b7280" }}>
+                          {lang === "en" ? p.nameCn : p.name}
+                        </div>
                       )}
                       <div style={{ marginTop: 4 }}>
-                        {p.icon} {p.forecast || "暂无数据"}
+                        {p.icon} {p.forecast || t(lang, "weatherNoData")}
                       </div>
                     </div>
                   </Popup>

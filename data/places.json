@@ -11,41 +11,51 @@
       103.8636
     ],
     "tags": [
-      "网红",
-      "夜景",
-      "免费",
-      "室内避雨"
+      "trending",
+      "night-view",
+      "free",
+      "indoor-shelter"
     ],
     "rating": 4.8,
     "description": "新加坡地标级景点，超级树、云雾林、花穹三大看点，傍晚灯光秀室外免费观看。建议下午16点后再去，避开正午暴晒，顺便看晚上的灯光秀。",
+    "descriptionEn": "Singapore's landmark attraction, famous for the Supertree Grove, Cloud Forest, and Flower Dome. The outdoor light show in the evening is free to watch. Best visited after 4pm to avoid the midday heat and catch the night light show.",
     "address": "18 Marina Gardens Dr, Singapore 018953",
     "mapLink": "https://maps.google.com/?q=Gardens+by+the+Bay+Singapore",
     "bookingUrl": "https://www.gardensbythebay.com.sg/en/tickets.html",
     "guideUrl": "",
     "openingHours": "5:00 AM - 2:00 AM（云雾林/花穹 9:00 AM - 9:00 PM）",
+    "openingHoursEn": "5:00 AM - 2:00 AM (Cloud Forest / Flower Dome: 9:00 AM - 9:00 PM)",
     "suggestedDuration": "2-3 小时",
+    "suggestedDurationEn": "2-3 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "16:00 后（避开正午暴晒，顺便看 19:45 灯光秀）",
+      "bestTimeVisitEn": "After 4:00 PM (avoids midday heat, catch the 7:45 PM light show)",
       "weatherAdaptability": "mixed",
       "ticketIsFree": false,
       "ticketPriceDesc": "户外区域免费；云雾林/花穹成人约 S$32-53",
+      "ticketPriceDescEn": "Outdoor areas free; Cloud Forest/Flower Dome approx. S$32-53 for adults",
       "ticketBookingRequired": true,
       "highlights": [
         "云雾林 (Cloud Forest) 35米高室内瀑布",
         "超级树灯光秀 (Garden Rhapsody, 每日 19:45 / 20:45)",
         "OCBC Skyway 空中走廊"
       ],
+      "highlightsEn": [
+        "Cloud Forest: 35m indoor waterfall",
+        "Supertree light show (Garden Rhapsody, daily 7:45 PM / 8:45 PM)",
+        "OCBC Skyway aerial walkway"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "情侣约会",
-        "摄影爱好者",
-        "带长辈"
+        "family",
+        "couples",
+        "photographers",
+        "seniors"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "行李寄存"
+        "wheelchair-access",
+        "stroller-friendly",
+        "luggage-storage"
       ]
     },
     "photos": [
@@ -66,40 +76,50 @@
       103.912
     ],
     "tags": [
-      "小众",
-      "亲子",
-      "免费",
-      "骑行"
+      "hidden-gem",
+      "family",
+      "free",
+      "cycling"
     ],
     "rating": 4.5,
     "description": "本地人周末骑车、烧烤、看海的地方，沿海骑行道很长，适合租自行车逛一圈，傍晚风大很舒服。",
+    "descriptionEn": "A local favorite for weekend cycling, BBQs, and seaside strolls. The coastal cycling path is long, great for renting a bike; evenings are breezy and pleasant.",
     "address": "East Coast Park, Singapore",
     "mapLink": "https://maps.google.com/?q=East+Coast+Park+Singapore",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "全天开放",
+    "openingHoursEn": "Open 24 hours",
     "suggestedDuration": "2 小时",
+    "suggestedDurationEn": "2 hours",
     "attractionFeatures": {
-      "subCategory": "公园/户外运动",
+      "subCategory": "park-outdoor-sports",
       "bestTimeVisit": "傍晚 17:00 后（更凉爽，能看日落）",
+      "bestTimeVisitEn": "After 5:00 PM (cooler, good for sunset)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": true,
       "ticketPriceDesc": "免费开放，自行车租赁另计费",
+      "ticketPriceDescEn": "Free entry; bike rental charged separately",
       "ticketBookingRequired": false,
       "highlights": [
         "沿海骑行道",
         "烧烤场地",
         "水上运动中心"
       ],
+      "highlightsEn": [
+        "Coastal cycling path",
+        "BBQ pits",
+        "Water sports centre"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "运动爱好者",
-        "情侣约会"
+        "family",
+        "sports-lovers",
+        "couples"
       ],
       "facilities": [
-        "自行车租赁",
-        "公共厕所",
-        "烧烤场地租借"
+        "bike-rental",
+        "public-restroom",
+        "bbq-pit-rental"
       ]
     },
     "photos": []
@@ -116,45 +136,55 @@
       103.8417
     ],
     "tags": [
-      "游艇出海",
-      "海上BBQ",
-      "团队聚会",
-      "拉扎鲁斯岛",
-      "水上活动"
+      "yacht-charter",
+      "sea-bbq",
+      "team-gathering",
+      "lazarus-island",
+      "water-activities"
     ],
     "rating": 4.8,
     "description": "由 Infinity Sails 提供的 46 英尺双体动力游艇（MY Escapade）出海体验，最大承载约 30-32 人。航线自圣淘沙升涛湾出发前往南部岛屿（如 Lazarus Island），船上配备飞桥区、空调休息室、KTV 音响及 BBQ 烧烤设施，非常适合团体出海与水上娱乐。",
+    "descriptionEn": "A 46-ft power catamaran (MY Escapade) charter by Infinity Sails, holding up to 30-32 guests. Departs from Sentosa Cove for the Southern Islands (e.g. Lazarus Island). Onboard features a flybridge deck, air-conditioned saloon, KTV sound system and BBQ facilities — great for group outings and water fun.",
     "address": "1 Cove Ave, #02-12 Sentosa Cove Arrival Plaza, Singapore 098537",
     "mapLink": "https://maps.google.com/?q=1+Cove+Ave,+Singapore+098537",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "预订制（典型出海时段如 10:00 - 15:00，共 5 小时）需找到对应船只中介的Whatsapp号码预定",
+    "openingHoursEn": "By appointment only (typical trip 10:00 AM - 3:00 PM, 5 hours); book via the charter agent's WhatsApp",
     "suggestedDuration": "4-5 小时",
+    "suggestedDurationEn": "4-5 hours",
     "attractionFeatures": {
-      "subCategory": "海上游艇/水上体验",
+      "subCategory": "yacht-water-experience",
       "bestTimeVisit": "白天出航（如 10:00 - 15:00，适合水上活动与海上 BBQ），傍晚出航（16:00-20:00，更加凉爽且拥有无遮挡夜景）",
+      "bestTimeVisitEn": "Daytime trips (e.g. 10 AM-3 PM) suit water activities and BBQ; evening trips (4 PM-8 PM) are cooler with unobstructed night views",
       "weatherAdaptability": "mixed",
       "ticketIsFree": false,
       "ticketPriceDesc": "包船租赁按套餐与人数计费（参考：包船约 S$1,320/10人，随后S$70/人；BBQ 食材需额外采购，配送到码头）",
+      "ticketPriceDescEn": "Charter priced by package and headcount (approx. S$1,320 for 10 pax, then S$70/person; BBQ supplies purchased separately and delivered to the jetty)",
       "ticketBookingRequired": true,
       "highlights": [
         "46英尺动力双体游艇（MY Escapade），行驶稳定且空间宽敞",
         "新加坡南部岛屿巡航（Lazarus Island / Eagle Bay 停泊游玩）",
         "配备飞桥活动区、空调Saloon休息室、KTV音响与海上BBQ设施"
       ],
+      "highlightsEn": [
+        "46-ft power catamaran (MY Escapade), stable and spacious",
+        "Cruise to Singapore's Southern Islands (stop at Lazarus Island / Eagle Bay)",
+        "Flybridge deck, air-conditioned saloon, KTV sound system and BBQ facilities onboard"
+      ],
       "suitableFor": [
-        "团队聚会",
-        "公司团建",
-        "亲子家庭",
-        "朋友派对"
+        "team-outings",
+        "corporate-teambuilding",
+        "family",
+        "friends-party"
       ],
       "facilities": [
-        "室内空调休息区",
-        "船上KTV/音响系统",
-        "BBQ烧烤设施",
-        "冰箱/冷藏柜",
-        "淋浴与卫生间",
-        "客舱更衣室"
+        "indoor-aircon-lounge",
+        "onboard-ktv-sound",
+        "bbq-facilities",
+        "fridge-cooler",
+        "shower-toilet",
+        "changing-room"
       ]
     },
     "photos": []
@@ -171,26 +201,31 @@
       103.8348
     ],
     "tags": [
-      "徒步",
-      "自然",
-      "免费",
-      "户外",
-      "野生动物"
+      "hiking",
+      "nature",
+      "free",
+      "outdoor",
+      "wildlife"
     ],
     "rating": 4.7,
     "description": "新加坡经典的徒步胜地，环湖总长约11公里。沿途可欣赏热带雨林并偶遇野生动物。建议行前做好防蚊措施；切勿手提塑料袋或喂食猴子。林间土路段休息区较少，请量力而行。",
+    "descriptionEn": "A classic Singapore hiking spot with an ~11km loop around the reservoir. Enjoy tropical rainforest scenery and possible wildlife encounters along the way. Bring mosquito repellent; never carry plastic bags visibly or feed the monkeys. Rest points are scarce on the forest trail sections, so pace yourself.",
     "address": "MacRitchie Reservoir Park, Singapore 298717",
     "mapLink": "https://maps.google.com/?q=MacRitchie+Reservoir+Park",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "7:00 AM - 7:00 PM",
+    "openingHoursEn": "7:00 AM - 7:00 PM",
     "suggestedDuration": "3-5 小时",
+    "suggestedDurationEn": "3-5 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/徒步",
+      "subCategory": "nature-hiking",
       "bestTimeVisit": "07:00 - 09:00 或 16:00 后（避开正午暴晒）",
+      "bestTimeVisitEn": "7:00-9:00 AM or after 4:00 PM (avoid midday heat)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": true,
       "ticketPriceDesc": "全天免费开放",
+      "ticketPriceDescEn": "Free entry all day",
       "ticketBookingRequired": false,
       "highlights": [
         "路线全长：完整大环线约11公里，亦有3-5公里的短途折返路线，可根据体力自由选择",
@@ -199,16 +234,23 @@
         "野生动物防范：林区蚊虫较多，建议喷涂防蚊液；偶遇蛇或巨蜥属正常生态现象，保持冷静不惊扰、不靠近并绕行",
         "休息区分布：入口公园、湖畔木栈道及护林员站设有较多长椅和凉亭，进入林间原始土路后休息点稀少"
       ],
+      "highlightsEn": [
+        "Trail length: full loop ~11km, with shorter 3-5km out-and-back options depending on fitness level",
+        "Supplies & restrooms: available at the South Entrance (start/end point) and the ranger station midway; no supply points on the pure dirt-trail sections, so bring enough water",
+        "Monkey safety: never feed them! Don't carry visible plastic bags or eat while walking; avoid eye contact and just pass quietly at a safe distance",
+        "Wildlife caution: mosquitoes are common, use repellent; encountering snakes or monitor lizards is normal — stay calm, don't approach, and walk around them",
+        "Rest areas: plenty of benches and shelters near the entrance park, lakeside boardwalk and ranger station; very few once you're on the forest dirt trails"
+      ],
       "suitableFor": [
-        "户外运动爱好者",
-        "亲子家庭(大龄儿童)",
-        "摄影爱好者"
+        "outdoor-sports-lovers",
+        "family-older-kids",
+        "photographers"
       ],
       "facilities": [
-        "洗手间",
-        "直饮水机",
-        "储物柜(南部入口处)",
-        "淋浴间(南部入口处)"
+        "restroom",
+        "water-refill",
+        "lockers-south-entrance",
+        "shower-south-entrance"
       ]
     },
     "photos": []
@@ -225,25 +267,30 @@
       103.793
     ],
     "tags": [
-      "亲子家庭",
-      "自然风光",
-      "动物园",
-      "环保设施"
+      "family",
+      "scenery",
+      "zoo",
+      "eco-friendly"
     ],
     "rating": 4.7,
     "description": "屡获殊荣的全开放式动物园。园内有精彩的《海洋动物表演》等特色演出，并设有阿明餐厅(Ah Meng Restaurant)等多家内部餐饮。园区提供免费游园摆渡车轻松代步，且到处都有直饮水机，强烈建议自带水壶接水。",
+    "descriptionEn": "An award-winning, fully open-concept zoo. Features shows like the Splash Safari, plus several on-site eateries including Ah Meng Restaurant. Free shuttle trams make getting around easy, and water refill points are everywhere — bring a bottle.",
     "address": "80 Mandai Lake Rd, Singapore 729826",
     "mapLink": "https://maps.google.com/?q=Singapore+Zoo",
     "bookingUrl": "https://www.mandai.com/en/singapore-zoo.html",
     "guideUrl": "",
     "openingHours": "8:30 AM - 6:00 PM",
+    "openingHoursEn": "8:30 AM - 6:00 PM",
     "suggestedDuration": "3-4 小时",
+    "suggestedDurationEn": "3-4 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "上午 8:30 或下午（避开正午暴晒，合理安排看表演的时间）",
+      "bestTimeVisitEn": "8:30 AM or afternoon (avoid midday heat, plan around show times)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+      "ticketPriceDescEn": "Adults approx. S$48, children approx. S$33",
       "ticketBookingRequired": true,
       "highlights": [
         "特色表演：海洋动物表演 (Splash Safari)、动物之友等",
@@ -251,17 +298,23 @@
         "交通便利：提供免费摆渡车 (游园车) 环游园区",
         "环保设施：园区到处可以接水，带水壶即可免费饮用"
       ],
+      "highlightsEn": [
+        "Shows: Splash Safari, Animal Friends and more",
+        "Dining: Ah Meng Restaurant (local & Western food), KFC and more",
+        "Getting around: free shuttle tram around the park",
+        "Eco-friendly: free water refill points throughout the park — bring a bottle"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "自然爱好者",
-        "摄影爱好者"
+        "family",
+        "nature-lovers",
+        "photographers"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "免费游园车",
-        "免费直饮水机",
-        "内部餐厅"
+        "wheelchair-access",
+        "stroller-friendly",
+        "free-shuttle",
+        "free-water-refill",
+        "onsite-dining"
       ]
     },
     "photos": []
@@ -278,41 +331,51 @@
       103.788
     ],
     "tags": [
-      "夜间活动",
-      "亲子家庭",
-      "动物园",
-      "特色体验"
+      "night-activity",
+      "family",
+      "zoo",
+      "unique-experience"
     ],
     "rating": 4.6,
     "description": "全球首个专为夜间动物设立的野生动物园。游客可乘坐游园车穿梭于不同地理区域观察夜行动物的真实状态，或漫步于步行小径近距离探索，是极具特色的夜间体验。",
+    "descriptionEn": "The world's first wildlife park designed for nocturnal animals. Ride the tram through different geographic zones to observe nocturnal animals in their natural state, or explore up close on foot along the walking trails — a truly unique night-time experience.",
     "address": "80 Mandai Lake Rd, Singapore 729826",
     "mapLink": "https://maps.google.com/?q=Night+Safari+Singapore",
     "bookingUrl": "https://www.mandai.com/en/night-safari.html",
     "guideUrl": "",
     "openingHours": "7:15 PM - 12:00 AM",
+    "openingHoursEn": "7:15 PM - 12:00 AM",
     "suggestedDuration": "3-4 小时",
+    "suggestedDurationEn": "3-4 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "19:15 入园（建议提前预订最早的入园场次，预留时间观看表演）",
+      "bestTimeVisitEn": "Enter at 7:15 PM (book the earliest slot to leave time for the show)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$55，儿童约 S$38",
+      "ticketPriceDescEn": "Adults approx. S$55, children approx. S$38",
       "ticketBookingRequired": true,
       "highlights": [
         "游园车 (Guided Tram Ride)：约40分钟，配有英文或多语言语音导览",
         "夜晚的精灵动物表演 (Creatures of the Night Show)",
         "四条独特的步行小径 (Walking Trails)：如渔猫小径、花豹小径等"
       ],
+      "highlightsEn": [
+        "Guided Tram Ride: ~40 minutes, with English or multilingual audio commentary",
+        "Creatures of the Night Show",
+        "Four unique walking trails, e.g. Fishing Cat Trail, Leopard Trail"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "情侣约会",
-        "自然爱好者"
+        "family",
+        "couples",
+        "nature-lovers"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "免费游园车",
-        "餐饮设施"
+        "wheelchair-access",
+        "stroller-friendly",
+        "free-shuttle",
+        "dining-facilities"
       ]
     },
     "photos": []
@@ -329,41 +392,51 @@
       103.7906
     ],
     "tags": [
-      "亲子家庭",
-      "室内避雨",
-      "动物园",
-      "特色体验"
+      "family",
+      "indoor-shelter",
+      "zoo",
+      "unique-experience"
     ],
     "rating": 4.6,
     "description": "亚洲首个也是唯一一个以河川为主题的野生动物园。园区设有大量带顶棚的步道，不受日晒雨淋影响。必体验亚马逊河探索游船，并在大熊猫竹林探访大熊猫，以及在巨型水族馆观赏海牛。",
+    "descriptionEn": "Asia's first and only river-themed wildlife park. Most walkways are covered, so you're sheltered from sun and rain. Don't miss the Amazon River Quest boat ride, a visit to the giant pandas at the Giant Panda Forest, and manatees in the giant aquarium.",
     "address": "80 Mandai Lake Rd, Singapore 729826",
     "mapLink": "https://maps.google.com/?q=River+Wonders+Singapore",
     "bookingUrl": "https://www.mandai.com/en/river-wonders.html",
     "guideUrl": "",
     "openingHours": "10:00 AM - 7:00 PM",
+    "openingHoursEn": "10:00 AM - 7:00 PM",
     "suggestedDuration": "2-3 小时",
+    "suggestedDurationEn": "2-3 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "全天皆可（有大量带顶棚区域，是雨天避雨或晴天避暑的好去处）",
+      "bestTimeVisitEn": "Good any time of day (mostly covered, great for shelter from rain or heat)",
       "weatherAdaptability": "mixed",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$42，儿童约 S$30",
+      "ticketPriceDescEn": "Adults approx. S$42, children approx. S$30",
       "ticketBookingRequired": true,
       "highlights": [
         "亚马逊河探索游船 (Amazon River Quest)：乘船沉浸式观赏野生动物",
         "大熊猫竹林 (Giant Panda Forest)：探访大熊猫",
         "亚马逊洪溢林 (Amazon Flooded Forest)：在巨型水族馆观赏海牛"
       ],
+      "highlightsEn": [
+        "Amazon River Quest: an immersive boat ride to see wildlife",
+        "Giant Panda Forest: visit the giant pandas",
+        "Amazon Flooded Forest: see manatees in the giant aquarium"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "情侣约会",
-        "自然爱好者"
+        "family",
+        "couples",
+        "nature-lovers"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "带顶棚步道",
-        "餐饮设施"
+        "wheelchair-access",
+        "stroller-friendly",
+        "covered-walkway",
+        "dining-facilities"
       ]
     },
     "photos": []
@@ -380,25 +453,30 @@
       103.7876
     ],
     "tags": [
-      "亲子家庭",
-      "自然风光",
-      "动物园",
-      "特色体验"
+      "family",
+      "scenery",
+      "zoo",
+      "unique-experience"
     ],
     "rating": 4.7,
     "description": "亚洲最大的飞禽公园，全新迁至万态野生动物世界。园区拥有八大沉浸式大型步入式鸟舍，展示全球多种珍稀飞禽。必看精彩的飞禽表演以及设有冷气设施的室内企鹅湾。",
+    "descriptionEn": "Asia's largest bird park, newly relocated to Mandai Wildlife Reserve. Features eight immersive walk-in aviaries showcasing rare bird species from around the world. Don't miss the bird shows and the air-conditioned indoor Penguin Cove.",
     "address": "20 Mandai Lake Rd, Singapore 729825",
     "mapLink": "https://maps.google.com/?q=Bird+Paradise+Singapore",
     "bookingUrl": "https://www.mandai.com/en/bird-paradise.html",
     "guideUrl": "",
     "openingHours": "9:00 AM - 6:00 PM",
+    "openingHoursEn": "9:00 AM - 6:00 PM",
     "suggestedDuration": "3-4 小时",
+    "suggestedDurationEn": "3-4 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "上午 9:00 或下午（避开正午暴晒，合理安排观看两场主打飞禽表演的时间）",
+      "bestTimeVisitEn": "9:00 AM or afternoon (avoid midday heat, plan around the two main bird shows)",
       "weatherAdaptability": "mixed",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$48，儿童约 S$33",
+      "ticketPriceDescEn": "Adults approx. S$48, children approx. S$33",
       "ticketBookingRequired": true,
       "highlights": [
         "八大沉浸式步入式鸟舍 (Walk-in Aviaries)",
@@ -406,17 +484,23 @@
         "精彩飞禽表演：展翅高飞表演 (Wings of the World) 等",
         "交通便利：园区内提供免费游园车接驳"
       ],
+      "highlightsEn": [
+        "Eight immersive walk-in aviaries",
+        "Penguin Cove: air-conditioned indoor habitat with multiple penguin species and underwater views",
+        "Bird shows including Wings of the World",
+        "Convenient: free shuttle tram within the park"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "自然爱好者",
-        "摄影爱好者"
+        "family",
+        "nature-lovers",
+        "photographers"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "免费游园车",
-        "餐饮设施",
-        "室内避暑区域"
+        "wheelchair-access",
+        "stroller-friendly",
+        "free-shuttle",
+        "dining-facilities",
+        "indoor-cool-zone"
       ]
     },
     "photos": []
@@ -433,26 +517,31 @@
       103.7876
     ],
     "tags": [
-      "户外探险",
-      "自然风光",
-      "动物园",
-      "特色体验",
-      "最新开幕"
+      "outdoor-adventure",
+      "scenery",
+      "zoo",
+      "unique-experience",
+      "newly-opened"
     ],
     "rating": 4.6,
     "description": "亚洲首个以探险为核心的野生动物园，分为西区(亚洲)和东区(非洲)两大区域。巧妙结合了丛林徒步、空中步道、模拟探洞与野生动物观赏(如马来亚虎、㺢㹢狓等)，带来独一无二的沉浸式热带雨林探险体验。",
+    "descriptionEn": "Asia's first adventure-focused wildlife park, split into the West Zone (Asia) and East Zone (Africa). It combines jungle trekking, aerial walkways, a simulated cave exploration and wildlife viewing (Malayan tigers, okapis and more) for a truly immersive rainforest adventure.",
     "address": "20 Mandai Lake Rd, Singapore 729825",
     "mapLink": "https://maps.google.com/?q=Rainforest+Wild+Adventure+Singapore",
     "bookingUrl": "https://www.mandai.com/en/rainforest-wild.html",
     "guideUrl": "",
     "openingHours": "9:00 AM - 6:00 PM",
+    "openingHoursEn": "9:00 AM - 6:00 PM",
     "suggestedDuration": "3-5 小时",
+    "suggestedDurationEn": "3-5 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/主题公园",
+      "subCategory": "nature-theme-park",
       "bestTimeVisit": "上午 9:00（由于包含体力消耗较大的户外探险项目，建议趁早晨天气相对凉爽时前往）",
+      "bestTimeVisitEn": "9:00 AM (the outdoor adventure activities are physically demanding, so go while it's cooler in the morning)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$43，儿童约 S$31（一票通玩东西两区，部分进阶探险项目如树冠滑翔需符合身高要求）",
+      "ticketPriceDescEn": "Adults approx. S$43, children approx. S$31 (one ticket covers both zones; some advanced activities like the Canopy Glider have height requirements)",
       "ticketBookingRequired": true,
       "highlights": [
         "丛林探险体验：体验树冠滑翔 (Canopy Glider) 和树冠攀爬 (Treetop Traverse)",
@@ -460,17 +549,23 @@
         "野生动物寻踪：西区观赏马来亚虎和马来貘，东区寻找首次亮相东南亚的㺢㹢狓 (Okapi)",
         "沉浸式观景：穿行于高空栈道 (Elevated Walkways) 和悬索桥，多视角俯瞰雨林"
       ],
+      "highlightsEn": [
+        "Jungle adventures: Canopy Glider and Treetop Traverse",
+        "Wild Cavern Adventure: explore a stalactite-filled cave in the dark",
+        "Wildlife spotting: Malayan tigers and tapirs in the West Zone; okapis (first debut in Southeast Asia) in the East Zone",
+        "Immersive views: elevated walkways and suspension bridges offering multiple vantage points over the rainforest"
+      ],
       "suitableFor": [
-        "亲子家庭 (适合大龄儿童)",
-        "自然爱好者",
-        "户外探险爱好者"
+        "family-older-kids",
+        "nature-lovers",
+        "adventure-lovers"
       ],
       "facilities": [
-        "无障碍通道 (部分基础步道)",
-        "免费游园接驳车 (连接东西两区)",
-        "探险装备安全设施",
-        "餐饮设施 (如 Watering Hole Cafe)",
-        "储物柜"
+        "wheelchair-access-partial",
+        "free-shuttle-east-west",
+        "adventure-safety-gear",
+        "dining-facilities-named",
+        "lockers"
       ]
     },
     "photos": []
@@ -487,25 +582,30 @@
       103.8463
     ],
     "tags": [
-      "夜景",
-      "特色体验",
-      "情侣约会",
-      "亲子家庭"
+      "night-view",
+      "unique-experience",
+      "date-spot",
+      "family"
     ],
     "rating": 4.4,
     "description": "新加坡河经典的游船体验起点。单场游船时长约40分钟，游船路径自克拉码头出发，途径驳船码头（Boat Quay），前往滨海湾（Marina Bay）欣赏地标后折返。强烈推荐夜晚乘船，可饱览绚丽的城市天际线与金沙灯光秀。请注意，晚间热门时段乘船预计需排队 30-45 分钟。",
+    "descriptionEn": "The classic starting point for a Singapore River cruise. Each ride is about 40 minutes, departing from Clarke Quay, passing Boat Quay, and heading to Marina Bay to view the landmarks before looping back. Highly recommended at night for the dazzling skyline and Marina Bay Sands light show. Note: expect a 30-45 minute queue during popular evening slots.",
     "address": "3 River Valley Rd, Clarke Quay Jetty, Singapore 058282",
     "mapLink": "https://maps.google.com/?q=Clarke+Quay+Jetty+Singapore",
     "bookingUrl": "https://rivercruise.com.sg/",
     "guideUrl": "",
     "openingHours": "10:00 AM - 10:30 PM",
+    "openingHoursEn": "10:00 AM - 10:30 PM",
     "suggestedDuration": "1.5 小时 (含排队)",
+    "suggestedDurationEn": "1.5 hours (incl. queueing)",
     "attractionFeatures": {
-      "subCategory": "游船/观光",
+      "subCategory": "river-cruise-sightseeing",
       "bestTimeVisit": "19:00 - 21:00（强烈推荐夜晚乘船，赏夜景及金沙灯光秀）",
+      "bestTimeVisitEn": "7:00-9:00 PM (highly recommended at night for the skyline and Marina Bay Sands light show)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": false,
       "ticketPriceDesc": "成人约 S$28，儿童约 S$18",
+      "ticketPriceDescEn": "Adults approx. S$28, children approx. S$18",
       "ticketBookingRequired": true,
       "highlights": [
         "单场游玩时长：约 40 分钟",
@@ -513,15 +613,21 @@
         "热门时段预计排队时间：30-45 分钟",
         "绝佳水上视角欣赏鱼尾狮、滨海湾金沙等地标夜景"
       ],
+      "highlightsEn": [
+        "Ride duration: approx. 40 minutes",
+        "Route: Clarke Quay → Boat Quay → Marina Bay → back",
+        "Expected queue during peak hours: 30-45 minutes",
+        "Great water-level views of the Merlion, Marina Bay Sands and other landmarks at night"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "情侣约会",
-        "长辈同行",
-        "摄影爱好者"
+        "family",
+        "couples",
+        "seniors",
+        "photographers"
       ],
       "facilities": [
-        "婴儿车需折叠上船",
-        "无障碍轮椅通道（部分船型支持，建议提前联系确认）"
+        "stroller-fold-required",
+        "wheelchair-access-boat"
       ]
     },
     "photos": []
@@ -538,25 +644,30 @@
       103.8159
     ],
     "tags": [
-      "世界文化遗产",
-      "自然风光",
-      "免费",
-      "亲子"
+      "unesco-heritage",
+      "scenery",
+      "free",
+      "family"
     ],
     "rating": 4.8,
     "description": "拥有逾160年历史的新加坡首个联合国教科文组织世界文化遗产。园内不仅有丰富的热带珍稀植物和举世闻名的国家兰花园，还汇聚了多间优质餐厅。搭乘地铁至植物园站（Botanic Gardens MRT）即可轻松直达，交通极其便利。",
+    "descriptionEn": "Singapore's first UNESCO World Heritage Site, with over 160 years of history. Home to a rich collection of rare tropical plants and the world-famous National Orchid Garden, plus several excellent restaurants. Easily accessible via Botanic Gardens MRT station.",
     "address": "1 Cluny Rd, Singapore 259569",
     "mapLink": "https://maps.google.com/?q=Singapore+Botanic+Gardens",
     "bookingUrl": "https://www.nparks.gov.sg/sbg/visit-us/national-orchid-garden",
     "guideUrl": "",
     "openingHours": "5:00 AM - 12:00 AM (国家兰花园 8:30 AM - 7:00 PM)",
+    "openingHoursEn": "5:00 AM - 12:00 AM (National Orchid Garden: 8:30 AM - 7:00 PM)",
     "suggestedDuration": "2-3 小时",
+    "suggestedDurationEn": "2-3 hours",
     "attractionFeatures": {
-      "subCategory": "自然风光/公园",
+      "subCategory": "nature-park",
       "bestTimeVisit": "07:00 - 10:00 或 16:00 后（避开正午高温）",
+      "bestTimeVisitEn": "7:00-10:00 AM or after 4:00 PM (avoid midday heat)",
       "weatherAdaptability": "outdoor",
       "ticketIsFree": true,
       "ticketPriceDesc": "全园免费入场；国家兰花园需购票（成人 S$15，本地居民及优惠人群有折扣）",
+      "ticketPriceDescEn": "Free entry to the gardens; National Orchid Garden requires a ticket (S$15 for adults, discounts for residents and concessions)",
       "ticketBookingRequired": false,
       "highlights": [
         "国家兰花园 (National Orchid Garden) 赏千余种胡姬花",
@@ -564,17 +675,23 @@
         "探索热带雨林区及百年珍稀植物",
         "体验园内特色餐饮（如米其林餐厅Corner House、Botanico等）"
       ],
+      "highlightsEn": [
+        "National Orchid Garden: over a thousand orchid varieties",
+        "Experience over 160 years of World Heritage history",
+        "Explore the rainforest zone and centuries-old rare plants",
+        "Dine at on-site restaurants like Michelin-starred Corner House and Botanico"
+      ],
       "suitableFor": [
-        "亲子家庭",
-        "情侣约会",
-        "自然/摄影爱好者",
-        "晨跑与徒步者"
+        "family",
+        "couples",
+        "nature-lovers",
+        "joggers-hikers"
       ],
       "facilities": [
-        "无障碍轮椅通道",
-        "婴儿车友好",
-        "直达地铁站 (Botanic Gardens MRT)",
-        "园内洗手间与直饮水设施"
+        "wheelchair-access",
+        "stroller-friendly",
+        "direct-mrt-access",
+        "restroom-water-onsite"
       ]
     },
     "photos": []
@@ -591,25 +708,28 @@
       103.835161
     ],
     "tags": [
-      "海南鸡饭",
-      "古早味",
-      "平价",
-      "老字号",
-      "近地铁"
+      "hainanese-chicken-rice",
+      "old-school-flavor",
+      "budget-friendly",
+      "heritage-brand",
+      "near-mrt"
     ],
     "rating": 4.1,
     "description": "创立于1968年的家族经营老字号，至今已传承三代。主打传统正宗的海南鸡饭，保留了古早味的怀旧装潢，是深受当地居民喜爱的平价食堂。位置便利，位于麦里芝水库东出入口附近，近CC16和TE8地铁站。",
+    "descriptionEn": "A family-run heritage eatery established in 1968, now in its third generation. Known for authentic, traditional Hainanese chicken rice, with old-school nostalgic decor. A beloved affordable spot among locals, conveniently located near MacRitchie Reservoir's east entrance and CC16/TE8 MRT stations.",
     "address": "201 Upper Thomson Rd, Singapore 574343",
     "mapLink": "https://maps.google.com/?q=Nam+Kee+Chicken+Rice+Restaurant+201+Upper+Thomson+Rd",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "10:45 AM - 8:30 PM",
+    "openingHoursEn": "10:45 AM - 8:30 PM",
     "suggestedDuration": "45 分钟",
+    "suggestedDurationEn": "45 minutes",
     "restaurantFeatures": {
       "cuisine": [
-        "新加坡菜",
-        "中式",
-        "海南鸡饭"
+        "sg-cuisine",
+        "chinese",
+        "hainanese-chicken-rice"
       ],
       "priceLevel": "$",
       "avgSpendSGD": 15,
@@ -620,14 +740,19 @@
         "海南烧鸡",
         "炸虾酱鸡"
       ],
+      "signatureDishesEn": [
+        "Hainanese Poached Chicken",
+        "Hainanese Roast Chicken",
+        "Prawn Paste Fried Chicken"
+      ],
       "atmosphere": [
-        "怀旧复古",
-        "家庭聚餐",
-        "日常简餐"
+        "nostalgic-retro",
+        "family-dining",
+        "casual-everyday"
       ],
       "dressCode": "Casual",
       "seatingOptions": [
-        "室内空调"
+        "indoor-aircon"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": false,
@@ -650,26 +775,29 @@
       103.9347
     ],
     "tags": [
-      "小贩中心",
-      "海景",
-      "烧烤海鲜",
-      "沙嗲",
-      "平价美食"
+      "hawker-centre",
+      "sea-view",
+      "bbq-seafood",
+      "satay",
+      "budget-eats"
     ],
     "rating": 4.2,
     "description": "新加坡唯一位于海滩旁的小贩中心，吹着海风品尝地道的沙嗲、烤魔鬼鱼和烤鸡全翅。紧邻东海岸公园，是本地人周末家庭聚餐和骑行后的宵夜圣地。",
+    "descriptionEn": "Singapore's only beachside hawker centre, where you can enjoy authentic satay, grilled stingray and BBQ chicken wings with a sea breeze. Right next to East Coast Park, it's a favorite spot for weekend family meals and post-cycling suppers.",
     "address": "1220 East Coast Parkway, Singapore 468960",
     "mapLink": "https://maps.google.com/?q=East+Coast+Lagoon+Food+Village",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "周一至周四及周日 11:00 AM - 10:00 PM, 周五至周六 11:00 AM - 12:00 AM (各摊位时间略有不同)",
+    "openingHoursEn": "Mon-Thu & Sun 11:00 AM - 10:00 PM, Fri-Sat 11:00 AM - 12:00 AM (varies by stall)",
     "suggestedDuration": "1 - 2 小时",
+    "suggestedDurationEn": "1-2 hours",
     "restaurantFeatures": {
       "cuisine": [
-        "新加坡菜",
-        "海鲜",
-        "小贩美食",
-        "烧烤"
+        "sg-cuisine",
+        "seafood",
+        "hawker-food",
+        "bbq"
       ],
       "priceLevel": "$",
       "avgSpendSGD": 15,
@@ -682,16 +810,23 @@
         "鲜榨甘蔗汁",
         "烤鸡全翅"
       ],
+      "signatureDishesEn": [
+        "BBQ Satay",
+        "Sambal Grilled Stingray",
+        "Fried Hokkien Mee",
+        "Fresh Sugarcane Juice",
+        "BBQ Chicken Wings"
+      ],
       "atmosphere": [
-        "海景露天",
-        "休闲放松",
-        "烟火气",
-        "家庭聚餐"
+        "alfresco-seaview",
+        "relaxed",
+        "lively-local",
+        "family-dining"
       ],
       "dressCode": "Casual",
       "seatingOptions": [
-        "室外露天",
-        "带顶棚室外座位"
+        "outdoor-alfresco",
+        "covered-outdoor"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
@@ -714,27 +849,31 @@
       103.874555
     ],
     "tags": [
-      "田鸡粥",
-      "宵夜",
-      "海鲜",
-      "煮炒",
-      "网红"
+      "frog-porridge",
+      "late-night-supper",
+      "seafood",
+      "zi-char",
+      "trending"
     ],
     "rating": 4.6,
     "description": "芽笼知名的老牌海鲜与田鸡粥餐厅，招牌宫保田鸡和姜葱田鸡肉质鲜嫩，酱汁浓郁，搭配绵密的砂煲白粥是绝佳的宵夜选择，同时也提供辣椒螃蟹等丰富的本地特色煮炒海鲜。",
+    "descriptionEn": "A well-known heritage seafood and frog porridge restaurant in Geylang. The signature Kung Pao frog and ginger-scallion frog are tender with rich sauce, paired perfectly with creamy claypot rice porridge — a great late-night supper. Also serves chilli crab and other local zi-char seafood dishes.",
     "address": "161, 163 Geylang Road, Lorong 3 Geylang, Singapore 389239",
     "mapLink": "https://maps.app.goo.gl/DxgL6oRMb5SpYkbJ8",
     "bookingUrl": "https://g7liveseafood.com.sg/",
     "guideUrl": "",
     "openingHours": "3:00 PM - 3:00 AM",
+    "openingHoursEn": "3:00 PM - 3:00 AM",
     "suggestedDuration": "1 - 1.5 小时",
+    "suggestedDurationEn": "1-1.5 hours",
     "recommendNote": "冲着田鸡粥来的老饕别只顾着吃田鸡，红烧鳄鱼尾也是这里的隐藏王牌——皮糯肉嫩，酱汁浓香入味，胆子大的一定要试试。",
+    "recommendNoteEn": "If you're here for the frog porridge, don't stop there — the braised crocodile tail is a hidden gem too: chewy skin, tender meat, rich savory sauce. Adventurous eaters, give it a go.",
     "restaurantFeatures": {
       "cuisine": [
-        "新加坡菜",
-        "海鲜",
-        "煮炒",
-        "田鸡粥"
+        "sg-cuisine",
+        "seafood",
+        "zi-char",
+        "frog-porridge"
       ],
       "priceLevel": "$$",
       "avgSpendSGD": 30,
@@ -748,22 +887,31 @@
         "咸蛋炸鱼皮",
         "辣椒螃蟹"
       ],
+      "signatureDishesEn": [
+        "Kung Pao Claypot Frog",
+        "Ginger-Scallion Claypot Frog",
+        "Braised Crocodile Tail",
+        "Claypot Plain Porridge",
+        "Salted Egg Fried Fish Skin",
+        "Chilli Crab"
+      ],
       "atmosphere": [
-        "宵夜档",
-        "烟火气",
-        "家庭聚餐",
-        "大排档"
+        "supper-stall",
+        "lively-local",
+        "family-dining",
+        "street-food-stall"
       ],
       "dressCode": "Casual",
       "seatingOptions": [
-        "室内空调",
-        "室外露天"
+        "indoor-aircon",
+        "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": false,
       "reservationDifficulty": "高峰期或多人聚餐建议提前预订，平时可直接前往",
+      "reservationDifficultyEn": "Reservations recommended during peak hours or for large groups; walk-ins fine otherwise",
       "reservationPlatform": ""
     },
     "photos": []
@@ -780,25 +928,28 @@
       103.8587
     ],
     "tags": [
-      "高空观景",
-      "夜景",
-      "网红",
-      "意式料理",
-      "天台酒吧",
-      "浪漫约会"
+      "sky-view",
+      "night-view",
+      "trending",
+      "italian-cuisine",
+      "rooftop-bar",
+      "romantic-date"
     ],
     "rating": 4.4,
     "description": "位于滨海湾金沙酒店1号塔楼57层，集现代意式美式餐饮与高空酒吧于一体。拥有俯瞰滨海湾与新加坡天际线的180度绝佳视角，是欣赏落日、夜景与打卡招牌巨型肉丸的超人气高空餐厅。",
+    "descriptionEn": "Located on the 57th floor of Tower 1 at Marina Bay Sands, combining modern Italian-American dining with a rooftop bar. Offers a stunning 180-degree view of Marina Bay and the Singapore skyline — a hugely popular spot for sunset, night views, and the signature giant meatball.",
     "address": "10 Bayfront Ave, Tower 1, Level 57, Marina Bay Sands, Singapore 018956",
     "mapLink": "https://maps.google.com/?q=LAVO+Italian+Restaurant+%26+Rooftop+Bar+Singapore",
     "bookingUrl": "https://www.marinabaysands.com/restaurants/lavo.html",
     "guideUrl": "",
     "openingHours": "11:00 AM - 12:00 AM",
+    "openingHoursEn": "11:00 AM - 12:00 AM",
     "suggestedDuration": "2 小时",
+    "suggestedDurationEn": "2 hours",
     "restaurantFeatures": {
       "cuisine": [
-        "意式料理",
-        "美式意菜"
+        "italian",
+        "american-italian"
       ],
       "priceLevel": "$$$$",
       "avgSpendSGD": 120,
@@ -809,23 +960,31 @@
         "20层巧克力花生酱蛋糕",
         "木炉披萨"
       ],
+      "signatureDishesEn": [
+        "The LAVO Meatball (1 lb signature meatball)",
+        "20-Layer Chocolate Peanut Butter Cake",
+        "Wood-fired Pizza"
+      ],
       "atmosphere": [
-        "高空观景",
-        "浪漫约会",
-        "时尚酒吧",
-        "商务宴请"
+        "sky-high",
+        "romantic",
+        "chic-bar",
+        "business-dining"
       ],
       "dressCode": "Smart Casual（晚餐时段男士需穿有领衬衫及长裤，不可穿拖鞋或无袖背心）",
+      "dressCodeEn": "Smart Casual (for dinner, men must wear a collared shirt and long pants — no slippers or sleeveless tops)",
       "seatingOptions": [
-        "室内空调",
-        "室外露天"
+        "indoor-aircon",
+        "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "建议提前 1-2 周预订",
-      "reservationPlatform": "Marina Bay Sands 官网 / SevenRooms"
+      "reservationDifficultyEn": "Book 1-2 weeks ahead recommended",
+      "reservationPlatform": "Marina Bay Sands 官网 / SevenRooms",
+      "reservationPlatformEn": "Marina Bay Sands website / SevenRooms"
     },
     "photos": []
   },
@@ -841,25 +1000,28 @@
       103.811762
     ],
     "tags": [
-      "老字号",
-      "印度菜",
-      "芭蕉叶饭",
-      "咖喱鱼头",
-      "Dempsey"
+      "heritage-brand",
+      "indian-cuisine",
+      "banana-leaf-rice",
+      "fish-head-curry",
+      "dempsey"
     ],
     "rating": 4.3,
     "description": "新加坡登布西山（Dempsey Hill）历史悠久的印度餐厅，创办于1950年代。以传统芭蕉叶盛装米饭、招牌咖喱鱼头及香料羊肉闻名，保留了风扇敞开式的复古食堂氛围。",
+    "descriptionEn": "A historic Indian restaurant at Dempsey Hill, established in the 1950s. Famous for rice served on traditional banana leaves, signature fish head curry, and spiced mutton — all in a retro, open-air, fan-cooled dining hall.",
     "address": "25 Dempsey Rd, Singapore 249670",
     "mapLink": "https://maps.google.com/?q=Samy%27s+Curry+25+Dempsey+Rd+Singapore+249670",
     "bookingUrl": "https://www.samyscurry.com/",
     "guideUrl": "",
     "openingHours": "11:00 - 15:00, 18:00 - 22:00（每周二公休）",
+    "openingHoursEn": "11:00 AM-3:00 PM, 6:00-10:00 PM (closed Tuesdays)",
     "suggestedDuration": "1 - 1.5 小时",
+    "suggestedDurationEn": "1-1.5 hours",
     "restaurantFeatures": {
       "cuisine": [
-        "印度菜",
-        "南印度菜",
-        "咖喱"
+        "indian",
+        "south-indian",
+        "curry"
       ],
       "priceLevel": "$$",
       "avgSpendSGD": 25,
@@ -872,22 +1034,31 @@
         "黄油鸡",
         "炸花菜"
       ],
+      "signatureDishesEn": [
+        "Signature Fish Head Curry",
+        "Banana Leaf Turmeric Rice",
+        "Chicken Masala",
+        "Butter Chicken",
+        "Fried Cauliflower"
+      ],
       "atmosphere": [
-        "复古老字号",
-        "家庭聚餐",
-        "休闲随性"
+        "retro-heritage",
+        "family-dining",
+        "laid-back"
       ],
       "dressCode": "Casual",
       "seatingOptions": [
-        "室内（风扇区）",
-        "室外露天"
+        "indoor-fan",
+        "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
       "dietaryPorkFree": true,
       "reservationRequired": false,
       "reservationDifficulty": "高峰及周末建议提前预订",
-      "reservationPlatform": "官网或电话"
+      "reservationDifficultyEn": "Reservations recommended during peak hours and weekends",
+      "reservationPlatform": "官网或电话",
+      "reservationPlatformEn": "Website or phone"
     },
     "photos": []
   },
@@ -903,27 +1074,30 @@
       103.9771
     ],
     "tags": [
-      "海景",
-      "网红",
-      "宠物友好",
-      "沙滩",
-      "浪漫日落",
-      "露天餐吧"
+      "sea-view",
+      "trending",
+      "pet-friendly",
+      "beach",
+      "romantic-sunset",
+      "alfresco-bar"
     ],
     "rating": 4.5,
     "description": "位于樟宜海岸的巴厘岛风情海滩餐吧，紧邻大海。提供海滨露台及舒适的沙滩沙发座位，是欣赏浪漫日落、周末朋友小聚和情侣约会的绝佳网红打卡地。",
+    "descriptionEn": "A Bali-style beach lounge right on the Changi coast. Offers a waterfront terrace and comfy beach sofa seating — a popular spot for romantic sunsets, weekend hangouts with friends, and date nights.",
     "address": "11 Changi Coast Walk, Singapore 499740",
     "mapLink": "https://maps.google.com/?q=Stella+Seaside+Lounge+Singapore",
     "bookingUrl": "https://www.stella.com.sg/reservations",
     "guideUrl": "",
     "openingHours": "周二至周五 16:00-22:00，周六日及公假 12:00-22:00，周一休息",
+    "openingHoursEn": "Tue-Fri 4:00-10:00 PM, Sat-Sun & public holidays 12:00-10:00 PM, closed Mondays",
     "suggestedDuration": "2.5 小时",
+    "suggestedDurationEn": "2.5 hours",
     "restaurantFeatures": {
       "cuisine": [
-        "西餐",
-        "烧烤",
-        "海鲜",
-        "鸡尾酒"
+        "western",
+        "bbq",
+        "seafood",
+        "cocktails"
       ],
       "priceLevel": "$$$",
       "avgSpendSGD": 70,
@@ -934,24 +1108,31 @@
         "烤肉",
         "特调鸡尾酒"
       ],
+      "signatureDishesEn": [
+        "Seafood Platter",
+        "Grilled Meats",
+        "Signature Cocktails"
+      ],
       "atmosphere": [
-        "情侣约会",
-        "朋友聚餐",
-        "海景观景",
-        "休闲放松"
+        "couples-date",
+        "friends-gathering",
+        "sea-view-dining",
+        "relaxed"
       ],
       "dressCode": "Casual / Beachwear",
       "seatingOptions": [
-        "海滨露台",
-        "沙滩沙发",
-        "室内空调"
+        "waterfront-terrace",
+        "beach-sofa",
+        "indoor-aircon"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "强烈建议提前1-2周预订，节假日有最低消费政策",
-      "reservationPlatform": "官网 / SevenRooms"
+      "reservationDifficultyEn": "Strongly recommend booking 1-2 weeks ahead; minimum spend applies on holidays",
+      "reservationPlatform": "官网 / SevenRooms",
+      "reservationPlatformEn": "Website / SevenRooms"
     },
     "photos": []
   },
@@ -967,24 +1148,27 @@
       103.8373
     ],
     "tags": [
-      "海鲜",
-      "螃蟹",
-      "老字号",
-      "网红"
+      "seafood",
+      "crab",
+      "heritage-brand",
+      "trending"
     ],
     "rating": 4.5,
     "description": "位于宏茂桥的知名老牌海鲜煮炒店，以螃蟹料理闻名全岛。其镇店之宝“砂煲螃蟹米粉”有着浓郁鲜甜的奶白色高汤，吸满海鲜精华的米粉搭配肥美的螃蟹，是每桌必点的招牌佳肴。",
+    "descriptionEn": "A well-known heritage zi-char seafood restaurant in Ang Mo Kio, famous island-wide for its crab dishes. The signature claypot crab bee hoon features a rich, sweet, milky broth with noodles soaked in seafood flavor, paired with plump crab — a must-order at every table.",
     "address": "232 Ang Mo Kio Ave 3, #01-1222, Singapore 560232",
     "mapLink": "https://maps.google.com/?q=Mellben+Seafood+232+Ang+Mo+Kio+Ave+3",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "5:00 PM - 10:30 PM",
+    "openingHoursEn": "5:00 PM - 10:30 PM",
     "suggestedDuration": "1.5 - 2 小时",
+    "suggestedDurationEn": "1.5-2 hours",
     "restaurantFeatures": {
       "cuisine": [
-        "新加坡菜",
-        "海鲜",
-        "煮炒"
+        "sg-cuisine",
+        "seafood",
+        "zi-char"
       ],
       "priceLevel": "$$$",
       "avgSpendSGD": 70,
@@ -996,22 +1180,30 @@
         "黑胡椒蟹",
         "牛油螃蟹"
       ],
+      "signatureDishesEn": [
+        "Claypot Crab Bee Hoon",
+        "Chilli Crab",
+        "Black Pepper Crab",
+        "Butter Crab"
+      ],
       "atmosphere": [
-        "家庭聚餐",
-        "朋友聚会",
-        "市井烟火气"
+        "family-dining",
+        "friends-meetup",
+        "bustling-local"
       ],
       "dressCode": "Casual",
       "seatingOptions": [
-        "室内空调",
-        "室外露天"
+        "indoor-aircon",
+        "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
       "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "建议提前预订，周末往往需要排队",
-      "reservationPlatform": "电话预订"
+      "reservationDifficultyEn": "Reservations recommended; weekend queues are common",
+      "reservationPlatform": "电话预订",
+      "reservationPlatformEn": "Phone reservation"
     },
     "photos": []
   }

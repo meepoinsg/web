@@ -3,7 +3,8 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { getCategory } from "../lib/categories";
+import { getCategory, categoryLabel } from "../lib/categories";
+import { t } from "../lib/i18n";
 
 const SINGAPORE_CENTER = [1.3521, 103.8198];
 
@@ -18,7 +19,7 @@ function makeIcon(type) {
   });
 }
 
-export default function MapView({ places, onOpen }) {
+export default function MapView({ places, onOpen, lang = "zh" }) {
   return (
     <div className="h-[70vh] rounded-2xl overflow-hidden border border-[var(--line)]">
       <MapContainer center={SINGAPORE_CENTER} zoom={12} scrollWheelZoom={true}>
@@ -29,14 +30,14 @@ export default function MapView({ places, onOpen }) {
         {places
           .filter((p) => Array.isArray(p.coordinates) && p.coordinates.length === 2)
           .map((p) => {
-            const cat = getCategory(p.type);
+            const primaryName = lang === "en" ? p.name : p.nameCn || p.name;
             return (
               <Marker key={p.id} position={p.coordinates} icon={makeIcon(p.type)}>
                 <Popup>
                   <div style={{ width: 160 }}>
-                    <strong>{p.nameCn || p.name}</strong>
+                    <strong>{primaryName}</strong>
                     <div style={{ fontSize: 12, color: "#6b7280", margin: "4px 0" }}>
-                      {cat.label} · {p.area}
+                      {categoryLabel(p.type, lang)} · {p.area}
                       {p.rating ? ` · ⭐${p.rating}` : ""}
                     </div>
                     <button
@@ -50,7 +51,7 @@ export default function MapView({ places, onOpen }) {
                       }}
                       onClick={() => onOpen(p)}
                     >
-                      查看详情 →
+                      {t(lang, "mapPopupOpen")}
                     </button>
                   </div>
                 </Popup>

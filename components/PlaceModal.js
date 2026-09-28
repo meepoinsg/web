@@ -2,7 +2,9 @@
 
 import { useRef, useState } from "react";
 import { X } from "lucide-react";
-import { getCategory } from "../lib/categories";
+import { categoryLabel } from "../lib/categories";
+import { CUISINE, ATMOSPHERE, SEATING_OPTIONS, SUITABLE_FOR, FACILITIES, SUB_CATEGORY, WEATHER_ADAPT, localize, localizeList } from "../lib/vocab";
+import { t, localizeField } from "../lib/i18n";
 
 function FeatureRow({ label, children }) {
   if (children === null || children === undefined || children === "") return null;
@@ -19,80 +21,77 @@ function joinOrNull(arr) {
   return Array.isArray(arr) && arr.length > 0 ? arr.join("、") : null;
 }
 
-const WEATHER_LABEL = {
-  indoor: "室内",
-  outdoor: "户外",
-  mixed: "室内外皆宜",
-};
-
-function RestaurantFeatures({ f }) {
+function RestaurantFeatures({ f, lang }) {
   if (!f) return null;
   const price =
     f.avgSpendSGD != null
-      ? `S$${f.avgSpendSGD} / 人`
+      ? `S$${f.avgSpendSGD} ${t(lang, "perPerson")}`
       : f.avgSpendMinSGD != null && f.avgSpendMaxSGD != null
-      ? `S$${f.avgSpendMinSGD}-${f.avgSpendMaxSGD} / 人`
+      ? `S$${f.avgSpendMinSGD}-${f.avgSpendMaxSGD} ${t(lang, "perPerson")}`
       : null;
 
   const dietaryBits = [
-    f.dietaryIsHalal ? "清真认证" : null,
-    f.dietaryHasVegetarian ? "提供素食" : null,
-    f.dietaryPorkFree ? "不含猪肉" : null,
+    f.dietaryIsHalal ? t(lang, "dietaryHalal") : null,
+    f.dietaryHasVegetarian ? t(lang, "dietaryVegetarian") : null,
+    f.dietaryPorkFree ? t(lang, "dietaryPorkFree") : null,
   ].filter(Boolean);
+
+  const signatureDishes = localizeField(f, "signatureDishes", lang);
+  const reservationDifficulty = localizeField(f, "reservationDifficulty", lang);
+  const reservationPlatform = localizeField(f, "reservationPlatform", lang);
 
   return (
     <div className="mt-1">
-      <FeatureRow label="价格档位">{f.priceLevel}</FeatureRow>
-      <FeatureRow label="人均消费">{price}</FeatureRow>
-      <FeatureRow label="菜系">{joinOrNull(f.cuisine)}</FeatureRow>
-      <FeatureRow label="招牌菜">
-        {Array.isArray(f.signatureDishes) && f.signatureDishes.length > 0 ? (
+      <FeatureRow label={t(lang, "featurePriceLevel")}>{f.priceLevel}</FeatureRow>
+      <FeatureRow label={t(lang, "featureAvgSpend")}>{price}</FeatureRow>
+      <FeatureRow label={t(lang, "featureCuisine")}>{joinOrNull(localizeList(CUISINE, f.cuisine, lang))}</FeatureRow>
+      <FeatureRow label={t(lang, "featureSignatureDishes")}>
+        {Array.isArray(signatureDishes) && signatureDishes.length > 0 ? (
           <ul className="list-disc pl-4 space-y-0.5">
-            {f.signatureDishes.map((d) => (
+            {signatureDishes.map((d) => (
               <li key={d}>{d}</li>
             ))}
           </ul>
         ) : null}
       </FeatureRow>
-      <FeatureRow label="氛围">{joinOrNull(f.atmosphere)}</FeatureRow>
-      <FeatureRow label="座位">{joinOrNull(f.seatingOptions)}</FeatureRow>
-      <FeatureRow label="着装">{f.dressCode || null}</FeatureRow>
-      <FeatureRow label="饮食">{dietaryBits.length > 0 ? dietaryBits.join(" · ") : null}</FeatureRow>
-      <FeatureRow label="预订">
+      <FeatureRow label={t(lang, "featureAtmosphere")}>{joinOrNull(localizeList(ATMOSPHERE, f.atmosphere, lang))}</FeatureRow>
+      <FeatureRow label={t(lang, "featureSeating")}>{joinOrNull(localizeList(SEATING_OPTIONS, f.seatingOptions, lang))}</FeatureRow>
+      <FeatureRow label={t(lang, "featureDressCode")}>{localizeField(f, "dressCode", lang) || null}</FeatureRow>
+      <FeatureRow label={t(lang, "featureDietary")}>{dietaryBits.length > 0 ? dietaryBits.join(" · ") : null}</FeatureRow>
+      <FeatureRow label={t(lang, "featureReservation")}>
         {f.reservationRequired
-          ? [f.reservationDifficulty, f.reservationPlatform].filter(Boolean).join(" · ") ||
-            "建议提前预订"
-          : "无需预订"}
+          ? [reservationDifficulty, reservationPlatform].filter(Boolean).join(" · ") || t(lang, "reservationDefault")
+          : t(lang, "reservationNotRequired")}
       </FeatureRow>
     </div>
   );
 }
 
-function AttractionFeatures({ f }) {
+function AttractionFeatures({ f, lang }) {
   if (!f) return null;
+  const ticketPriceDesc = localizeField(f, "ticketPriceDesc", lang);
+  const highlights = localizeField(f, "highlights", lang);
   const ticket = f.ticketIsFree
-    ? "免费"
-    : [f.ticketPriceDesc, f.ticketBookingRequired ? "建议提前订票" : null]
-        .filter(Boolean)
-        .join(" · ");
+    ? t(lang, "ticketFree")
+    : [ticketPriceDesc, f.ticketBookingRequired ? t(lang, "ticketBookAhead") : null].filter(Boolean).join(" · ");
 
   return (
     <div className="mt-1">
-      <FeatureRow label="分类">{f.subCategory}</FeatureRow>
-      <FeatureRow label="最佳时间">{f.bestTimeVisit}</FeatureRow>
-      <FeatureRow label="天气">{WEATHER_LABEL[f.weatherAdaptability] || null}</FeatureRow>
-      <FeatureRow label="门票">{ticket || null}</FeatureRow>
-      <FeatureRow label="必看亮点">
-        {Array.isArray(f.highlights) && f.highlights.length > 0 ? (
+      <FeatureRow label={t(lang, "featureSubCategory")}>{localize(SUB_CATEGORY, f.subCategory, lang)}</FeatureRow>
+      <FeatureRow label={t(lang, "featureBestTime")}>{localizeField(f, "bestTimeVisit", lang)}</FeatureRow>
+      <FeatureRow label={t(lang, "featureWeather")}>{localize(WEATHER_ADAPT, f.weatherAdaptability, lang)}</FeatureRow>
+      <FeatureRow label={t(lang, "featureTicket")}>{ticket || null}</FeatureRow>
+      <FeatureRow label={t(lang, "featureHighlights")}>
+        {Array.isArray(highlights) && highlights.length > 0 ? (
           <ul className="list-disc pl-4 space-y-0.5">
-            {f.highlights.map((h) => (
+            {highlights.map((h) => (
               <li key={h}>{h}</li>
             ))}
           </ul>
         ) : null}
       </FeatureRow>
-      <FeatureRow label="适合人群">{joinOrNull(f.suitableFor)}</FeatureRow>
-      <FeatureRow label="设施">{joinOrNull(f.facilities)}</FeatureRow>
+      <FeatureRow label={t(lang, "featureSuitableFor")}>{joinOrNull(localizeList(SUITABLE_FOR, f.suitableFor, lang))}</FeatureRow>
+      <FeatureRow label={t(lang, "featureFacilities")}>{joinOrNull(localizeList(FACILITIES, f.facilities, lang))}</FeatureRow>
     </div>
   );
 }
@@ -150,9 +149,15 @@ function Gallery({ photos, onClose }) {
   );
 }
 
-export default function PlaceModal({ place, onClose }) {
+export default function PlaceModal({ place, onClose, lang = "zh" }) {
   if (!place) return null;
-  const cat = getCategory(place.type);
+
+  const primaryName = lang === "en" ? place.name : place.nameCn || place.name;
+  const secondaryName = lang === "en" ? place.nameCn : place.name;
+  const duration = localizeField(place, "suggestedDuration", lang);
+  const description = localizeField(place, "description", lang);
+  const openingHours = localizeField(place, "openingHours", lang);
+  const recommendNote = localizeField(place, "recommendNote", lang);
 
   return (
     <div
@@ -165,43 +170,41 @@ export default function PlaceModal({ place, onClose }) {
         <Gallery photos={place.photos} onClose={onClose} />
 
         <div className="pt-4">
-          <h2 className="text-xl font-semibold m-0">{place.nameCn || place.name}</h2>
-          <p className="text-sm text-gray-500 m-0">{place.name}</p>
+          <h2 className="text-xl font-semibold m-0">{primaryName}</h2>
+          {secondaryName && <p className="text-sm text-gray-500 m-0">{secondaryName}</p>}
           <div className="text-xs text-gray-500 mt-2">
-            {cat.label} · {place.area}
+            {categoryLabel(place.type, lang)} · {place.area}
             {place.rating ? ` · ⭐ ${place.rating}` : ""}
-            {place.suggestedDuration ? ` · ${place.suggestedDuration}` : ""}
+            {duration ? ` · ${duration}` : ""}
           </div>
 
-          {place.type === "restaurant" && <RestaurantFeatures f={place.restaurantFeatures} />}
-          {place.type === "attraction" && <AttractionFeatures f={place.attractionFeatures} />}
+          {place.type === "restaurant" && <RestaurantFeatures f={place.restaurantFeatures} lang={lang} />}
+          {place.type === "attraction" && <AttractionFeatures f={place.attractionFeatures} lang={lang} />}
 
-          {place.recommendNote && (
+          {recommendNote && (
             <div className="mt-3 bg-amber-50 border border-amber-200 rounded-lg px-3 py-2">
-              <p className="text-sm leading-relaxed m-0 text-amber-800">
-                💡 {place.recommendNote}
-              </p>
+              <p className="text-sm leading-relaxed m-0 text-amber-800">💡 {recommendNote}</p>
             </div>
           )}
 
-          {place.description && (
+          {description && (
             <div className="mt-4">
-              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">介绍</h4>
-              <p className="text-sm leading-relaxed m-0">{place.description}</p>
+              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">{t(lang, "modalIntro")}</h4>
+              <p className="text-sm leading-relaxed m-0">{description}</p>
             </div>
           )}
 
           {place.address && (
             <div className="mt-3">
-              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">地址</h4>
+              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">{t(lang, "modalAddress")}</h4>
               <p className="text-sm leading-relaxed m-0">{place.address}</p>
             </div>
           )}
 
-          {place.openingHours && (
+          {openingHours && (
             <div className="mt-3">
-              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">时间</h4>
-              <p className="text-sm leading-relaxed m-0">{place.openingHours}</p>
+              <h4 className="text-xs text-gray-500 font-semibold m-0 mb-1">{t(lang, "modalHours")}</h4>
+              <p className="text-sm leading-relaxed m-0">{openingHours}</p>
             </div>
           )}
 
@@ -213,7 +216,7 @@ export default function PlaceModal({ place, onClose }) {
                 rel="noopener noreferrer"
                 className="flex-1 text-center text-sm bg-accent text-white rounded-lg py-2.5"
               >
-                在地图中打开
+                {t(lang, "modalOpenMap")}
               </a>
             )}
             {place.bookingUrl && (
@@ -223,7 +226,7 @@ export default function PlaceModal({ place, onClose }) {
                 rel="noopener noreferrer"
                 className="flex-1 text-center text-sm border border-[var(--line)] rounded-lg py-2.5"
               >
-                立即预订
+                {t(lang, "modalBooking")}
               </a>
             )}
             {place.guideUrl && (
@@ -233,7 +236,7 @@ export default function PlaceModal({ place, onClose }) {
                 rel="noopener noreferrer"
                 className="flex-1 text-center text-sm border border-[var(--line)] rounded-lg py-2.5"
               >
-                查看攻略
+                {t(lang, "modalGuide")}
               </a>
             )}
           </div>

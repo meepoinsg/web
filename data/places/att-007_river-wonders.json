@@ -6,37 +6,38 @@
   "area": "Mandai",
   "postalCode": "729826",
   "coordinates": [1.4044, 103.7906],
-  "tags": ["亲子家庭", "室内避雨", "动物园", "特色体验"],
+  "tags": ["family", "indoor-shelter", "zoo", "unique-experience"],
   "rating": 4.6,
   "description": "亚洲首个也是唯一一个以河川为主题的野生动物园。园区设有大量带顶棚的步道，不受日晒雨淋影响。必体验亚马逊河探索游船，并在大熊猫竹林探访大熊猫，以及在巨型水族馆观赏海牛。",
+  "descriptionEn": "Asia's first and only river-themed wildlife park. Most walkways are covered, so you're sheltered from sun and rain. Don't miss the Amazon River Quest boat ride, a visit to the giant pandas at the Giant Panda Forest, and manatees in the giant aquarium.",
   "address": "80 Mandai Lake Rd, Singapore 729826",
   "mapLink": "https://maps.google.com/?q=River+Wonders+Singapore",
   "bookingUrl": "https://www.mandai.com/en/river-wonders.html",
   "guideUrl": "",
   "openingHours": "10:00 AM - 7:00 PM",
+  "openingHoursEn": "10:00 AM - 7:00 PM",
   "suggestedDuration": "2-3 小时",
+  "suggestedDurationEn": "2-3 hours",
   "attractionFeatures": {
-    "subCategory": "自然风光/主题公园",
+    "subCategory": "nature-theme-park",
     "bestTimeVisit": "全天皆可（有大量带顶棚区域，是雨天避雨或晴天避暑的好去处）",
+    "bestTimeVisitEn": "Good any time of day (mostly covered, great for shelter from rain or heat)",
     "weatherAdaptability": "mixed",
     "ticketIsFree": false,
     "ticketPriceDesc": "成人约 S$42，儿童约 S$30",
+    "ticketPriceDescEn": "Adults approx. S$42, children approx. S$30",
     "ticketBookingRequired": true,
     "highlights": [
       "亚马逊河探索游船 (Amazon River Quest)：乘船沉浸式观赏野生动物",
       "大熊猫竹林 (Giant Panda Forest)：探访大熊猫",
       "亚马逊洪溢林 (Amazon Flooded Forest)：在巨型水族馆观赏海牛"
     ],
-    "suitableFor": [
-      "亲子家庭",
-      "情侣约会",
-      "自然爱好者"
+    "highlightsEn": [
+      "Amazon River Quest: an immersive boat ride to see wildlife",
+      "Giant Panda Forest: visit the giant pandas",
+      "Amazon Flooded Forest: see manatees in the giant aquarium"
     ],
-    "facilities": [
-      "无障碍轮椅通道",
-      "婴儿车友好",
-      "带顶棚步道",
-      "餐饮设施"
-    ]
+    "suitableFor": ["family", "couples", "nature-lovers"],
+    "facilities": ["wheelchair-access", "stroller-friendly", "covered-walkway", "dining-facilities"]
   }
 }

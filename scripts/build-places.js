@@ -8,6 +8,16 @@
  */
 const fs = require("fs");
 const path = require("path");
+const {
+  TAGS,
+  CUISINE,
+  ATMOSPHERE,
+  SEATING_OPTIONS,
+  SUITABLE_FOR,
+  FACILITIES,
+  SUB_CATEGORY,
+  WEATHER_ADAPT,
+} = require("../lib/vocab");
 
 const ROOT = path.join(__dirname, "..");
 const PLACES_DIR = path.join(ROOT, "data", "places");
@@ -18,6 +28,23 @@ const IMAGE_EXTS = [".jpg", ".jpeg", ".png", ".webp", ".gif"];
 const VALID_TYPES = ["restaurant", "attraction"];
 const REQUIRED_STRING_FIELDS = ["id", "type", "name", "nameCn", "area", "description"];
 
+// 词汇型字段：值必须是词典里已经登记的key，登记新词见 lib/vocab.js
+const VOCAB_ARRAY_FIELDS_COMMON = [{ field: "tags", dict: TAGS, dictName: "TAGS" }];
+const VOCAB_ARRAY_FIELDS_RESTAURANT = [
+  { field: "cuisine", dict: CUISINE, dictName: "CUISINE" },
+  { field: "atmosphere", dict: ATMOSPHERE, dictName: "ATMOSPHERE" },
+  { field: "seatingOptions", dict: SEATING_OPTIONS, dictName: "SEATING_OPTIONS" },
+];
+const VOCAB_ARRAY_FIELDS_ATTRACTION = [
+  { field: "suitableFor", dict: SUITABLE_FOR, dictName: "SUITABLE_FOR" },
+  { field: "facilities", dict: FACILITIES, dictName: "FACILITIES" },
+];
+
+// 自由文字字段：不强制要求英文版，缺了只警告，不会让构建失败
+const FREE_TEXT_EN_FIELDS_TOP = ["description", "openingHours", "suggestedDuration", "recommendNote"];
+const FREE_TEXT_EN_FIELDS_RESTAURANT = ["signatureDishes", "reservationDifficulty", "reservationPlatform", "dressCode"];
+const FREE_TEXT_EN_FIELDS_ATTRACTION = ["bestTimeVisit", "ticketPriceDesc", "highlights"];
+
 function findPhotos(id) {
   const folder = path.join(IMAGES_DIR, id);
   if (!fs.existsSync(folder)) return [];
@@ -26,6 +53,20 @@ function findPhotos(id) {
     .filter((f) => IMAGE_EXTS.includes(path.extname(f).toLowerCase()))
     .sort()
     .map((f) => `/images/${id}/${f}`);
+}
+
+function checkVocabArray(obj, field, dict, dictName, errors) {
+  const val = obj[field];
+  if (val === undefined) return;
+  if (!Array.isArray(val)) {
+    errors.push(`"${field}"字段必须是数组`);
+    return;
+  }
+  for (const key of val) {
+    if (!dict[key]) {
+      errors.push(`"${field}"里的"${key}"不是${dictName}词典里登记过的key，去lib/vocab.js里加一条，或者改成已有的key`);
+    }
+  }
 }
 
 function validate(place, filename) {
@@ -55,14 +96,71 @@ function validate(place, filename) {
     errors.push('coordinates字段必须是形如 [纬度, 经度] 的两个数字，例如 [1.2816, 103.8636]');
   }
 
-  if (place.type === "restaurant" && (!place.restaurantFeatures || typeof place.restaurantFeatures !== "object")) {
-    errors.push('type是restaurant，但缺少restaurantFeatures对象');
+  for (const { field, dict, dictName } of VOCAB_ARRAY_FIELDS_COMMON) {
+    checkVocabArray(place, field, dict, dictName, errors);
   }
-  if (place.type === "attraction" && (!place.attractionFeatures || typeof place.attractionFeatures !== "object")) {
-    errors.push('type是attraction，但缺少attractionFeatures对象');
+
+  if (place.type === "restaurant") {
+    if (!place.restaurantFeatures || typeof place.restaurantFeatures !== "object") {
+      errors.push('type是restaurant，但缺少restaurantFeatures对象');
+    } else {
+      for (const { field, dict, dictName } of VOCAB_ARRAY_FIELDS_RESTAURANT) {
+        checkVocabArray(place.restaurantFeatures, field, dict, dictName, errors);
+      }
+    }
+  }
+
+  if (place.type === "attraction") {
+    if (!place.attractionFeatures || typeof place.attractionFeatures !== "object") {
+      errors.push('type是attraction，但缺少attractionFeatures对象');
+    } else {
+      for (const { field, dict, dictName } of VOCAB_ARRAY_FIELDS_ATTRACTION) {
+        checkVocabArray(place.attractionFeatures, field, dict, dictName, errors);
+      }
+      if (place.attractionFeatures.subCategory && !SUB_CATEGORY[place.attractionFeatures.subCategory]) {
+        errors.push(
+          `"subCategory"的值"${place.attractionFeatures.subCategory}"不是SUB_CATEGORY词典里登记过的key`
+        );
+      }
+      if (place.attractionFeatures.weatherAdaptability && !WEATHER_ADAPT[place.attractionFeatures.weatherAdaptability]) {
+        errors.push(
+          `"weatherAdaptability"的值"${place.attractionFeatures.weatherAdaptability}"只能是 indoor/outdoor/mixed 之一`
+        );
+      }
+    }
   }
 
   return errors;
+}
+
+// 纯英文/数字/符号的值（比如 dressCode: "Casual"）本来就不需要翻译，
+// 只有含中文字符的值才需要检查是否配了英文版
+function containsChinese(val) {
+  if (Array.isArray(val)) return val.some((v) => containsChinese(v));
+  return typeof val === "string" && /[一-鿿]/.test(val);
+}
+
+// 检查自由文字字段有没有配英文版，缺了只记录警告（不影响构建成功）
+function collectMissingTranslations(place) {
+  const missing = [];
+
+  for (const field of FREE_TEXT_EN_FIELDS_TOP) {
+    const val = place[field];
+    if (containsChinese(val) && !place[`${field}En`]) missing.push(field);
+  }
+
+  const features =
+    place.type === "restaurant" ? place.restaurantFeatures : place.type === "attraction" ? place.attractionFeatures : null;
+  const fieldList = place.type === "restaurant" ? FREE_TEXT_EN_FIELDS_RESTAURANT : FREE_TEXT_EN_FIELDS_ATTRACTION;
+
+  if (features) {
+    for (const field of fieldList) {
+      const val = features[field];
+      if (containsChinese(val) && !features[`${field}En`]) missing.push(field);
+    }
+  }
+
+  return missing;
 }
 
 function buildPlaces() {
@@ -81,6 +179,7 @@ function buildPlaces() {
 
   const places = [];
   const allErrors = [];
+  const translationWarnings = [];
 
   for (const filename of files) {
     const fullPath = path.join(PLACES_DIR, filename);
@@ -108,6 +207,11 @@ function buildPlaces() {
       place.photos = findPhotos(place.id);
     }
 
+    const missing = collectMissingTranslations(place);
+    if (missing.length > 0) {
+      translationWarnings.push(`${place.name}（缺：${missing.join("、")}）`);
+    }
+
     places.push(place);
   }
 
@@ -129,6 +233,12 @@ function buildPlaces() {
   console.log(`✓ 已合并 ${places.length} 个地点 → ${path.relative(ROOT, OUTPUT_PATH)}`);
   if (noPhotos.length > 0) {
     console.log(`  （还没有照片的地点：${noPhotos.join("、")}）`);
+  }
+  if (translationWarnings.length > 0) {
+    console.log(`  （还没有完整英文翻译的地点，英文页面会暂时退回显示中文：）`);
+    for (const w of translationWarnings) {
+      console.log(`    - ${w}`);
+    }
   }
 }
 

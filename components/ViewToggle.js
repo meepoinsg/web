@@ -1,8 +1,9 @@
 "use client";
 
 import { List, Map } from "lucide-react";
+import { t } from "../lib/i18n";
 
-export default function ViewToggle({ view, onChange }) {
+export default function ViewToggle({ view, onChange, lang }) {
   return (
     <div className="inline-flex bg-white border border-[var(--line)] rounded-full p-1">
       <button
@@ -11,7 +12,7 @@ export default function ViewToggle({ view, onChange }) {
         }`}
         onClick={() => onChange("list")}
       >
-        <List size={14} /> 列表
+        <List size={14} /> {t(lang, "viewList")}
       </button>
       <button
         className={`flex items-center gap-1 text-sm px-3 py-1.5 rounded-full ${
@@ -19,7 +20,7 @@ export default function ViewToggle({ view, onChange }) {
         }`}
         onClick={() => onChange("map")}
       >
-        <Map size={14} /> 地图
+        <Map size={14} /> {t(lang, "viewMap")}
       </button>
     </div>
   );

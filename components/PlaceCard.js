@@ -1,21 +1,29 @@
 "use client";
 
-import { getCategory } from "../lib/categories";
+import { getCategory, categoryLabel } from "../lib/categories";
+import { TAGS, localize } from "../lib/vocab";
+import { t, localizeField } from "../lib/i18n";
 
-function priceLine(place) {
+function priceLine(place, lang) {
   const f = place.restaurantFeatures;
   if (!f) return null;
-  if (f.avgSpendSGD) return `人均 S$${f.avgSpendSGD}`;
+  const prefix = lang === "en" ? "Avg." : "人均";
+  if (f.avgSpendSGD) return `${prefix} S$${f.avgSpendSGD}`;
   if (f.avgSpendMinSGD && f.avgSpendMaxSGD) {
-    return `人均 S$${f.avgSpendMinSGD}-${f.avgSpendMaxSGD}`;
+    return `${prefix} S$${f.avgSpendMinSGD}-${f.avgSpendMaxSGD}`;
   }
   return null;
 }
 
-export default function PlaceCard({ place, onOpen }) {
+export default function PlaceCard({ place, onOpen, lang = "zh" }) {
   const cat = getCategory(place.type);
   const cover = place.photos && place.photos[0];
-  const price = priceLine(place);
+  const price = priceLine(place, lang);
+  const description = localizeField(place, "description", lang);
+  const duration = localizeField(place, "suggestedDuration", lang);
+
+  const primaryName = lang === "en" ? place.name : place.nameCn || place.name;
+  const secondaryName = lang === "en" ? place.nameCn : place.name;
 
   return (
     <div className="bg-white rounded-2xl border border-[var(--line)] overflow-hidden">
@@ -40,22 +48,22 @@ export default function PlaceCard({ place, onOpen }) {
       </div>
 
       <div className="p-4 cursor-pointer" onClick={() => onOpen(place)}>
-        <h3 className="font-semibold text-base m-0">{place.nameCn || place.name}</h3>
-        <p className="text-xs text-gray-500 m-0 mt-0.5">{place.name}</p>
+        <h3 className="font-semibold text-base m-0">{primaryName}</h3>
+        {secondaryName && <p className="text-xs text-gray-500 m-0 mt-0.5">{secondaryName}</p>}
         <div className="text-xs text-gray-500 mt-1.5">
-          {cat.label} · {place.area}
+          {categoryLabel(place.type, lang)} · {place.area}
           {place.rating ? ` · ⭐ ${place.rating}` : ""}
           {price ? ` · ${price}` : ""}
-          {place.suggestedDuration ? ` · ${place.suggestedDuration}` : ""}
+          {duration ? ` · ${duration}` : ""}
         </div>
-        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{place.description}</p>
+        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{description}</p>
         <div className="flex gap-1.5 flex-wrap mt-2">
-          {(place.tags || []).map((t) => (
+          {(place.tags || []).map((tagKey) => (
             <span
-              key={t}
+              key={tagKey}
               className="text-[11px] bg-orange-50 text-accent px-2 py-0.5 rounded-full"
             >
-              {t}
+              {localize(TAGS, tagKey, lang)}
             </span>
           ))}
         </div>
@@ -70,7 +78,7 @@ export default function PlaceCard({ place, onOpen }) {
             className="flex-1 text-center text-sm bg-accent text-white rounded-lg py-2"
             onClick={(e) => e.stopPropagation()}
           >
-            地图
+            {t(lang, "cardMap")}
           </a>
         ) : null}
         {place.bookingUrl ? (
@@ -81,7 +89,7 @@ export default function PlaceCard({ place, onOpen }) {
             className="flex-1 text-center text-sm border border-[var(--line)] rounded-lg py-2"
             onClick={(e) => e.stopPropagation()}
           >
-            预订
+            {t(lang, "cardBooking")}
           </a>
         ) : null}
       </div>

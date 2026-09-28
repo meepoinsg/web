@@ -6,21 +6,26 @@
   "area": "Central",
   "postalCode": "298717",
   "coordinates": [1.3343, 103.8348],
-  "tags": ["徒步", "自然", "免费", "户外", "野生动物"],
+  "tags": ["hiking", "nature", "free", "outdoor", "wildlife"],
   "rating": 4.7,
   "description": "新加坡经典的徒步胜地，环湖总长约11公里。沿途可欣赏热带雨林并偶遇野生动物。建议行前做好防蚊措施；切勿手提塑料袋或喂食猴子。林间土路段休息区较少，请量力而行。",
+  "descriptionEn": "A classic Singapore hiking spot with an ~11km loop around the reservoir. Enjoy tropical rainforest scenery and possible wildlife encounters along the way. Bring mosquito repellent; never carry plastic bags visibly or feed the monkeys. Rest points are scarce on the forest trail sections, so pace yourself.",
   "address": "MacRitchie Reservoir Park, Singapore 298717",
   "mapLink": "https://maps.google.com/?q=MacRitchie+Reservoir+Park",
   "bookingUrl": "",
   "guideUrl": "",
   "openingHours": "7:00 AM - 7:00 PM",
+  "openingHoursEn": "7:00 AM - 7:00 PM",
   "suggestedDuration": "3-5 小时",
+  "suggestedDurationEn": "3-5 hours",
   "attractionFeatures": {
-    "subCategory": "自然风光/徒步",
+    "subCategory": "nature-hiking",
     "bestTimeVisit": "07:00 - 09:00 或 16:00 后（避开正午暴晒）",
+    "bestTimeVisitEn": "7:00-9:00 AM or after 4:00 PM (avoid midday heat)",
     "weatherAdaptability": "outdoor",
     "ticketIsFree": true,
     "ticketPriceDesc": "全天免费开放",
+    "ticketPriceDescEn": "Free entry all day",
     "ticketBookingRequired": false,
     "highlights": [
       "路线全长：完整大环线约11公里，亦有3-5公里的短途折返路线，可根据体力自由选择",
@@ -29,7 +34,14 @@
       "野生动物防范：林区蚊虫较多，建议喷涂防蚊液；偶遇蛇或巨蜥属正常生态现象，保持冷静不惊扰、不靠近并绕行",
       "休息区分布：入口公园、湖畔木栈道及护林员站设有较多长椅和凉亭，进入林间原始土路后休息点稀少"
     ],
-    "suitableFor": ["户外运动爱好者", "亲子家庭(大龄儿童)", "摄影爱好者"],
-    "facilities": ["洗手间", "直饮水机", "储物柜(南部入口处)", "淋浴间(南部入口处)"]
+    "highlightsEn": [
+      "Trail length: full loop ~11km, with shorter 3-5km out-and-back options depending on fitness level",
+      "Supplies & restrooms: available at the South Entrance (start/end point) and the ranger station midway; no supply points on the pure dirt-trail sections, so bring enough water",
+      "Monkey safety: never feed them! Don't carry visible plastic bags or eat while walking; avoid eye contact and just pass quietly at a safe distance",
+      "Wildlife caution: mosquitoes are common, use repellent; encountering snakes or monitor lizards is normal — stay calm, don't approach, and walk around them",
+      "Rest areas: plenty of benches and shelters near the entrance park, lakeside boardwalk and ranger station; very few once you're on the forest dirt trails"
+    ],
+    "suitableFor": ["outdoor-sports-lovers", "family-older-kids", "photographers"],
+    "facilities": ["restroom", "water-refill", "lockers-south-entrance", "shower-south-entrance"]
   }
 }
