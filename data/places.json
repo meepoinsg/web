@@ -72,8 +72,8 @@
     "area": "East Coast",
     "postalCode": "449876",
     "coordinates": [
-      1.308,
-      103.912
+      1.302,
+      103.9141
     ],
     "tags": [
       "hidden-gem",
@@ -132,8 +132,8 @@
     "area": "Sentosa",
     "postalCode": "098537",
     "coordinates": [
-      1.2427,
-      103.8417
+      1.2472,
+      103.8396
     ],
     "tags": [
       "yacht-charter",
@@ -197,8 +197,8 @@
     "area": "Central",
     "postalCode": "298717",
     "coordinates": [
-      1.3343,
-      103.8348
+      1.34,
+      103.833
     ],
     "tags": [
       "hiking",
@@ -210,8 +210,8 @@
     "rating": 4.7,
     "description": "新加坡经典的徒步胜地，环湖总长约11公里。沿途可欣赏热带雨林并偶遇野生动物。建议行前做好防蚊措施；切勿手提塑料袋或喂食猴子。林间土路段休息区较少，请量力而行。",
     "descriptionEn": "A classic Singapore hiking spot with an ~11km loop around the reservoir. Enjoy tropical rainforest scenery and possible wildlife encounters along the way. Bring mosquito repellent; never carry plastic bags visibly or feed the monkeys. Rest points are scarce on the forest trail sections, so pace yourself.",
-    "address": "MacRitchie Reservoir Park, Singapore 298717",
-    "mapLink": "https://maps.google.com/?q=MacRitchie+Reservoir+Park",
+    "address": "182 Lornie Rd, Singapore 298717",
+    "mapLink": "https://maps.google.com/?q=1.339975,103.832977",
     "bookingUrl": "",
     "guideUrl": "",
     "openingHours": "7:00 AM - 7:00 PM",
@@ -447,10 +447,10 @@
     "name": "Bird Paradise",
     "nameCn": "飞禽公园 (万态飞禽公园)",
     "area": "Mandai",
-    "postalCode": "729825",
+    "postalCode": "729829",
     "coordinates": [
-      1.4045,
-      103.7876
+      1.4047,
+      103.7798
     ],
     "tags": [
       "family",
@@ -461,8 +461,8 @@
     "rating": 4.7,
     "description": "亚洲最大的飞禽公园，全新迁至万态野生动物世界。园区拥有八大沉浸式大型步入式鸟舍，展示全球多种珍稀飞禽。必看精彩的飞禽表演以及设有冷气设施的室内企鹅湾。",
     "descriptionEn": "Asia's largest bird park, newly relocated to Mandai Wildlife Reserve. Features eight immersive walk-in aviaries showcasing rare bird species from around the world. Don't miss the bird shows and the air-conditioned indoor Penguin Cove.",
-    "address": "20 Mandai Lake Rd, Singapore 729825",
-    "mapLink": "https://maps.google.com/?q=Bird+Paradise+Singapore",
+    "address": "30 Mandai Lake Rd, Singapore 729829",
+    "mapLink": "https://maps.google.com/?q=1.404712,103.779811",
     "bookingUrl": "https://www.mandai.com/en/bird-paradise.html",
     "guideUrl": "",
     "openingHours": "9:00 AM - 6:00 PM",
@@ -513,8 +513,8 @@
     "area": "Mandai",
     "postalCode": "729825",
     "coordinates": [
-      1.4045,
-      103.7876
+      1.4065,
+      103.7797
     ],
     "tags": [
       "outdoor-adventure",
@@ -527,7 +527,7 @@
     "description": "亚洲首个以探险为核心的野生动物园，分为西区(亚洲)和东区(非洲)两大区域。巧妙结合了丛林徒步、空中步道、模拟探洞与野生动物观赏(如马来亚虎、㺢㹢狓等)，带来独一无二的沉浸式热带雨林探险体验。",
     "descriptionEn": "Asia's first adventure-focused wildlife park, split into the West Zone (Asia) and East Zone (Africa). It combines jungle trekking, aerial walkways, a simulated cave exploration and wildlife viewing (Malayan tigers, okapis and more) for a truly immersive rainforest adventure.",
     "address": "20 Mandai Lake Rd, Singapore 729825",
-    "mapLink": "https://maps.google.com/?q=Rainforest+Wild+Adventure+Singapore",
+    "mapLink": "https://maps.google.com/?q=1.406491,103.779704",
     "bookingUrl": "https://www.mandai.com/en/rainforest-wild.html",
     "guideUrl": "",
     "openingHours": "9:00 AM - 6:00 PM",
@@ -750,6 +750,72 @@
       "facilities": [
         "wheelchair-access",
         "restroom"
+      ]
+    },
+    "photos": []
+  },
+  {
+    "id": "att-013_chinese-japanese-gardens",
+    "type": "attraction",
+    "name": "Chinese and Japanese Gardens (Jurong Lake Gardens)",
+    "nameCn": "裕华园与星和园",
+    "area": "Jurong East",
+    "postalCode": "619795",
+    "coordinates": [
+      1.3386,
+      103.7298
+    ],
+    "tags": [
+      "outdoor",
+      "scenery",
+      "free",
+      "near-mrt",
+      "cultural-experience"
+    ],
+    "rating": 4.5,
+    "description": "位于裕廊湖畔，巧妙结合了传统中式皇家园林建筑（白塔、石拱桥）与静谧日式枯山水的美丽双子公园。非常适合未接触过亚洲文化的游客来此沉浸式体验东方古典文化的美学与宁静。",
+    "descriptionEn": "Located by Jurong Lake, this beautiful dual-park flawlessly combines traditional Chinese imperial landscape architecture (white pagodas, stone arch bridges) with serene Japanese Zen gardens. Highly recommended for tourists who haven't experienced Asian culture to immerse themselves in the aesthetics and tranquility of classical Eastern culture.",
+    "address": "1 Chinese Garden Rd, Singapore 619795",
+    "mapLink": "https://maps.google.com/?q=Chinese+Garden+Singapore",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "6:00 AM - 10:00 PM",
+    "openingHoursEn": "6:00 AM - 10:00 PM",
+    "suggestedDuration": "2 - 3 小时",
+    "suggestedDurationEn": "2 - 3 hours",
+    "recommendNote": "两个园子通过一座美丽的桥梁相连，建议傍晚时分游览以避开烈日，晚霞中的双塔和湖面倒影非常出片。",
+    "recommendNoteEn": "The two gardens are connected by a beautiful bridge. It's best to visit in the late afternoon to avoid the scorching sun. The sunset views of the twin pagodas and their reflections on the lake are highly photogenic.",
+    "attractionFeatures": {
+      "subCategory": "nature-park",
+      "bestTimeVisit": "傍晚 16:30 后（光线柔和，气候相对凉爽）",
+      "bestTimeVisitEn": "After 4:30 PM (softer light and relatively cooler weather)",
+      "weatherAdaptability": "outdoor",
+      "ticketIsFree": true,
+      "ticketPriceDesc": "免费参观",
+      "ticketPriceDescEn": "Free admission",
+      "ticketBookingRequired": false,
+      "highlights": [
+        "中式七层白塔（入云塔）",
+        "日式枯山水与盆景园",
+        "中式古典石拱桥",
+        "水阁与茶室"
+      ],
+      "highlightsEn": [
+        "Seven-storey Chinese White Pagoda",
+        "Japanese Zen Garden and Bonsai Garden",
+        "Classical Chinese Stone Arch Bridges",
+        "Water Pavilions and Tea House"
+      ],
+      "suitableFor": [
+        "family",
+        "seniors",
+        "photographers",
+        "nature-lovers"
+      ],
+      "facilities": [
+        "wheelchair-access",
+        "public-restroom",
+        "stroller-friendly"
       ]
     },
     "photos": []
@@ -1461,6 +1527,214 @@
       "reservationDifficultyEn": "Recommended to book ahead on weekend evenings",
       "reservationPlatform": "Inline / 电话预订",
       "reservationPlatformEn": "Inline / Phone Booking"
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-011_ng-ah-sio-bkt",
+    "type": "restaurant",
+    "name": "NG AH SIO Bak Kut Teh (Rangoon Road)",
+    "nameCn": "黄亚细肉骨茶（仰光路店）",
+    "area": "Farrer Park",
+    "postalCode": "218453",
+    "coordinates": [
+      1.3177,
+      103.8529
+    ],
+    "tags": [
+      "heritage-brand",
+      "old-school-flavor",
+      "budget-friendly",
+      "near-mrt"
+    ],
+    "rating": 4.1,
+    "description": "本地著名的潮州派肉骨茶老字号。以浓郁呛辣的胡椒猪骨汤闻名，搭配油条和功夫茶，是体验传统新加坡古早味的绝佳选择。",
+    "descriptionEn": "A famous traditional Teochew-style Bak Kut Teh heritage brand. Known for its strong peppery pork rib soup, perfectly paired with dough fritters and Gongfu tea for an authentic Singaporean flavor.",
+    "address": "208 Rangoon Rd, Hong Building, Singapore 218453",
+    "mapLink": "https://maps.google.com/?q=NG+AH+SIO+Bak+Kut+Teh+Rangoon+Road",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "9:00 AM - 9:00 PM",
+    "openingHoursEn": "9:00 AM - 9:00 PM",
+    "suggestedDuration": "45 分钟 - 1 小时",
+    "suggestedDurationEn": "45 minutes - 1 hour",
+    "recommendNote": "汤头胡椒味非常重，喜欢重口味的食客必试；汤是可以免费续加的。",
+    "recommendNoteEn": "The soup has a very strong peppery kick, perfect for those who love heavy flavors. Soup refills are free.",
+    "restaurantFeatures": {
+      "cuisine": [
+        "sg-cuisine",
+        "chinese",
+        "bak-kut-teh"
+      ],
+      "priceLevel": "$$",
+      "avgSpendSGD": 20,
+      "avgSpendMinSGD": 15,
+      "avgSpendMaxSGD": 30,
+      "signatureDishes": [
+        "招牌排骨汤",
+        "卤猪脚",
+        "油条",
+        "功夫茶"
+      ],
+      "signatureDishesEn": [
+        "Signature Pork Ribs Soup",
+        "Braised Pig's Trotters",
+        "Dough Fritters",
+        "Gongfu Tea"
+      ],
+      "atmosphere": [
+        "lively-local",
+        "casual-everyday",
+        "nostalgic-retro"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "indoor-aircon",
+        "indoor-fan"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryPorkFree": false,
+      "reservationRequired": false,
+      "reservationDifficulty": "",
+      "reservationPlatform": ""
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-012_tai-wah-pork-noodle",
+    "type": "restaurant",
+    "name": "Hill Street Tai Hwa Pork Noodle",
+    "nameCn": "大华猪肉粿条面（大华餐室）",
+    "area": "Lavender",
+    "postalCode": "190466",
+    "coordinates": [
+      1.3052,
+      103.8624
+    ],
+    "tags": [
+      "heritage-brand",
+      "hawker-centre",
+      "budget-friendly",
+      "michelin-star"
+    ],
+    "rating": 4.1,
+    "description": "荣获米其林一星的传奇小贩摊位，以招牌肉脞面（Bak Chor Mee）闻名。黑醋与辣椒的完美比例，加上猪肝、肉碎等丰富的配料，吸引无数食客大排长龙。",
+    "descriptionEn": "Awarded a Michelin star, this legendary hawker stall is famous for its Bak Chor Mee (minced pork noodles). The perfect balance of black vinegar and chili, along with generous toppings like pork liver and minced meat, draws long queues daily.",
+    "address": "466 Crawford Ln, #01-12, Singapore 190466",
+    "mapLink": "https://maps.google.com/?q=Hill+Street+Tai+Hwa+Pork+Noodle+Crawford+Lane",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "9:30 AM - 8:30 PM（周一闭店）",
+    "openingHoursEn": "9:30 AM - 8:30 PM (Closed on Mondays)",
+    "suggestedDuration": "45 分钟（不含排队时间）",
+    "suggestedDurationEn": "45 minutes (excluding queue time)",
+    "recommendNote": "日常排队时间在 45-90 分钟左右，建议尽量在非用餐高峰期前往。",
+    "recommendNoteEn": "Usual wait times range from 45 to 90 minutes. It is highly recommended to visit during off-peak hours.",
+    "restaurantFeatures": {
+      "cuisine": [
+        "sg-cuisine",
+        "hawker-food",
+        "noodle"
+      ],
+      "priceLevel": "$",
+      "avgSpendSGD": 12,
+      "avgSpendMinSGD": 8,
+      "avgSpendMaxSGD": 15,
+      "signatureDishes": [
+        "干捞肉脞面",
+        "猪肉丸汤"
+      ],
+      "signatureDishesEn": [
+        "Dry Bak Chor Mee",
+        "Pork Meatball Soup"
+      ],
+      "atmosphere": [
+        "street-food-stall",
+        "bustling-local"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "indoor-fan",
+        "covered-outdoor"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryPorkFree": false,
+      "reservationRequired": false,
+      "reservationDifficulty": "",
+      "reservationPlatform": ""
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-013_lau-pa-sat",
+    "type": "restaurant",
+    "name": "Lau Pa Sat",
+    "nameCn": "老巴刹",
+    "area": "CBD",
+    "postalCode": "048582",
+    "coordinates": [
+      1.2806,
+      103.8504
+    ],
+    "tags": [
+      "hawker-centre",
+      "heritage-brand",
+      "satay",
+      "night-activity",
+      "tourist-classic"
+    ],
+    "rating": 4.3,
+    "description": "位于中央商务区核心地带的维多利亚时期八角形历史建筑，如今是熙熙攘攘的老牌小贩中心。入夜后，外面的道路会封闭成为烟火气十足的“沙嗲街”。",
+    "descriptionEn": "A historic octagonal Victorian-era structure in the heart of the CBD, now functioning as a bustling heritage hawker centre. After dark, the adjacent road closes to traffic and transforms into a vibrant, smoky 'Satay Street'.",
+    "address": "18 Raffles Quay, Singapore 048582",
+    "mapLink": "https://maps.google.com/?q=Lau+Pa+Sat+Singapore",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "24小时营业（沙嗲街通常 7:00 PM 开始营业）",
+    "openingHoursEn": "24 Hours (Satay Street usually opens from 7:00 PM)",
+    "suggestedDuration": "1.5 - 2 小时",
+    "suggestedDurationEn": "1.5 - 2 hours",
+    "recommendNote": "晚上坐在摩天大楼下的街道上吃沙嗲烤串喝啤酒，是非常经典的新加坡体验。",
+    "recommendNoteEn": "Sitting on the street under the skyscrapers at night, eating satay skewers and drinking beer is a classic Singaporean experience.",
+    "restaurantFeatures": {
+      "cuisine": [
+        "sg-cuisine",
+        "hawker-food",
+        "bbq",
+        "seafood"
+      ],
+      "priceLevel": "$$",
+      "avgSpendSGD": 25,
+      "avgSpendMinSGD": 10,
+      "avgSpendMaxSGD": 40,
+      "signatureDishes": [
+        "沙嗲烤肉串",
+        "烤魔鬼鱼",
+        "炒粿条",
+        "冰镇甘蔗水"
+      ],
+      "signatureDishesEn": [
+        "Satay Skewers",
+        "BBQ Stingray",
+        "Char Kway Teow",
+        "Iced Sugarcane Juice"
+      ],
+      "atmosphere": [
+        "bustling-local",
+        "street-food-stall",
+        "friends-gathering"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "covered-outdoor",
+        "outdoor-alfresco"
+      ],
+      "dietaryIsHalal": false,
+      "dietaryPorkFree": false,
+      "vegetarianLevel": "has-vegetarian-dishes",
+      "reservationRequired": false,
+      "reservationDifficulty": "",
+      "reservationPlatform": ""
     },
     "photos": []
   }
