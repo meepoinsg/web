@@ -28,6 +28,7 @@
   "suggestedDuration": "45 分钟",
   "suggestedDurationEn": "45 minutes",
   "restaurantFeatures": {
+    "recommendBin": "bin2",
     "cuisine": [
       "sg-cuisine",
       "chinese",

@@ -28,6 +28,7 @@
   "suggestedDuration": "1 - 1.5 小时",
   "suggestedDurationEn": "1-1.5 hours",
   "restaurantFeatures": {
+    "recommendBin": "bin2",
     "cuisine": [
       "indian",
       "south-indian",

@@ -27,6 +27,7 @@
   "recommendNote": "非常适合和朋友深夜聚餐，推荐这里的泰式炒河粉（Pad See Ew）和冬阴功汤。",
   "recommendNoteEn": "Great for late-night gatherings with friends. Highly recommend their Pad See Ew and Tom Yum soup.",
   "restaurantFeatures": {
+    "recommendBin": "bin3",
     "cuisine": [
       "thai"
     ],

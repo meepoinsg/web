@@ -21,6 +21,7 @@
   "recommendNote": "汤头胡椒味非常重，喜欢重口味的食客必试；汤是可以免费续加的。",
   "recommendNoteEn": "The soup has a very strong peppery kick, perfect for those who love heavy flavors. Soup refills are free.",
   "restaurantFeatures": {
+    "recommendBin": "bin3",
     "cuisine": ["sg-cuisine", "chinese", "bak-kut-teh"],
     "priceLevel": "$$",
     "avgSpendSGD": 20,

@@ -4,6 +4,13 @@ import { getCategory, categoryLabel } from "../lib/categories";
 import { TAGS, localize } from "../lib/vocab";
 import { t, localizeField } from "../lib/i18n";
 
+const BIN_BADGE_STYLE = {
+  bin1: "bg-accent text-white",
+  bin2: "bg-orange-100 text-accent",
+  bin3: "bg-gray-100 text-gray-500",
+};
+const BIN_BADGE_LABEL = { bin1: "Bin1", bin2: "Bin2", bin3: "Bin3" };
+
 function priceLine(place, lang) {
   const f = place.restaurantFeatures;
   if (!f) return null;
@@ -24,13 +31,21 @@ export default function PlaceCard({ place, onOpen, lang = "zh" }) {
 
   const primaryName = lang === "en" ? place.name : place.nameCn || place.name;
   const secondaryName = lang === "en" ? place.nameCn : place.name;
+  const recommendBin = place.restaurantFeatures && place.restaurantFeatures.recommendBin;
 
   return (
     <div className="bg-white rounded-2xl border border-[var(--line)] overflow-hidden">
       <div
-        className="h-40 bg-gradient-to-br from-[#f0e9df] to-[#e4ddd0] flex items-center justify-center text-2xl cursor-pointer overflow-hidden"
+        className="h-40 bg-gradient-to-br from-[#f0e9df] to-[#e4ddd0] flex items-center justify-center text-2xl cursor-pointer overflow-hidden relative"
         onClick={() => onOpen(place)}
       >
+        {recommendBin && BIN_BADGE_LABEL[recommendBin] ? (
+          <span
+            className={`absolute top-2 left-2 z-10 text-[11px] font-semibold px-2 py-0.5 rounded-full ${BIN_BADGE_STYLE[recommendBin]}`}
+          >
+            {BIN_BADGE_LABEL[recommendBin]}
+          </span>
+        ) : null}
         {cover ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img

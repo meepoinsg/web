@@ -18,6 +18,7 @@ const {
   SUB_CATEGORY,
   WEATHER_ADAPT,
   VEGETARIAN_LEVEL,
+  RECOMMEND_BIN,
 } = require("../lib/vocab");
 
 const ROOT = path.join(__dirname, "..");
@@ -116,6 +117,14 @@ function validate(place, filename) {
           `"vegetarianLevel"的值"${place.restaurantFeatures.vegetarianLevel}"不是VEGETARIAN_LEVEL词典里登记过的key（此字段只能由人工研究后填写，Gemini不应填写此字段）`
         );
       }
+      if (
+        place.restaurantFeatures.recommendBin &&
+        !RECOMMEND_BIN[place.restaurantFeatures.recommendBin]
+      ) {
+        errors.push(
+          `"recommendBin"的值"${place.restaurantFeatures.recommendBin}"不是RECOMMEND_BIN词典里登记过的key（只能是 bin1/bin2/bin3，此字段由人工评估后填写，Gemini不应填写此字段）`
+        );
+      }
     }
   }
 
@@ -189,6 +198,7 @@ function buildPlaces() {
   const places = [];
   const allErrors = [];
   const translationWarnings = [];
+  const missingBinWarnings = [];
 
   for (const filename of files) {
     const fullPath = path.join(PLACES_DIR, filename);
@@ -221,6 +231,10 @@ function buildPlaces() {
       translationWarnings.push(`${place.name}（缺：${missing.join("、")}）`);
     }
 
+    if (place.type === "restaurant" && !place.restaurantFeatures.recommendBin) {
+      missingBinWarnings.push(place.name);
+    }
+
     places.push(place);
   }
 
@@ -248,6 +262,9 @@ function buildPlaces() {
     for (const w of translationWarnings) {
       console.log(`    - ${w}`);
     }
+  }
+  if (missingBinWarnings.length > 0) {
+    console.log(`  （还没有评估推荐Bin的餐厅：${missingBinWarnings.join("、")}）`);
   }
 }
 

@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { X } from "lucide-react";
 import { categoryLabel } from "../lib/categories";
-import { CUISINE, ATMOSPHERE, SEATING_OPTIONS, SUITABLE_FOR, FACILITIES, SUB_CATEGORY, WEATHER_ADAPT, VEGETARIAN_LEVEL, localize, localizeList } from "../lib/vocab";
+import { CUISINE, ATMOSPHERE, SEATING_OPTIONS, SUITABLE_FOR, FACILITIES, SUB_CATEGORY, WEATHER_ADAPT, VEGETARIAN_LEVEL, RECOMMEND_BIN, localize, localizeList } from "../lib/vocab";
 import { t, localizeField } from "../lib/i18n";
 
 function FeatureRow({ label, children }) {
@@ -42,6 +42,9 @@ function RestaurantFeatures({ f, lang }) {
 
   return (
     <div className="mt-1">
+      <FeatureRow label={t(lang, "featureRecommendBin")}>
+        {f.recommendBin ? localize(RECOMMEND_BIN, f.recommendBin, lang) : null}
+      </FeatureRow>
       <FeatureRow label={t(lang, "featurePriceLevel")}>{f.priceLevel}</FeatureRow>
       <FeatureRow label={t(lang, "featureAvgSpend")}>{price}</FeatureRow>
       <FeatureRow label={t(lang, "featureCuisine")}>{joinOrNull(localizeList(CUISINE, f.cuisine, lang))}</FeatureRow>

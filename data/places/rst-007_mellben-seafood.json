@@ -27,6 +27,7 @@
   "suggestedDuration": "1.5 - 2 小时",
   "suggestedDurationEn": "1.5-2 hours",
   "restaurantFeatures": {
+    "recommendBin": "bin1",
     "cuisine": [
       "sg-cuisine",
       "seafood",

@@ -21,6 +21,7 @@
   "recommendNote": "晚上坐在摩天大楼下的街道上吃沙嗲烤串喝啤酒，是非常经典的新加坡体验。",
   "recommendNoteEn": "Sitting on the street under the skyscrapers at night, eating satay skewers and drinking beer is a classic Singaporean experience.",
   "restaurantFeatures": {
+    "recommendBin": "bin1",
     "cuisine": ["sg-cuisine", "hawker-food", "bbq", "seafood"],
     "priceLevel": "$$",
     "avgSpendSGD": 25,

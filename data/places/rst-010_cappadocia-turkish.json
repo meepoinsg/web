@@ -28,6 +28,7 @@
   "recommendNote": "晚上室外座位氛围极佳，可远眺苏丹回教堂夜景。推荐混合烤肉拼盘和土耳其红茶。",
   "recommendNoteEn": "Outdoor seating has great nighttime ambiance with views of Sultan Mosque. Mix Grill Platter and Turkish Tea are highly recommended.",
   "restaurantFeatures": {
+    "recommendBin": "bin3",
     "cuisine": [
       "turkish-mediterranean"
     ],

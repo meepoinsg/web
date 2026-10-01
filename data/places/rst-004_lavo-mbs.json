@@ -29,6 +29,7 @@
   "suggestedDuration": "2 小时",
   "suggestedDurationEn": "2 hours",
   "restaurantFeatures": {
+    "recommendBin": "bin2",
     "cuisine": [
       "italian",
       "american-italian"

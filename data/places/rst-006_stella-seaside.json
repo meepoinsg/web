@@ -29,6 +29,7 @@
   "suggestedDuration": "2.5 小时",
   "suggestedDurationEn": "2.5 hours",
   "restaurantFeatures": {
+    "recommendBin": "bin3",
     "cuisine": [
       "western",
       "bbq",

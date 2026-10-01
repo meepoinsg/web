@@ -30,6 +30,7 @@
   "recommendNote": "冲着田鸡粥来的老饕别只顾着吃田鸡，红烧鳄鱼尾也是这里的隐藏王牌——皮糯肉嫩，酱汁浓香入味，胆子大的一定要试试。",
   "recommendNoteEn": "If you're here for the frog porridge, don't stop there — the braised crocodile tail is a hidden gem too: chewy skin, tender meat, rich savory sauce. Adventurous eaters, give it a go.",
   "restaurantFeatures": {
+    "recommendBin": "bin2",
     "cuisine": [
       "sg-cuisine",
       "seafood",

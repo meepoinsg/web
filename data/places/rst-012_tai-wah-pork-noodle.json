@@ -21,6 +21,7 @@
   "recommendNote": "日常排队时间在 45-90 分钟左右，建议尽量在非用餐高峰期前往。",
   "recommendNoteEn": "Usual wait times range from 45 to 90 minutes. It is highly recommended to visit during off-peak hours.",
   "restaurantFeatures": {
+    "recommendBin": "bin1",
     "cuisine": ["sg-cuisine", "hawker-food", "noodle"],
     "priceLevel": "$",
     "avgSpendSGD": 12,

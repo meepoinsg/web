@@ -850,6 +850,7 @@
     "suggestedDuration": "45 分钟",
     "suggestedDurationEn": "45 minutes",
     "restaurantFeatures": {
+      "recommendBin": "bin2",
       "cuisine": [
         "sg-cuisine",
         "chinese",
@@ -916,6 +917,7 @@
     "suggestedDuration": "1 - 2 小时",
     "suggestedDurationEn": "1-2 hours",
     "restaurantFeatures": {
+      "recommendBin": "bin1",
       "cuisine": [
         "sg-cuisine",
         "seafood",
@@ -992,6 +994,7 @@
     "recommendNote": "冲着田鸡粥来的老饕别只顾着吃田鸡，红烧鳄鱼尾也是这里的隐藏王牌——皮糯肉嫩，酱汁浓香入味，胆子大的一定要试试。",
     "recommendNoteEn": "If you're here for the frog porridge, don't stop there — the braised crocodile tail is a hidden gem too: chewy skin, tender meat, rich savory sauce. Adventurous eaters, give it a go.",
     "restaurantFeatures": {
+      "recommendBin": "bin2",
       "cuisine": [
         "sg-cuisine",
         "seafood",
@@ -1069,6 +1072,7 @@
     "suggestedDuration": "2 小时",
     "suggestedDurationEn": "2 hours",
     "restaurantFeatures": {
+      "recommendBin": "bin2",
       "cuisine": [
         "italian",
         "american-italian"
@@ -1139,6 +1143,7 @@
     "suggestedDuration": "1 - 1.5 小时",
     "suggestedDurationEn": "1-1.5 hours",
     "restaurantFeatures": {
+      "recommendBin": "bin2",
       "cuisine": [
         "indian",
         "south-indian",
@@ -1213,6 +1218,7 @@
     "suggestedDuration": "2.5 小时",
     "suggestedDurationEn": "2.5 hours",
     "restaurantFeatures": {
+      "recommendBin": "bin3",
       "cuisine": [
         "western",
         "bbq",
@@ -1284,6 +1290,7 @@
     "suggestedDuration": "1.5 - 2 小时",
     "suggestedDurationEn": "1.5-2 hours",
     "restaurantFeatures": {
+      "recommendBin": "bin1",
       "cuisine": [
         "sg-cuisine",
         "seafood",
@@ -1354,6 +1361,7 @@
     "recommendNote": "非常适合和朋友深夜聚餐，推荐这里的泰式炒河粉（Pad See Ew）和冬阴功汤。",
     "recommendNoteEn": "Great for late-night gatherings with friends. Highly recommend their Pad See Ew and Tom Yum soup.",
     "restaurantFeatures": {
+      "recommendBin": "bin3",
       "cuisine": [
         "thai"
       ],
@@ -1422,6 +1430,7 @@
     "recommendNote": "招牌娘惹黑果鸡（Buah Keluak）和娘惹杂菜值得一试，复古南洋木雕装潢非常出片。",
     "recommendNoteEn": "The Signature Buah Keluak chicken and Nonya Chapchye are must-tries. The vintage wood-carved decor is great for photos.",
     "restaurantFeatures": {
+      "recommendBin": "bin1",
       "cuisine": [
         "nyonya",
         "thai"
@@ -1491,6 +1500,7 @@
     "recommendNote": "晚上室外座位氛围极佳，可远眺苏丹回教堂夜景。推荐混合烤肉拼盘和土耳其红茶。",
     "recommendNoteEn": "Outdoor seating has great nighttime ambiance with views of Sultan Mosque. Mix Grill Platter and Turkish Tea are highly recommended.",
     "restaurantFeatures": {
+      "recommendBin": "bin3",
       "cuisine": [
         "turkish-mediterranean"
       ],
@@ -1561,6 +1571,7 @@
     "recommendNote": "汤头胡椒味非常重，喜欢重口味的食客必试；汤是可以免费续加的。",
     "recommendNoteEn": "The soup has a very strong peppery kick, perfect for those who love heavy flavors. Soup refills are free.",
     "restaurantFeatures": {
+      "recommendBin": "bin3",
       "cuisine": [
         "sg-cuisine",
         "chinese",
@@ -1631,6 +1642,7 @@
     "recommendNote": "日常排队时间在 45-90 分钟左右，建议尽量在非用餐高峰期前往。",
     "recommendNoteEn": "Usual wait times range from 45 to 90 minutes. It is highly recommended to visit during off-peak hours.",
     "restaurantFeatures": {
+      "recommendBin": "bin1",
       "cuisine": [
         "sg-cuisine",
         "hawker-food",
@@ -1697,6 +1709,7 @@
     "recommendNote": "晚上坐在摩天大楼下的街道上吃沙嗲烤串喝啤酒，是非常经典的新加坡体验。",
     "recommendNoteEn": "Sitting on the street under the skyscrapers at night, eating satay skewers and drinking beer is a classic Singaporean experience.",
     "restaurantFeatures": {
+      "recommendBin": "bin1",
       "cuisine": [
         "sg-cuisine",
         "hawker-food",
