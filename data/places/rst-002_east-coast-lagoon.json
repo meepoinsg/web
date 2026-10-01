@@ -5,8 +5,17 @@
   "nameCn": "东海岸人工湖美食村",
   "area": "East Coast",
   "postalCode": "468960",
-  "coordinates": [1.3070, 103.9347],
-  "tags": ["hawker-centre", "sea-view", "bbq-seafood", "satay", "budget-eats"],
+  "coordinates": [
+    1.307,
+    103.9347
+  ],
+  "tags": [
+    "hawker-centre",
+    "sea-view",
+    "bbq-seafood",
+    "satay",
+    "budget-friendly"
+  ],
   "rating": 4.2,
   "description": "新加坡唯一位于海滩旁的小贩中心，吹着海风品尝地道的沙嗲、烤魔鬼鱼和烤鸡全翅。紧邻东海岸公园，是本地人周末家庭聚餐和骑行后的宵夜圣地。",
   "descriptionEn": "Singapore's only beachside hawker centre, where you can enjoy authentic satay, grilled stingray and BBQ chicken wings with a sea breeze. Right next to East Coast Park, it's a favorite spot for weekend family meals and post-cycling suppers.",
@@ -19,19 +28,44 @@
   "suggestedDuration": "1 - 2 小时",
   "suggestedDurationEn": "1-2 hours",
   "restaurantFeatures": {
-    "cuisine": ["sg-cuisine", "seafood", "hawker-food", "bbq"],
+    "cuisine": [
+      "sg-cuisine",
+      "seafood",
+      "hawker-food",
+      "bbq"
+    ],
     "priceLevel": "$",
     "avgSpendSGD": 15,
     "avgSpendMinSGD": 10,
     "avgSpendMaxSGD": 30,
-    "signatureDishes": ["烤沙嗲", "参巴烤魔鬼鱼", "炒福建面", "鲜榨甘蔗汁", "烤鸡全翅"],
-    "signatureDishesEn": ["BBQ Satay", "Sambal Grilled Stingray", "Fried Hokkien Mee", "Fresh Sugarcane Juice", "BBQ Chicken Wings"],
-    "atmosphere": ["alfresco-seaview", "relaxed", "lively-local", "family-dining"],
+    "signatureDishes": [
+      "烤沙嗲",
+      "参巴烤魔鬼鱼",
+      "炒福建面",
+      "鲜榨甘蔗汁",
+      "烤鸡全翅"
+    ],
+    "signatureDishesEn": [
+      "BBQ Satay",
+      "Sambal Grilled Stingray",
+      "Fried Hokkien Mee",
+      "Fresh Sugarcane Juice",
+      "BBQ Chicken Wings"
+    ],
+    "atmosphere": [
+      "alfresco-seaview",
+      "relaxed",
+      "lively-local",
+      "family-dining"
+    ],
     "dressCode": "Casual",
-    "seatingOptions": ["outdoor-alfresco", "covered-outdoor"],
+    "seatingOptions": [
+      "outdoor-alfresco",
+      "covered-outdoor"
+    ],
     "dietaryIsHalal": false,
-    "dietaryHasVegetarian": true,
     "dietaryPorkFree": false,
+    "vegetarianLevel": "has-vegetarian-dishes",
     "reservationRequired": false,
     "reservationDifficulty": "",
     "reservationPlatform": ""

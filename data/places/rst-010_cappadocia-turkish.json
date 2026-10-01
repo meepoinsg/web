@@ -1,0 +1,68 @@
+{
+  "id": "rst-010_cappadocia-turkish",
+  "type": "restaurant",
+  "name": "Cappadocia Turkish & Mediterranean Restaurant",
+  "nameCn": "Cappadocia 土耳其地中海餐厅",
+  "area": "Kampong Glam",
+  "postalCode": "199480",
+  "coordinates": [
+    1.3012,
+    103.8596
+  ],
+  "tags": [
+    "trending",
+    "date-spot",
+    "near-mrt"
+  ],
+  "rating": 4.5,
+  "description": "位于甘榜格南 Bussorah 步行街的正宗土耳其及地中海餐厅。店内饰有精致的土耳其马赛克吊灯与手绘瓷砖，提供地道的烤肉拼盘、土耳其披萨（Pide）及特色红茶。",
+  "descriptionEn": "An authentic Turkish and Mediterranean restaurant located along Bussorah Street in Kampong Glam. Adorned with Turkish mosaic lamps and hand-painted tiles, serving classic kebabs, Pide, and Turkish tea.",
+  "address": "67 Bussorah St, Singapore 199480",
+  "mapLink": "https://maps.google.com/?q=Cappadocia+Turkish+Restaurant+67+Bussorah+St+Singapore+199480",
+  "bookingUrl": "",
+  "guideUrl": "",
+  "openingHours": "11:00 AM - 11:30 PM",
+  "openingHoursEn": "11:00 AM - 11:30 PM",
+  "suggestedDuration": "1 - 1.5 小时",
+  "suggestedDurationEn": "1 - 1.5 hours",
+  "recommendNote": "晚上室外座位氛围极佳，可远眺苏丹回教堂夜景。推荐混合烤肉拼盘和土耳其红茶。",
+  "recommendNoteEn": "Outdoor seating has great nighttime ambiance with views of Sultan Mosque. Mix Grill Platter and Turkish Tea are highly recommended.",
+  "restaurantFeatures": {
+    "cuisine": [
+      "turkish-mediterranean"
+    ],
+    "priceLevel": "$$$",
+    "avgSpendSGD": 35,
+    "avgSpendMinSGD": 25,
+    "avgSpendMaxSGD": 50,
+    "signatureDishes": [
+      "土耳其混合烤肉拼盘",
+      "土耳其牛肉披萨",
+      "烤羊排",
+      "土耳其红茶"
+    ],
+    "signatureDishesEn": [
+      "Cappadocia Mix Grill Platter",
+      "Beef Pide",
+      "Grilled Lamb Chops",
+      "Turkish Tea"
+    ],
+    "atmosphere": [
+      "romantic",
+      "friends-gathering",
+      "casual-everyday"
+    ],
+    "dressCode": "Casual",
+    "seatingOptions": [
+      "indoor-aircon",
+      "outdoor-alfresco"
+    ],
+    "dietaryIsHalal": true,
+    "dietaryPorkFree": true,
+    "reservationRequired": false,
+    "reservationDifficulty": "周末晚间建议提前预订",
+    "reservationDifficultyEn": "Recommended to book ahead on weekend evenings",
+    "reservationPlatform": "Inline / 电话预订",
+    "reservationPlatformEn": "Inline / Phone Booking"
+  }
+}

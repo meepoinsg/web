@@ -5,8 +5,17 @@
   "nameCn": "Samy's Curry 印度餐厅",
   "area": "Dempsey",
   "postalCode": "249670",
-  "coordinates": [1.306123, 103.811762],
-  "tags": ["heritage-brand", "indian-cuisine", "banana-leaf-rice", "fish-head-curry", "dempsey"],
+  "coordinates": [
+    1.306123,
+    103.811762
+  ],
+  "tags": [
+    "heritage-brand",
+    "indian-cuisine",
+    "banana-leaf-rice",
+    "fish-head-curry",
+    "dempsey"
+  ],
   "rating": 4.3,
   "description": "新加坡登布西山（Dempsey Hill）历史悠久的印度餐厅，创办于1950年代。以传统芭蕉叶盛装米饭、招牌咖喱鱼头及香料羊肉闻名，保留了风扇敞开式的复古食堂氛围。",
   "descriptionEn": "A historic Indian restaurant at Dempsey Hill, established in the 1950s. Famous for rice served on traditional banana leaves, signature fish head curry, and spiced mutton — all in a retro, open-air, fan-cooled dining hall.",
@@ -19,18 +28,40 @@
   "suggestedDuration": "1 - 1.5 小时",
   "suggestedDurationEn": "1-1.5 hours",
   "restaurantFeatures": {
-    "cuisine": ["indian", "south-indian", "curry"],
+    "cuisine": [
+      "indian",
+      "south-indian",
+      "curry"
+    ],
     "priceLevel": "$$",
     "avgSpendSGD": 25,
     "avgSpendMinSGD": 20,
     "avgSpendMaxSGD": 35,
-    "signatureDishes": ["招牌咖喱鱼头", "芭蕉叶黄姜饭", "马萨拉鸡", "黄油鸡", "炸花菜"],
-    "signatureDishesEn": ["Signature Fish Head Curry", "Banana Leaf Turmeric Rice", "Chicken Masala", "Butter Chicken", "Fried Cauliflower"],
-    "atmosphere": ["retro-heritage", "family-dining", "laid-back"],
+    "signatureDishes": [
+      "招牌咖喱鱼头",
+      "芭蕉叶黄姜饭",
+      "马萨拉鸡",
+      "黄油鸡",
+      "炸花菜"
+    ],
+    "signatureDishesEn": [
+      "Signature Fish Head Curry",
+      "Banana Leaf Turmeric Rice",
+      "Chicken Masala",
+      "Butter Chicken",
+      "Fried Cauliflower"
+    ],
+    "atmosphere": [
+      "retro-heritage",
+      "family-dining",
+      "laid-back"
+    ],
     "dressCode": "Casual",
-    "seatingOptions": ["indoor-fan", "outdoor-alfresco"],
+    "seatingOptions": [
+      "indoor-fan",
+      "outdoor-alfresco"
+    ],
     "dietaryIsHalal": false,
-    "dietaryHasVegetarian": true,
     "dietaryPorkFree": true,
     "reservationRequired": false,
     "reservationDifficulty": "高峰及周末建议提前预订",

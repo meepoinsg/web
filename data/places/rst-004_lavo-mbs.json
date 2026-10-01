@@ -5,8 +5,18 @@
   "nameCn": "LAVO 意式餐厅与露天酒吧",
   "area": "Marina Bay",
   "postalCode": "018956",
-  "coordinates": [1.2829, 103.8587],
-  "tags": ["sky-view", "night-view", "trending", "italian-cuisine", "rooftop-bar", "romantic-date"],
+  "coordinates": [
+    1.2829,
+    103.8587
+  ],
+  "tags": [
+    "sky-view",
+    "night-view",
+    "trending",
+    "italian-cuisine",
+    "rooftop-bar",
+    "date-spot"
+  ],
   "rating": 4.4,
   "description": "位于滨海湾金沙酒店1号塔楼57层，集现代意式美式餐饮与高空酒吧于一体。拥有俯瞰滨海湾与新加坡天际线的180度绝佳视角，是欣赏落日、夜景与打卡招牌巨型肉丸的超人气高空餐厅。",
   "descriptionEn": "Located on the 57th floor of Tower 1 at Marina Bay Sands, combining modern Italian-American dining with a rooftop bar. Offers a stunning 180-degree view of Marina Bay and the Singapore skyline — a hugely popular spot for sunset, night views, and the signature giant meatball.",
@@ -19,19 +29,37 @@
   "suggestedDuration": "2 小时",
   "suggestedDurationEn": "2 hours",
   "restaurantFeatures": {
-    "cuisine": ["italian", "american-italian"],
+    "cuisine": [
+      "italian",
+      "american-italian"
+    ],
     "priceLevel": "$$$$",
     "avgSpendSGD": 120,
     "avgSpendMinSGD": 80,
     "avgSpendMaxSGD": 180,
-    "signatureDishes": ["招牌1磅重大肉丸 (The LAVO Meatball)", "20层巧克力花生酱蛋糕", "木炉披萨"],
-    "signatureDishesEn": ["The LAVO Meatball (1 lb signature meatball)", "20-Layer Chocolate Peanut Butter Cake", "Wood-fired Pizza"],
-    "atmosphere": ["sky-high", "romantic", "chic-bar", "business-dining"],
+    "signatureDishes": [
+      "招牌1磅重大肉丸 (The LAVO Meatball)",
+      "20层巧克力花生酱蛋糕",
+      "木炉披萨"
+    ],
+    "signatureDishesEn": [
+      "The LAVO Meatball (1 lb signature meatball)",
+      "20-Layer Chocolate Peanut Butter Cake",
+      "Wood-fired Pizza"
+    ],
+    "atmosphere": [
+      "sky-high",
+      "romantic",
+      "chic-bar",
+      "business-dining"
+    ],
     "dressCode": "Smart Casual（晚餐时段男士需穿有领衬衫及长裤，不可穿拖鞋或无袖背心）",
     "dressCodeEn": "Smart Casual (for dinner, men must wear a collared shirt and long pants — no slippers or sleeveless tops)",
-    "seatingOptions": ["indoor-aircon", "outdoor-alfresco"],
+    "seatingOptions": [
+      "indoor-aircon",
+      "outdoor-alfresco"
+    ],
     "dietaryIsHalal": false,
-    "dietaryHasVegetarian": true,
     "dietaryPorkFree": false,
     "reservationRequired": true,
     "reservationDifficulty": "建议提前 1-2 周预订",

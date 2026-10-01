@@ -17,6 +17,7 @@ const {
   FACILITIES,
   SUB_CATEGORY,
   WEATHER_ADAPT,
+  VEGETARIAN_LEVEL,
 } = require("../lib/vocab");
 
 const ROOT = path.join(__dirname, "..");
@@ -106,6 +107,14 @@ function validate(place, filename) {
     } else {
       for (const { field, dict, dictName } of VOCAB_ARRAY_FIELDS_RESTAURANT) {
         checkVocabArray(place.restaurantFeatures, field, dict, dictName, errors);
+      }
+      if (
+        place.restaurantFeatures.vegetarianLevel &&
+        !VEGETARIAN_LEVEL[place.restaurantFeatures.vegetarianLevel]
+      ) {
+        errors.push(
+          `"vegetarianLevel"的值"${place.restaurantFeatures.vegetarianLevel}"不是VEGETARIAN_LEVEL词典里登记过的key（此字段只能由人工研究后填写，Gemini不应填写此字段）`
+        );
       }
     }
   }

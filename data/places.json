@@ -202,7 +202,7 @@
     ],
     "tags": [
       "hiking",
-      "nature",
+      "scenery",
       "free",
       "outdoor",
       "wildlife"
@@ -697,6 +697,64 @@
     "photos": []
   },
   {
+    "id": "att-012_sultan-mosque",
+    "type": "attraction",
+    "name": "Sultan Mosque",
+    "nameCn": "苏丹回教堂",
+    "area": "Kampong Glam",
+    "postalCode": "198833",
+    "coordinates": [
+      1.3023,
+      103.859
+    ],
+    "tags": [
+      "free",
+      "near-mrt",
+      "trending"
+    ],
+    "rating": 4.6,
+    "description": "建于1824年的苏丹回教堂是甘榜格南的地标性建筑，拥有宏伟的金色穹顶和独特的伊斯兰建筑风格，是新加坡最古老且最重要的清真寺之一。",
+    "descriptionEn": "Built in 1824, Sultan Mosque is an iconic landmark in Kampong Glam. Featuring a majestic golden dome and distinctive Islamic architecture, it is one of Singapore's most historic and prominent mosques.",
+    "address": "3 Muscat St, Singapore 198833",
+    "mapLink": "https://maps.google.com/?q=Sultan+Mosque+3+Muscat+St+Singapore+198833",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "10:00 AM - 12:00 PM, 2:00 PM - 4:00 PM（周二至周日对游客开放；周一闭馆；非礼拜时间）",
+    "openingHoursEn": "10:00 AM - 12:00 PM, 2:00 PM - 4:00 PM (Tue-Sun for visitors; Closed on Mon; outside prayer hours)",
+    "suggestedDuration": "45 分钟 - 1 小时",
+    "suggestedDurationEn": "45 minutes - 1 hour",
+    "recommendNote": "参观请注意着装得体，入口处免费提供长袍。Muscat St 步行街正对穹顶，是最佳拍照机位。",
+    "recommendNoteEn": "Please dress modestly; free robes are provided at the entrance. Muscat Street offers the best camera view facing the golden dome.",
+    "attractionFeatures": {
+      "subCategory": "culture-heritage",
+      "bestTimeVisit": "上午 10:00 开放时段（避开祈祷时间）",
+      "bestTimeVisitEn": "10:00 AM upon opening (outside prayer times)",
+      "weatherAdaptability": "mixed",
+      "ticketIsFree": true,
+      "ticketPriceDesc": "免费参观",
+      "ticketPriceDescEn": "Free admission",
+      "ticketBookingRequired": false,
+      "highlights": [
+        "金色巨大穹顶（底座由信徒收集的玻璃瓶底砌成）",
+        "伊斯兰风格主祈祷大殿"
+      ],
+      "highlightsEn": [
+        "Majestic Golden Dome (base formed by glass bottles donated by devotees)",
+        "Islamic Style Main Prayer Hall"
+      ],
+      "suitableFor": [
+        "photographers",
+        "family",
+        "seniors"
+      ],
+      "facilities": [
+        "wheelchair-access",
+        "restroom"
+      ]
+    },
+    "photos": []
+  },
+  {
     "id": "rst-001_nam-kee-chicken",
     "type": "restaurant",
     "name": "Nam Kee Chicken Rice Restaurant",
@@ -755,7 +813,6 @@
         "indoor-aircon"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": false,
       "dietaryPorkFree": false,
       "reservationRequired": false,
       "reservationDifficulty": "",
@@ -779,7 +836,7 @@
       "sea-view",
       "bbq-seafood",
       "satay",
-      "budget-eats"
+      "budget-friendly"
     ],
     "rating": 4.2,
     "description": "新加坡唯一位于海滩旁的小贩中心，吹着海风品尝地道的沙嗲、烤魔鬼鱼和烤鸡全翅。紧邻东海岸公园，是本地人周末家庭聚餐和骑行后的宵夜圣地。",
@@ -829,8 +886,8 @@
         "covered-outdoor"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
+      "vegetarianLevel": "has-vegetarian-dishes",
       "reservationRequired": false,
       "reservationDifficulty": "",
       "reservationPlatform": ""
@@ -907,7 +964,6 @@
         "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": false,
       "reservationDifficulty": "高峰期或多人聚餐建议提前预订，平时可直接前往",
@@ -933,7 +989,7 @@
       "trending",
       "italian-cuisine",
       "rooftop-bar",
-      "romantic-date"
+      "date-spot"
     ],
     "rating": 4.4,
     "description": "位于滨海湾金沙酒店1号塔楼57层，集现代意式美式餐饮与高空酒吧于一体。拥有俯瞰滨海湾与新加坡天际线的180度绝佳视角，是欣赏落日、夜景与打卡招牌巨型肉丸的超人气高空餐厅。",
@@ -978,7 +1034,6 @@
         "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "建议提前 1-2 周预订",
@@ -1052,7 +1107,6 @@
         "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": true,
       "reservationRequired": false,
       "reservationDifficulty": "高峰及周末建议提前预订",
@@ -1126,7 +1180,6 @@
         "indoor-aircon"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "强烈建议提前1-2周预订，节假日有最低消费政策",
@@ -1188,7 +1241,7 @@
       ],
       "atmosphere": [
         "family-dining",
-        "friends-meetup",
+        "friends-gathering",
         "bustling-local"
       ],
       "dressCode": "Casual",
@@ -1197,7 +1250,6 @@
         "outdoor-alfresco"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": true,
       "reservationDifficulty": "建议提前预订，周末往往需要排队",
@@ -1265,11 +1317,150 @@
         "indoor-aircon"
       ],
       "dietaryIsHalal": false,
-      "dietaryHasVegetarian": true,
       "dietaryPorkFree": false,
       "reservationRequired": false,
       "reservationDifficulty": "",
       "reservationPlatform": ""
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-009_bumbu-restaurant",
+    "type": "restaurant",
+    "name": "Bumbu Restaurant",
+    "nameCn": "Bumbu 娘惹融合餐厅",
+    "area": "Kampong Glam",
+    "postalCode": "198897",
+    "coordinates": [
+      1.302,
+      103.8587
+    ],
+    "tags": [
+      "heritage-brand",
+      "near-mrt",
+      "budget-friendly",
+      "trending",
+      "nyonya"
+    ],
+    "rating": 4.3,
+    "description": "坐落在甘榜格南一栋娘惹风格老店屋里，以正宗娘惹(土生华人)料理为主，融合泰式与印尼风味。店内装潢充满浓郁的南洋复古怀旧气息与精美木雕艺术，大部分菜品人均不到20新币，性价比高，深受本地人与游客喜爱。",
+    "descriptionEn": "Housed in a heritage Peranakan shophouse in Kampong Glam, serving authentic Nyonya (Peranakan) cuisine fused with Thai and Indonesian flavors. The interior features rich vintage Baba-Nyonya decor and exquisite wood carvings. Most dishes are under S$20, offering great value for locals and visitors alike.",
+    "address": "44 Kandahar St, Singapore 198897",
+    "mapLink": "https://maps.google.com/?q=Bumbu+Restaurant+44+Kandahar+St+Singapore+198897",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "11:00 AM - 3:00 PM, 6:00 PM - 10:00 PM（周一闭店）",
+    "openingHoursEn": "11:00 AM - 3:00 PM, 6:00 PM - 10:00 PM (Closed on Mondays)",
+    "suggestedDuration": "1 - 1.5 小时",
+    "suggestedDurationEn": "1 - 1.5 hours",
+    "recommendNote": "招牌娘惹黑果鸡（Buah Keluak）和娘惹杂菜值得一试，复古南洋木雕装潢非常出片。",
+    "recommendNoteEn": "The Signature Buah Keluak chicken and Nonya Chapchye are must-tries. The vintage wood-carved decor is great for photos.",
+    "restaurantFeatures": {
+      "cuisine": [
+        "nyonya",
+        "thai"
+      ],
+      "priceLevel": "$$",
+      "avgSpendSGD": 25,
+      "avgSpendMinSGD": 20,
+      "avgSpendMaxSGD": 35,
+      "signatureDishes": [
+        "招牌娘惹黑果鸡",
+        "咖啡风味鸡腿",
+        "娘惹杂菜",
+        "泰式青咖喱"
+      ],
+      "signatureDishesEn": [
+        "Signature Buah Keluak Chicken",
+        "Coffee Flavour Chicken Thigh",
+        "Nonya Chapchye",
+        "Thai-style Green Curry"
+      ],
+      "atmosphere": [
+        "nostalgic-retro",
+        "family-dining",
+        "friends-gathering"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "indoor-aircon"
+      ],
+      "dietaryIsHalal": true,
+      "dietaryPorkFree": true,
+      "reservationRequired": true,
+      "reservationDifficulty": "建议提前 1-3 天预订",
+      "reservationDifficultyEn": "Recommended to book 1-3 days in advance",
+      "reservationPlatform": "电话预订",
+      "reservationPlatformEn": "Phone Booking"
+    },
+    "photos": []
+  },
+  {
+    "id": "rst-010_cappadocia-turkish",
+    "type": "restaurant",
+    "name": "Cappadocia Turkish & Mediterranean Restaurant",
+    "nameCn": "Cappadocia 土耳其地中海餐厅",
+    "area": "Kampong Glam",
+    "postalCode": "199480",
+    "coordinates": [
+      1.3012,
+      103.8596
+    ],
+    "tags": [
+      "trending",
+      "date-spot",
+      "near-mrt"
+    ],
+    "rating": 4.5,
+    "description": "位于甘榜格南 Bussorah 步行街的正宗土耳其及地中海餐厅。店内饰有精致的土耳其马赛克吊灯与手绘瓷砖，提供地道的烤肉拼盘、土耳其披萨（Pide）及特色红茶。",
+    "descriptionEn": "An authentic Turkish and Mediterranean restaurant located along Bussorah Street in Kampong Glam. Adorned with Turkish mosaic lamps and hand-painted tiles, serving classic kebabs, Pide, and Turkish tea.",
+    "address": "67 Bussorah St, Singapore 199480",
+    "mapLink": "https://maps.google.com/?q=Cappadocia+Turkish+Restaurant+67+Bussorah+St+Singapore+199480",
+    "bookingUrl": "",
+    "guideUrl": "",
+    "openingHours": "11:00 AM - 11:30 PM",
+    "openingHoursEn": "11:00 AM - 11:30 PM",
+    "suggestedDuration": "1 - 1.5 小时",
+    "suggestedDurationEn": "1 - 1.5 hours",
+    "recommendNote": "晚上室外座位氛围极佳，可远眺苏丹回教堂夜景。推荐混合烤肉拼盘和土耳其红茶。",
+    "recommendNoteEn": "Outdoor seating has great nighttime ambiance with views of Sultan Mosque. Mix Grill Platter and Turkish Tea are highly recommended.",
+    "restaurantFeatures": {
+      "cuisine": [
+        "turkish-mediterranean"
+      ],
+      "priceLevel": "$$$",
+      "avgSpendSGD": 35,
+      "avgSpendMinSGD": 25,
+      "avgSpendMaxSGD": 50,
+      "signatureDishes": [
+        "土耳其混合烤肉拼盘",
+        "土耳其牛肉披萨",
+        "烤羊排",
+        "土耳其红茶"
+      ],
+      "signatureDishesEn": [
+        "Cappadocia Mix Grill Platter",
+        "Beef Pide",
+        "Grilled Lamb Chops",
+        "Turkish Tea"
+      ],
+      "atmosphere": [
+        "romantic",
+        "friends-gathering",
+        "casual-everyday"
+      ],
+      "dressCode": "Casual",
+      "seatingOptions": [
+        "indoor-aircon",
+        "outdoor-alfresco"
+      ],
+      "dietaryIsHalal": true,
+      "dietaryPorkFree": true,
+      "reservationRequired": false,
+      "reservationDifficulty": "周末晚间建议提前预订",
+      "reservationDifficultyEn": "Recommended to book ahead on weekend evenings",
+      "reservationPlatform": "Inline / 电话预订",
+      "reservationPlatformEn": "Inline / Phone Booking"
     },
     "photos": []
   }

@@ -1,0 +1,70 @@
+{
+  "id": "rst-009_bumbu-restaurant",
+  "type": "restaurant",
+  "name": "Bumbu Restaurant",
+  "nameCn": "Bumbu 娘惹融合餐厅",
+  "area": "Kampong Glam",
+  "postalCode": "198897",
+  "coordinates": [
+    1.302,
+    103.8587
+  ],
+  "tags": [
+    "heritage-brand",
+    "near-mrt",
+    "budget-friendly",
+    "trending",
+    "nyonya"
+  ],
+  "rating": 4.3,
+  "description": "坐落在甘榜格南一栋娘惹风格老店屋里，以正宗娘惹(土生华人)料理为主，融合泰式与印尼风味。店内装潢充满浓郁的南洋复古怀旧气息与精美木雕艺术，大部分菜品人均不到20新币，性价比高，深受本地人与游客喜爱。",
+  "descriptionEn": "Housed in a heritage Peranakan shophouse in Kampong Glam, serving authentic Nyonya (Peranakan) cuisine fused with Thai and Indonesian flavors. The interior features rich vintage Baba-Nyonya decor and exquisite wood carvings. Most dishes are under S$20, offering great value for locals and visitors alike.",
+  "address": "44 Kandahar St, Singapore 198897",
+  "mapLink": "https://maps.google.com/?q=Bumbu+Restaurant+44+Kandahar+St+Singapore+198897",
+  "bookingUrl": "",
+  "guideUrl": "",
+  "openingHours": "11:00 AM - 3:00 PM, 6:00 PM - 10:00 PM（周一闭店）",
+  "openingHoursEn": "11:00 AM - 3:00 PM, 6:00 PM - 10:00 PM (Closed on Mondays)",
+  "suggestedDuration": "1 - 1.5 小时",
+  "suggestedDurationEn": "1 - 1.5 hours",
+  "recommendNote": "招牌娘惹黑果鸡（Buah Keluak）和娘惹杂菜值得一试，复古南洋木雕装潢非常出片。",
+  "recommendNoteEn": "The Signature Buah Keluak chicken and Nonya Chapchye are must-tries. The vintage wood-carved decor is great for photos.",
+  "restaurantFeatures": {
+    "cuisine": [
+      "nyonya",
+      "thai"
+    ],
+    "priceLevel": "$$",
+    "avgSpendSGD": 25,
+    "avgSpendMinSGD": 20,
+    "avgSpendMaxSGD": 35,
+    "signatureDishes": [
+      "招牌娘惹黑果鸡",
+      "咖啡风味鸡腿",
+      "娘惹杂菜",
+      "泰式青咖喱"
+    ],
+    "signatureDishesEn": [
+      "Signature Buah Keluak Chicken",
+      "Coffee Flavour Chicken Thigh",
+      "Nonya Chapchye",
+      "Thai-style Green Curry"
+    ],
+    "atmosphere": [
+      "nostalgic-retro",
+      "family-dining",
+      "friends-gathering"
+    ],
+    "dressCode": "Casual",
+    "seatingOptions": [
+      "indoor-aircon"
+    ],
+    "dietaryIsHalal": true,
+    "dietaryPorkFree": true,
+    "reservationRequired": true,
+    "reservationDifficulty": "建议提前 1-3 天预订",
+    "reservationDifficultyEn": "Recommended to book 1-3 days in advance",
+    "reservationPlatform": "电话预订",
+    "reservationPlatformEn": "Phone Booking"
+  }
+}

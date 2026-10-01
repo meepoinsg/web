@@ -5,8 +5,17 @@
   "nameCn": "G7新马活海鲜田鸡粥",
   "area": "Geylang",
   "postalCode": "389239",
-  "coordinates": [1.311598, 103.874555],
-  "tags": ["frog-porridge", "late-night-supper", "seafood", "zi-char", "trending"],
+  "coordinates": [
+    1.311598,
+    103.874555
+  ],
+  "tags": [
+    "frog-porridge",
+    "late-night-supper",
+    "seafood",
+    "zi-char",
+    "trending"
+  ],
   "rating": 4.6,
   "description": "芽笼知名的老牌海鲜与田鸡粥餐厅，招牌宫保田鸡和姜葱田鸡肉质鲜嫩，酱汁浓郁，搭配绵密的砂煲白粥是绝佳的宵夜选择，同时也提供辣椒螃蟹等丰富的本地特色煮炒海鲜。",
   "descriptionEn": "A well-known heritage seafood and frog porridge restaurant in Geylang. The signature Kung Pao frog and ginger-scallion frog are tender with rich sauce, paired perfectly with creamy claypot rice porridge — a great late-night supper. Also serves chilli crab and other local zi-char seafood dishes.",
@@ -21,12 +30,24 @@
   "recommendNote": "冲着田鸡粥来的老饕别只顾着吃田鸡，红烧鳄鱼尾也是这里的隐藏王牌——皮糯肉嫩，酱汁浓香入味，胆子大的一定要试试。",
   "recommendNoteEn": "If you're here for the frog porridge, don't stop there — the braised crocodile tail is a hidden gem too: chewy skin, tender meat, rich savory sauce. Adventurous eaters, give it a go.",
   "restaurantFeatures": {
-    "cuisine": ["sg-cuisine", "seafood", "zi-char", "frog-porridge"],
+    "cuisine": [
+      "sg-cuisine",
+      "seafood",
+      "zi-char",
+      "frog-porridge"
+    ],
     "priceLevel": "$$",
     "avgSpendSGD": 30,
     "avgSpendMinSGD": 20,
     "avgSpendMaxSGD": 50,
-    "signatureDishes": ["宫保砂煲田鸡", "姜葱砂煲田鸡", "红烧鳄鱼尾", "砂煲白粥", "咸蛋炸鱼皮", "辣椒螃蟹"],
+    "signatureDishes": [
+      "宫保砂煲田鸡",
+      "姜葱砂煲田鸡",
+      "红烧鳄鱼尾",
+      "砂煲白粥",
+      "咸蛋炸鱼皮",
+      "辣椒螃蟹"
+    ],
     "signatureDishesEn": [
       "Kung Pao Claypot Frog",
       "Ginger-Scallion Claypot Frog",
@@ -35,11 +56,18 @@
       "Salted Egg Fried Fish Skin",
       "Chilli Crab"
     ],
-    "atmosphere": ["supper-stall", "lively-local", "family-dining", "street-food-stall"],
+    "atmosphere": [
+      "supper-stall",
+      "lively-local",
+      "family-dining",
+      "street-food-stall"
+    ],
     "dressCode": "Casual",
-    "seatingOptions": ["indoor-aircon", "outdoor-alfresco"],
+    "seatingOptions": [
+      "indoor-aircon",
+      "outdoor-alfresco"
+    ],
     "dietaryIsHalal": false,
-    "dietaryHasVegetarian": true,
     "dietaryPorkFree": false,
     "reservationRequired": false,
     "reservationDifficulty": "高峰期或多人聚餐建议提前预订，平时可直接前往",

@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 import { X } from "lucide-react";
 import { categoryLabel } from "../lib/categories";
-import { CUISINE, ATMOSPHERE, SEATING_OPTIONS, SUITABLE_FOR, FACILITIES, SUB_CATEGORY, WEATHER_ADAPT, localize, localizeList } from "../lib/vocab";
+import { CUISINE, ATMOSPHERE, SEATING_OPTIONS, SUITABLE_FOR, FACILITIES, SUB_CATEGORY, WEATHER_ADAPT, VEGETARIAN_LEVEL, localize, localizeList } from "../lib/vocab";
 import { t, localizeField } from "../lib/i18n";
 
 function FeatureRow({ label, children }) {
@@ -32,7 +32,7 @@ function RestaurantFeatures({ f, lang }) {
 
   const dietaryBits = [
     f.dietaryIsHalal ? t(lang, "dietaryHalal") : null,
-    f.dietaryHasVegetarian ? t(lang, "dietaryVegetarian") : null,
+    f.vegetarianLevel ? localize(VEGETARIAN_LEVEL, f.vegetarianLevel, lang) : null,
     f.dietaryPorkFree ? t(lang, "dietaryPorkFree") : null,
   ].filter(Boolean);
 
