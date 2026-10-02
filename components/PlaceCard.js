@@ -3,6 +3,7 @@
 import { getCategory, categoryLabel } from "../lib/categories";
 import { TAGS, localize } from "../lib/vocab";
 import { t, localizeField } from "../lib/i18n";
+import { cutlerySvg } from "../lib/binIcon";
 
 const BIN_BADGE_STYLE = {
   bin1: "bg-accent text-white",
@@ -41,9 +42,13 @@ export default function PlaceCard({ place, onOpen, lang = "zh" }) {
       >
         {recommendBin && BIN_BADGE_LABEL[recommendBin] ? (
           <span
-            className={`absolute top-2 left-2 z-10 text-[11px] font-semibold px-2 py-0.5 rounded-full ${BIN_BADGE_STYLE[recommendBin]}`}
+            className={`absolute top-2 left-2 z-[1] flex items-center gap-1 text-[11px] font-semibold px-2 py-0.5 rounded-full ${BIN_BADGE_STYLE[recommendBin]}`}
           >
             {BIN_BADGE_LABEL[recommendBin]}
+            <span
+              className="inline-flex"
+              dangerouslySetInnerHTML={{ __html: cutlerySvg(recommendBin, place.id, 12) }}
+            />
           </span>
         ) : null}
         {cover ? (

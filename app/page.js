@@ -77,7 +77,7 @@ export default function Home() {
 
   return (
     <main className="max-w-3xl mx-auto pb-10">
-      <div className="sticky top-0 bg-[var(--bg)] z-10 px-4 pt-4 pb-2 border-b border-[var(--line)]">
+      <div className="sticky top-0 bg-[var(--bg)] z-20 px-4 pt-4 pb-2 border-b border-[var(--line)]">
         <div className="flex items-center justify-between gap-2 mb-3">
           <h1 className="text-xl font-semibold m-0">{t(lang, "siteTitle")}</h1>
           <div className="flex items-center gap-2 flex-shrink-0">
